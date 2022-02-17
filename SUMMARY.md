@@ -136,4 +136,9 @@
 
 ## Plugins
 
-* [Page 1](plugins/page-1.md)
+* [Plugins](plugins/plugins/README.md)
+  * [Jenkins](plugins/plugins/jenkins.md)
+  * [Jira](plugins/plugins/jira.md)
+  * [Ldap](plugins/plugins/ldap.md)
+  * [Testinium Cloud](plugins/plugins/testinium-cloud.md)
+  * [TestRail](plugins/plugins/testrail.md)
