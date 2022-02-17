@@ -133,3 +133,7 @@
   * [Execution Graph](reports/execution-graph.md)
   * [Pass Rate Reports](reports/pass-rate-reports.md)
   * [Tag Reports](reports/tag-reports.md)
+
+## Plugins
+
+* [Page 1](plugins/page-1.md)
