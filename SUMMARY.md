@@ -1,8 +1,9 @@
 # Table of contents
 
-* [General Information](README.md)
-* [Prerequisites](prerequisites.md)
-* [General Information](general-information.md)
+## TESTINIUM ENTERPRISE
+
+* [GENERAL INFORMATION](README.md)
+* [PREREQUISITES](testinium-enterprise/prerequisites.md)
 
 ## Login
 
