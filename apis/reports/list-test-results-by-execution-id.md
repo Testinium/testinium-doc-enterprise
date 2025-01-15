@@ -1,9 +1,5 @@
 # List Test Results by Execution ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## List Test Results by Execution ID
-
 The endpoint retrieves a paginated list of test results for a specific test execution ID, limited to results accessible by the authenticated user's company.
 
 ***
@@ -29,7 +25,42 @@ The endpoint retrieves a paginated list of test results for a specific test exec
 
 The response contains a `PaginatedTestResultList` object with details on pagination and a list of `TestResultDTO` objects for the requested page.
 
-{\`{ "pagination": { "current\_page": 1, "total\_count": 1, "page\_limit": 50 }, "test\_result\_list": \[ { "id": 150912, "level": "SUCCESS", "start\_date": 1428833706000, "end\_date": 1428833706000, "runtime": 0, "session\_id": "dummy-47359440135365756567", "video\_enabled": false, "performance\_data\_enabled": false, "test\_scenario": { "id": 152 }, "test\_plan": { "id": 35 }, "project": { "id": 28 }, "video\_format": "FLV", "test\_execution": { "id": 8786 }, "node\_log\_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/node.log", "executor\_log\_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/testResult.log" } ] }\`}
+```json
+{
+  "pagination": {
+    "current_page": 1,
+    "total_count": 1,
+    "page_limit": 50
+  },
+  "test_result_list": [
+    {
+      "id": 150912,
+      "level": "SUCCESS",
+      "start_date": 1428833706000,
+      "end_date": 1428833706000,
+      "runtime": 0,
+      "session_id": "dummy-47359440135365756567",
+      "video_enabled": false,
+      "performance_data_enabled": false,
+      "test_scenario": {
+        "id": 152
+      },
+      "test_plan": {
+        "id": 35
+      },
+      "project": {
+        "id": 28
+      },
+      "video_format": "FLV",
+      "test_execution": {
+        "id": 8786
+      },
+      "node_log_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/node.log",
+      "executor_log_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/testResult.log"
+    }
+  ]
+}
+```
 
 #### Pagination Object
 

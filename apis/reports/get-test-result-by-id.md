@@ -1,9 +1,5 @@
 # Get Test Result by ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Test Result by ID
-
 The endpoint retrieves a test result based on the provided result ID and the user's associated company.
 
 ***
@@ -28,7 +24,26 @@ The endpoint retrieves a test result based on the provided result ID and the use
 
 The response will contain a `TestResultDTO` object if a test result is found for the specified ID and company associated with the authenticated user.
 
-{\`{ "id": 102, "sessionId": "unique-session-id", "user": { "id": 34, "username": "testUser" }, "company": { "id": 56, "name": "TestCompany" }, "nodeLogPath": "/logs/testResult.log", "videoPath": "/videos/testResult.mp4", "status": "SUCCESS", "runtime": 78000, "start\_date": 1450890157000, "end\_date": 1450890235000 }\`}
+```json
+{
+  "id": 102,
+  "sessionId": "unique-session-id",
+  "user": {
+    "id": 34,
+    "username": "testUser"
+  },
+  "company": {
+    "id": 56,
+    "name": "TestCompany"
+  },
+  "nodeLogPath": "/logs/testResult.log",
+  "videoPath": "/videos/testResult.mp4",
+  "status": "SUCCESS",
+  "runtime": 78000,
+  "start_date": 1450890157000,
+  "end_date": 1450890235000
+}
+```
 
 | Field         | Type     | Description                                                     |
 | ------------- | -------- | --------------------------------------------------------------- |
