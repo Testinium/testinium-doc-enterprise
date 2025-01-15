@@ -1,9 +1,5 @@
 # Get Test Execution by ID and Company ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Test Execution by ID and Company ID
-
 The endpoint allows users to retrieve detailed information about a specific test execution by its ID and associated Company ID.
 
 ***
