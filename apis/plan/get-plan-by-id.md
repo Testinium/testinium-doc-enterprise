@@ -1,9 +1,5 @@
 # Get Plan By ID
 
-import CodeBlock from '@theme/CodeBlock';
-
-## Get Plan By ID
-
 The endpoint retrieves a test plan based on the plan's name or ID. The test plan is returned as a `PlanDTO` object.
 
 ***
@@ -28,7 +24,37 @@ The endpoint retrieves a test plan based on the plan's name or ID. The test plan
 
 Upon a successful request, the API returns the test plan in JSON format.
 
-{\`{ "id": 29, "project\_id": 20, "company\_id": 8, "plan\_name": "Grup Bilgi Güncelleme", "group\_plan": false, "description": "", "enabled": true, "plan\_parallel\_test\_limit": 0, "scenarios": \[ 124 ], "period": { "period\_type": "ONCE", "once\_date": 1420616640000, "days\_of\_week": "", "repeat\_period": 60 }, "alerts": \[], "alerts\_enabled": true, "video\_enabled": false, "environments": \[ { "id": 74 } ], "clear\_app\_data": false, "fetch\_app\_files": \[] }\`}
+```json
+{
+    "id": 29,
+    "project_id": 20,
+    "company_id": 8,
+    "plan_name": "Grup Bilgi Güncelleme",
+    "group_plan": false,
+    "description": "",
+    "enabled": true,
+    "plan_parallel_test_limit": 0,
+    "scenarios": [
+        124
+    ],
+    "period": {
+        "period_type": "ONCE",
+        "once_date": 1420616640000,
+        "days_of_week": "",
+        "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": true,
+    "video_enabled": false,
+    "environments": [
+        {
+            "id": 74
+        }
+    ],
+    "clear_app_data": false,
+    "fetch_app_files": []
+}
+```
 
 | Field             | Type      | Description                                      |
 | ----------------- | --------- | ------------------------------------------------ |

@@ -1,9 +1,5 @@
 # Delete Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Delete Test Plan
-
 The endpoint deletes a specified test plan for a particular project. The user must provide the project and plan identifiers in the path. The API will return an appropriate response based on whether the deletion was successful or if there was an error.
 
 ***

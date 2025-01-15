@@ -1,9 +1,5 @@
 # Run Test Plan with Company ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Run Test Plan with Company ID
-
 The endpoint triggers a test plan execution for a specific company. The user must provide the test plan ID and company ID in the path. It returns a `RunTestPlanResponse` object, indicating the success or failure of the operation.
 
 ***
@@ -29,7 +25,11 @@ The endpoint triggers a test plan execution for a specific company. The user mus
 
 Upon a successful request, the API returns a `RunTestPlanResponse` object with a boolean field `successful`.
 
-{\`{ "successful": true }\`}
+```json
+{
+  "successful": true
+}
+```
 
 | Field        | Type      | Description                                                |
 | ------------ | --------- | ---------------------------------------------------------- |

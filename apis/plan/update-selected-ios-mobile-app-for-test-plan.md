@@ -1,9 +1,5 @@
 # Update Selected iOS Mobile App for Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Update Selected iOS Mobile App for Test Plan
-
 The endpoint allows users to update the selected iOS mobile app for a specific test plan. The user must provide the test plan ID and the mobile app ID to be set.
 
 ***
@@ -30,7 +26,16 @@ The endpoint allows users to update the selected iOS mobile app for a specific t
 
 Upon a successful request, the API returns the updated `PlanDTO` object representing the test plan with the selected iOS mobile app.
 
-{\`{ "id": 123, "plan\_name": "Sample Test Plan", "selectedIosMobileApp": { "id": 456, "mobileAppName": "Sample iOS App" } }\`}
+```json
+{
+  "id": 123,
+  "plan_name": "Sample Test Plan",
+  "selectedIosMobileApp": {
+    "id": 456,
+    "mobileAppName": "Sample iOS App"
+  }
+}
+```
 
 | Field                  | Type        | Description                                        |
 | ---------------------- | ----------- | -------------------------------------------------- |

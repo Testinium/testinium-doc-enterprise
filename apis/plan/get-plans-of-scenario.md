@@ -1,9 +1,5 @@
 # Get Plans Of Scenario
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Plans Of Scenario
-
 The endpoint retrieves the plans associated with a specific scenario. It returns a list of plans based on the provided project and scenario information.
 
 ***
@@ -30,7 +26,24 @@ The endpoint retrieves the plans associated with a specific scenario. It returns
 
 Upon a successful request, the API returns a list of `PlanDTO` objects associated with the specified scenario.
 
-{\`\[ { "id": 1, "name": "Test Plan A", "description": "Description for Test Plan A", "projectId": 123, "userId": 1 }, { "id": 2, "name": "Test Plan B", "description": "Description for Test Plan B", "projectId": 123, "userId": 1 } ]\`}
+```json
+[
+  {
+    "id": 1,
+    "name": "Test Plan A",
+    "description": "Description for Test Plan A",
+    "projectId": 123,
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "name": "Test Plan B",
+    "description": "Description for Test Plan B",
+    "projectId": 123,
+    "userId": 1
+  }
+]
+```
 
 | Field         | Type      | Description                              |
 | ------------- | --------- | ---------------------------------------- |

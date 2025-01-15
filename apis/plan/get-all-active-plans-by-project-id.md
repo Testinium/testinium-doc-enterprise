@@ -1,9 +1,5 @@
 # Get All Active Plans by Project ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get All Active Plans by Project ID
-
 The endpoint retrieves all active test plans associated with a specific project identified by its ID. The authenticated user must belong to a company that is authorized to access the project. The response includes a list of active test plans in the form of `PlanDTO` objects.
 
 ***
@@ -29,7 +25,27 @@ The endpoint retrieves all active test plans associated with a specific project 
 
 Upon a successful request, the API returns a list of active test plans in JSON format.
 
-{\`\[ { "id": 376, "plan\_name": "plan1", "group\_plan": false, "description": "", "enabled": true, "plan\_parallel\_test\_limit": 8, "scenarios": \[], "period": { "period\_type": "MANUAL", "days\_of\_week": "2,3,4,5,6,7,1", "repeat\_period": 60 }, "alerts": \[], "alerts\_enabled": false, "failed\_test\_retry\_count": 0 } ]\`}
+```json
+[
+  {
+    "id": 376,
+    "plan_name": "plan1",
+    "group_plan": false,
+    "description": "",
+    "enabled": true,
+    "plan_parallel_test_limit": 8,
+    "scenarios": [],
+    "period": {
+      "period_type": "MANUAL",
+      "days_of_week": "2,3,4,5,6,7,1",
+      "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": false,
+    "failed_test_retry_count": 0
+  }
+]
+```
 
 | Field                      | Type      | Description                                     |
 | -------------------------- | --------- | ----------------------------------------------- |

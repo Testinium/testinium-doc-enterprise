@@ -1,9 +1,5 @@
 # Add Scenarios To Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Add Scenarios To Plan
-
 The endpoint adds scenarios to a specific plan. A request containing the IDs of the scenarios to be added is sent along with the relevant project and plan information.
 
 ***
@@ -30,7 +26,11 @@ The endpoint adds scenarios to a specific plan. A request containing the IDs of 
 
 The request body must contain a `ScenarioIdsOfPlanDTO` object that includes the IDs of the scenarios to be added.
 
-{\`{ "scenarioIds": \[1, 2, 3] }\`}
+```json
+{
+  "scenarioIds": [1, 2, 3]
+}
+```
 
 | Field | Type         | Description                                  |
 | ----- | ------------ | -------------------------------------------- |
@@ -42,7 +42,11 @@ The request body must contain a `ScenarioIdsOfPlanDTO` object that includes the 
 
 Upon a successful request, the API returns a `StatusResponse` object indicating the status of the operation.
 
-{\`{ "status": "success" }\`}
+```json
+{
+  "status": "success"
+}
+```
 
 | Field    | Type     | Description                                    |
 | -------- | -------- | ---------------------------------------------- |

@@ -1,9 +1,5 @@
 # Get Plan By User Companies
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Plan By User Companies
-
 The endpoint retrieves all test plans associated with the user's company. The response contains a list of test plans.
 
 ***
@@ -20,7 +16,64 @@ The endpoint retrieves all test plans associated with the user's company. The re
 
 Upon a successful request, the API returns a list of `PlanDTO` objects representing the test plans.
 
-{\`\[ { "id": 163, "project\_id": 3, "company\_id": 1, "plan\_name": "planCreation", "group\_plan": false, "description": "planCreation desc", "enabled": true, "plan\_parallel\_test\_limit": 8, "scenarios": \[887], "period": { "period\_type": "MANUAL", "days\_of\_week": "2,3,4,5,6,7,1", "repeat\_period": 60 }, "alerts": \[], "alerts\_enabled": false, "failed\_test\_retry\_count": 0, "screen\_shot\_type": "YES", "video\_enabled": false, "environments": \[{"id": 189}], "performance\_data\_enabled": false, "resolutions": { "WIN8\_1": "1024x768", "LINUX": "1024x768", "MAC": "1024x768", "XP": "1024x768", "WIN8": "1024x768", "VISTA": "1024x768", "WIN10": "1024x768" } }, { "id": 59, "project\_id": 61, "company\_id": 1, "plan\_name": "Multi-Single-Regression\_Testleri", "group\_plan": true, "description": "Multi/Regression - OneToOne Single - Settings", "enabled": true, "plan\_parallel\_test\_limit": 2, "scenarios": \[388], "period": { "period\_type": "MANUAL", "days\_of\_week": "2,3,4,5,6,7,1", "repeat\_period": 60 }, "alerts": \[], "alerts\_enabled": true, "video\_enabled": false, "environments": \[{"id": 249}, {"id": 233}], "clear\_app\_data": false, "fetch\_app\_files": \[] } ]\`}
+```json
+[
+  {
+    "id": 163,
+    "project_id": 3,
+    "company_id": 1,
+    "plan_name": "planCreation",
+    "group_plan": false,
+    "description": "planCreation desc",
+    "enabled": true,
+    "plan_parallel_test_limit": 8,
+    "scenarios": [887],
+    "period": {
+      "period_type": "MANUAL",
+      "days_of_week": "2,3,4,5,6,7,1",
+      "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": false,
+    "failed_test_retry_count": 0,
+    "screen_shot_type": "YES",
+    "video_enabled": false,
+    "environments": [{"id": 189}],
+    "performance_data_enabled": false,
+    "resolutions": {
+      "WIN8_1": "1024x768",
+      "LINUX": "1024x768",
+      "MAC": "1024x768",
+      "XP": "1024x768",
+      "WIN8": "1024x768",
+      "VISTA": "1024x768",
+      "WIN10": "1024x768"
+    }
+  },
+  {
+    "id": 59,
+    "project_id": 61,
+    "company_id": 1,
+    "plan_name": "Multi-Single-Regression_Testleri",
+    "group_plan": true,
+    "description": "Multi/Regression - OneToOne Single - Settings",
+    "enabled": true,
+    "plan_parallel_test_limit": 2,
+    "scenarios": [388],
+    "period": {
+      "period_type": "MANUAL",
+      "days_of_week": "2,3,4,5,6,7,1",
+      "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": true,
+    "video_enabled": false,
+    "environments": [{"id": 249}, {"id": 233}],
+    "clear_app_data": false,
+    "fetch_app_files": []
+  }
+]
+```
 
 | Field                      | Type      | Description                                                                      |
 | -------------------------- | --------- | -------------------------------------------------------------------------------- |

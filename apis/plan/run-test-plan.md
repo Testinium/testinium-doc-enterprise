@@ -1,9 +1,5 @@
 # Run Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Run Test Plan
-
 The endpoint triggers the execution of a specific test plan for the authenticated user. It checks the availability of required environments before starting the test and allows tracking execution status via an optional callback URL.
 
 ***
@@ -37,7 +33,15 @@ The endpoint triggers the execution of a specific test plan for the authenticate
 
 The API returns the result of the test plan execution in the `RunTestPlanResponse` object.
 
-{\`{ { "execution\_id": 3742, "unavailable\_env\_list": \[], "successful": true, "already\_running": false }\`}
+```json
+{
+  {
+    "execution_id": 3742,
+    "unavailable_env_list": [],
+    "successful": true,
+    "already_running": false
+}
+```
 
 #### Response Fields
 

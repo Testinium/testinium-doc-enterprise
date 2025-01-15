@@ -1,9 +1,5 @@
 # Force Run Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Force Run Test Plan
-
 The endpoint is used to run a specific test plan. It provides options to forcefully run the plan or to check for environment availability and other preconditions before starting the execution.
 
 ***
@@ -38,7 +34,17 @@ The endpoint is used to run a specific test plan. It provides options to forcefu
 
 Upon successful request, the API returns a `RunTestPlanResponse` object that includes information about the status of the execution.
 
-{\`{ "unavailable\_env\_list": \[ { "id": 74 } ], "already\_running": false, "successful": false }\`}
+```json
+{
+  "unavailable_env_list": [
+    {
+      "id": 74
+    }
+  ],
+  "already_running": false,
+  "successful": false
+}
+```
 
 #### Response Fields
 

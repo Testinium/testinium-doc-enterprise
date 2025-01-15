@@ -1,9 +1,5 @@
 # Rerun Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Rerun Test Plan
-
 The endpoint allows the user to rerun specific scenarios from the last executed results of a test plan. The user must provide the test plan ID and a list of scenario IDs to rerun.
 
 ***
@@ -29,7 +25,9 @@ The endpoint allows the user to rerun specific scenarios from the last executed 
 
 The request body must contain a JSON array of scenario IDs to be rerun.
 
-{\`\[1, 2, 3]\`}
+```json
+[1, 2, 3]
+```
 
 | Field              | Type    | Description                                              |
 | ------------------ | ------- | -------------------------------------------------------- |
@@ -41,7 +39,12 @@ The request body must contain a JSON array of scenario IDs to be rerun.
 
 Upon a successful request, the API returns a `RerunTestPlanResponse` object indicating the result of the rerun operation.
 
-{\`{ "successful": true, "message": "Scenarios rerun successfully." }\`}
+```json
+{
+  "successful": true,
+  "message": "Scenarios rerun successfully."
+}
+```
 
 | Field        | Type      | Description                                                           |
 | ------------ | --------- | --------------------------------------------------------------------- |

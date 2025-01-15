@@ -1,9 +1,5 @@
 # Update Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Update Test Plan
-
 The endpoint updates an existing test plan for a specific project. The user must provide the project and plan identifiers in the path, along with the updated plan specifications in the request body. The API validates the input and returns the updated plan as a ProjectDTO object.
 
 ***
@@ -30,7 +26,17 @@ The endpoint updates an existing test plan for a specific project. The user must
 
 The JSON format request data that needs to be sent for updating a test plan is as follows:
 
-{\`{ "name": "Updated Test Plan", "description": "Updated description of the test plan", "period": { "periodType": "REPETITIVE", "repeatPeriod": 3 }, // Other plan data... }\`}
+```json
+{
+  "name": "Updated Test Plan",
+  "description": "Updated description of the test plan",
+  "period": {
+    "periodType": "REPETITIVE",
+    "repeatPeriod": 3
+  },
+  // Other plan data...
+}
+```
 
 | Parameter     | Type     | Required | Description                                                                            |
 | ------------- | -------- | -------- | -------------------------------------------------------------------------------------- |
@@ -44,7 +50,23 @@ The JSON format request data that needs to be sent for updating a test plan is a
 
 Upon a successful request, the API returns the following JSON structure:
 
-{\`{ "id": 123, "name": "Updated Test Plan", "description": "Updated description of the test plan", "period": { "periodType": "REPETITIVE", "repeatPeriod": 3 }, "projectId": 10, "user": { "id": 1, "username": "john\_doe", "email": "john@example.com" } }\`}
+```json
+{
+  "id": 123,
+  "name": "Updated Test Plan",
+  "description": "Updated description of the test plan",
+  "period": {
+    "periodType": "REPETITIVE",
+    "repeatPeriod": 3
+  },
+  "projectId": 10,
+  "user": {
+    "id": 1,
+    "username": "john_doe",
+    "email": "john@example.com"
+  }
+}
+```
 
 | Field         | Type      | Description                                     |
 | ------------- | --------- | ----------------------------------------------- |

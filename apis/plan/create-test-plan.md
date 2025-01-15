@@ -1,9 +1,5 @@
 # Create Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Create Test Plan
-
 The endpoint creates a new test plan for a specific project. The user must provide project details and plan specifications in the request body. The API validates the input and returns the created plan as a ProjectDTO object.
 
 ***
@@ -29,7 +25,27 @@ The endpoint creates a new test plan for a specific project. The user must provi
 
 The JSON format request data that needs to be sent for creating a test plan is as follows:
 
-{\`{ "type": "SELENIUM", "planName": "Test Plan", "projectId": 123, "companyId": 456, "description": "Plan description", "enabled": true, "planParallelTestLimit": 10, "scenarios": \[1, 2, 3], "period": { "periodType": "REPETITIVE", "repeatPeriod": 2 }, "alerts": \[ { "alertId": 789 } ], "alertsEnabled": true, "failedTestRetryCount": 3 }\`}
+```json
+{
+  "type": "SELENIUM",
+  "planName": "Test Plan",
+  "projectId": 123,
+  "companyId": 456,
+  "description": "Plan description",
+  "enabled": true,
+  "planParallelTestLimit": 10,
+  "scenarios": [1, 2, 3],
+  "period": {
+    "periodType": "REPETITIVE",
+    "repeatPeriod": 2
+  },
+  "alerts": [
+    { "alertId": 789 }
+  ],
+  "alertsEnabled": true,
+  "failedTestRetryCount": 3
+}
+```
 
 | Parameter               | Type            | Required | Description                                                               |
 | ----------------------- | --------------- | -------- | ------------------------------------------------------------------------- |
@@ -52,7 +68,29 @@ The JSON format request data that needs to be sent for creating a test plan is a
 
 Upon a successful request, the API returns the following JSON structure:
 
-{\`{ "id": 1, "type": "SELENIUM", "projectId": 123, "companyId": 456, "planName": "Test Plan", "description": "Plan description", "enabled": true, "planParallelTestLimit": 10, "scenarios": \[1, 2, 3], "period": { "periodType": "REPETITIVE", "repeatPeriod": 2 }, "alerts": \[ { "alertId": 789 } ], "alertsEnabled": true, "failedTestRetryCount": 3, "lastExecution": null } \`}
+```json
+{
+  "id": 1,
+  "type": "SELENIUM",
+  "projectId": 123,
+  "companyId": 456,
+  "planName": "Test Plan",
+  "description": "Plan description",
+  "enabled": true,
+  "planParallelTestLimit": 10,
+  "scenarios": [1, 2, 3],
+  "period": {
+    "periodType": "REPETITIVE",
+    "repeatPeriod": 2
+  },
+  "alerts": [
+    { "alertId": 789 }
+  ],
+  "alertsEnabled": true,
+  "failedTestRetryCount": 3,
+  "lastExecution": null
+}
+```
 
 | Parameter               | Type            | Description                                                               |
 | ----------------------- | --------------- | ------------------------------------------------------------------------- |

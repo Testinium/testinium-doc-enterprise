@@ -1,9 +1,5 @@
 # Get Active Plan By ID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Active Plan By ID
-
 The endpoint retrieves an active test plan based on its ID. The response will return the plan as a `PlanDTO` object if the user has permission to access it.
 
 ***
@@ -29,7 +25,37 @@ The endpoint retrieves an active test plan based on its ID. The response will re
 
 Upon a successful request, the API returns the active test plan in JSON format.
 
-{\`{ "id": 24, "project\_id": 17, "company\_id": 11, "plan\_name": "plan1", "group\_plan": false, "description": "plan1", "enabled": true, "plan\_parallel\_test\_limit": 0, "scenarios": \[ 104 ], "period": { "period\_type": "ONCE", "once\_date": 1415824200000, "days\_of\_week": "", "repeat\_period": 60 }, "alerts": \[], "alerts\_enabled": true, "video\_enabled": true, "environments": \[ { "id": 74 } ], "clear\_app\_data": false, "fetch\_app\_files": \[] }\`}
+```json
+{
+    "id": 24,
+    "project_id": 17,
+    "company_id": 11,
+    "plan_name": "plan1",
+    "group_plan": false,
+    "description": "plan1",
+    "enabled": true,
+    "plan_parallel_test_limit": 0,
+    "scenarios": [
+        104
+    ],
+    "period": {
+        "period_type": "ONCE",
+        "once_date": 1415824200000,
+        "days_of_week": "",
+        "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": true,
+    "video_enabled": true,
+    "environments": [
+        {
+            "id": 74
+        }
+    ],
+    "clear_app_data": false,
+    "fetch_app_files": []
+}
+```
 
 | Field                      | Type      | Description                                              |
 | -------------------------- | --------- | -------------------------------------------------------- |

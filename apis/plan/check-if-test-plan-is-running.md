@@ -1,9 +1,5 @@
 # Check If Test Plan Is Running
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Check If Test Plan Is Running
-
 #### `⚠️ This API will be available after 1.16.6 release.`
 
 The endpoint allows users to check if a specific test plan is currently running. The user must provide the test plan ID to retrieve its running status.
@@ -30,7 +26,12 @@ The endpoint allows users to check if a specific test plan is currently running.
 
 Upon a successful request, the API returns a `CheckIsRunningResponse` object indicating whether the test plan is currently running.
 
-{\`{ "status": "SUCCESS", "running": true }\`}
+```json
+{
+  "status": "SUCCESS",
+  "running": true
+}
+```
 
 | Field     | Type      | Description                                     |
 | --------- | --------- | ----------------------------------------------- |

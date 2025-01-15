@@ -1,9 +1,5 @@
 # Stop Test Plan
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Stop Test Plan
-
 The endpoint stops a running test plan. The user must provide the test plan ID in the path. If the plan is not running, the response will indicate that the action is not available.
 
 ***
@@ -29,7 +25,12 @@ The endpoint stops a running test plan. The user must provide the test plan ID i
 
 Upon a successful request, the API returns a `StopTestPlanResponse` object. If the test plan is running, it stops the plan; otherwise, it returns a message indicating the plan is not running.
 
-{\`{ "status": "SUCCESS", "message": "Plan Id 123 has been stopped" }\`}
+```json
+{
+  "status": "SUCCESS",
+  "message": "Plan Id 123 has been stopped"
+}
+```
 
 | Field     | Type     | Description                                                     |
 | --------- | -------- | --------------------------------------------------------------- |
