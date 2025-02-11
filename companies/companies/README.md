@@ -1,9 +1,9 @@
 # Companies
 
-It is the screen where the customers using the product are defined. It is open to admin users and cannot be deleted.&#x20;
+_**Companies**_ is the screen where customers using the product are defined.&#x20;
 
-&#x20;
+{% hint style="info" %}
+This screen is only available to admin users and companies cannot be deleted.
+{% endhint %}
 
-Testinium > Companies&#x20;
-
-![](../../.gitbook/assets/CompanyList.png)
+<figure><img src="../../.gitbook/assets/Company.png" alt=""><figcaption></figcaption></figure>

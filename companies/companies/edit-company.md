@@ -1,13 +1,22 @@
 # Edit Company
 
-![](../../.gitbook/assets/CompanyList-Update.png)
+The edit process for created companies is followed by the following steps;
 
-All defined companies are listed on the listing screen. The icons on the right are the Update buttons.&#x20;
+1. Click the _**Edit**_ button.
 
-&#x20;
+<figure><img src="../../.gitbook/assets/Company Edit.png" alt=""><figcaption></figcaption></figure>
 
-Click the Update icon for the record that is wanted to be updated from the list. System displays Basic Knowledge, Version Control System, Coach, Additions tabs. System Admin changes the field that it wants to update at each step and clicks the Save button. System information is updated.&#x20;
+2. Editing operations are performed in the following tabs if necessary;&#x20;
 
-&#x20;
+* Basic Info
+* Version Control System
+* Executor
+* Plugin
 
-If the System admin wants to cancel the update process, it clicks the Cancel button.&#x20;
+3. a. Click the _**Save**_ button on each tab to save the changes.&#x20;
+4. b. Click the _**Cancel**_ button on each tab to cancel the definition.
+
+{% hint style="info" %}
+Only the _**system administrator**_ can edit the company.
+{% endhint %}
+

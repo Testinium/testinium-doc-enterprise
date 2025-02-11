@@ -1,6 +1,6 @@
 # Create New User
 
-Create New User is the screen where a new user is defined in the system.
+_**Create New User**_ is the screen where a new user is defined in the system.
 
 The following steps are followed to create a new user;
 
