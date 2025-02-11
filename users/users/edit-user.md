@@ -1,25 +1,24 @@
 # Edit User
 
-All defined users are listed on the listing screen. The last icon in the list area is for the Update.
+Information of the created user is edited by following the steps below;
 
-![](../../.gitbook/assets/UserList-Update.png)
+1. Click the _**Edit**_ button.
 
-Click the Update icon for the record that is wanted to be updated from the list.
+<figure><img src="../../.gitbook/assets/Users Edit Button.png" alt=""><figcaption></figcaption></figure>
 
+2. Edit if necessary in the following fields.
 
+* Username
+* Email
+* Company Name
+* Roles (the user's role on the site is determined here)
+* Avaible-User Companies (user can choose company)
+* Language
+* Timezone
+* GIT Access (provides access to Test Codes)
+* Enabled
 
-![](../../.gitbook/assets/UserForm-Update.png)
+3. a. Click the _**Save**_ button to save changes.
 
-On the pop-up screen;&#x20;
+&#x20;      b. Click the _**Cancel**_ button to cancel the definition&#x20;
 
-1. Username &#x20;
-2. Email&#x20;
-3. Company Name &#x20;
-4. Roles &#x20;
-5. Avaible-User Companies&#x20;
-6. Language&#x20;
-7. Timezone &#x20;
-8. GIT Access &#x20;
-9. Enabled&#x20;
-
-One, or all, of its values are changed and the Save button saves the changed information to the system.&#x20;
