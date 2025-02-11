@@ -1,5 +1,6 @@
 ---
 description: Testinium Product
+icon: info
 ---
 
 # GENERAL INFORMATION

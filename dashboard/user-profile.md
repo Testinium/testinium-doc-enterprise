@@ -1,60 +1,60 @@
 # User Profile
 
-The profile information of the user logged into the system can be viewed and changed here. The authorized user clicks on the User Profile menu and the system first displays the Basic Info tab below.
+_**User Profile**_ is the screen where users who log in to the system can view and change their profile information. The authorised user clicks on the User Profile menu and the system first displays the following Basic Information tab.
 
-![](../.gitbook/assets/UserProfile-BasicInfo.png)
+The operations that can be done on the User Profile screen and these operation steps are as follows;
 
-On thePop-up Basic Info screen;&#x20;
+1. Click the _**Profile**_ under the username.
+2. _**Basic Information**_ tab opens with general information about the user.
 
+&#x20; a. Basic Info tab contains the following information;
 
+* User Name
+* Email
+* Access Key &#x20;
 
-1. User Name&#x20;
-2. Email&#x20;
-3. Access Key&#x20;
+<figure><img src="../.gitbook/assets/User Profile - Basic Info.png" alt=""><figcaption></figcaption></figure>
 
-Only the Access Key value can be changed from these values, and for this, the Generate New Key button is pressed. After the change, the Save button is clicked and the data is saved.&#x20;
+&#x20; b. Click the _**Generate New Key**_ button to change Access key.&#x20;
 
-&#x20;
+{% hint style="info" %}
+Only _**Access Key**_ can be changed from these values.
+{% endhint %}
 
-Click the Settings tab to change the user language and time zone settings.&#x20;
+&#x20; c. Click the _**Save**_ button to save Access Key.
 
-&#x20;
-
-There are Turkish and English options available. The user can choose one of them s/he wants.&#x20;
-
-
-
-
-
-![](../.gitbook/assets/UserProfile-Settings.png)
-
-On the Pop-up Settings screen;&#x20;
-
-&#x20;
-
-1. Language&#x20;
-2. Time Zone&#x20;
-
-&#x20;
-
-The values are changed and the Save button is pressed. With the language change, the interface language settings have also been changed, and English screens are displayed in Turkish.&#x20;
+&#x20; d. Click the _**Cancel**_ button to cancel the operation.
 
 
 
+2. _**Settings**_ is the tab with user language and time zone settings.
+
+&#x20; a. Settings tab contains the following information;
+
+* Language (Available in Turkish and English)
+* Time Zone
+
+<figure><img src="../.gitbook/assets/User Profile-Settings.png" alt=""><figcaption></figcaption></figure>
+
+&#x20; b. Click the _**Settings**_ tab to change the fields.
+
+&#x20; c. Click the _**Save**_ button to save languade and time zone.
+
+&#x20; d. Click the _**Cancel**_ button to cancel the operation.
 
 
-![](../.gitbook/assets/UserProfile-Password.png)
 
-Click the Password tab to change the user password.&#x20;
+3. _**Password**_ is the tab to change password.
 
-On the Pop-Up Password screen;&#x20;
+&#x20; a. Password tab contains the following information;
 
-1. Current Password&#x20;
-2. New Password&#x20;
-3. Confirm Password&#x20;
-4. Save&#x20;
+* Current Password
+* New Password
+* Confirm Password
 
+<figure><img src="../.gitbook/assets/User profile-password.png" alt=""><figcaption></figcaption></figure>
 
+&#x20;     c. Click the _**Save**_ button to save new password.
 
-
+&#x20;     d. Click the _**Cancel**_ button to cancel the operation.
 

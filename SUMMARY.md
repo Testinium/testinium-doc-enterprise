@@ -8,7 +8,7 @@
 ## Login
 
 * [Login](login/login.md)
-* [Forgot Password](login/forgot-password.md)
+* [Reset Password](login/forgot-password.md)
 
 ## Dashboard
 
