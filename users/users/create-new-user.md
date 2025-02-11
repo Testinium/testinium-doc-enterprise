@@ -1,19 +1,28 @@
 # Create New User
 
-It is the screen where a new user definition is made in the system.
+Create New User is the screen where a new user is defined in the system.
 
-![](../../.gitbook/assets/UserForm.png)
+The following steps are followed to create a new user;
 
-On the pop-up Basic Info screen;&#x20;
+1. Click the _**Create New User**_ button.
 
-1. Username &#x20;
-2. Email &#x20;
-3. Company Name &#x20;
-4. Roles (The user's role on the site is determined here)&#x20;
-5. Avaible-User Companies (User can choose company)&#x20;
-6. Language &#x20;
-7. Timezone &#x20;
-8. GIT Access (Provides access to Test Codes)&#x20;
-9. Enabled&#x20;
+<figure><img src="../../.gitbook/assets/Users - Create User Button.png" alt=""><figcaption></figcaption></figure>
 
-These values are entered and the Save button is clicked. The system saves the new user definition. If the Cancel button is clicked, the system cancels the new user definition process.&#x20;
+2. Enter the following fields in the User Form that opens.
+
+* Username
+* Email
+* Company Name
+* Roles (the user's role on the site is determined here)
+* Avaible-User Companies (user can choose company)
+* Language
+* Timezone
+* GIT Access (provides access to Test Codes)
+* Enabled
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 14.50.51.png" alt=""><figcaption></figcaption></figure>
+
+3. a. Click the _**Save**_ button to save new user.
+
+&#x20;      b. Click the _**Cancel**_ button to cancel the definition&#x20;
+

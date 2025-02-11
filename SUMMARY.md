@@ -73,7 +73,7 @@
 * [Users](users/users/README.md)
   * [Create New User](users/users/create-new-user.md)
   * [Edit User](users/users/edit-user.md)
-  * [Manage roles](users/users/manage-roles.md)
+  * [Manage Roles](users/users/manage-roles.md)
 
 ## Projects
 
