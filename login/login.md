@@ -1,16 +1,19 @@
 # Login
 
+Users are required to log in to the system in order to make transactions in Testinium enterpise.&#x20;
 
+Login to the system by following the steps below;
 
-![](../.gitbook/assets/Enterprise.png)
+1. Get Testinium Enterprise open.
+2. Enter the following fields;
 
-On the pop-up screen;&#x20;
+* Username
+* Password
 
-&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-10 at 17.35.35.png" alt=""><figcaption></figcaption></figure>
 
-1. Username&#x20;
-2. Password&#x20;
+3. Click the _**Sign In**_ button.
 
-&#x20;
-
-values are entered and the “Sign In” button is clicked. If the “Remember Me” option is selected, the system will fill the Username and Password in these fields in the next login process.&#x20;
+{% hint style="info" %}
+&#x20;If the _**“Remember Me”**_ option is selected, the system will fill the Username and Password in these fields in the next login process.
+{% endhint %}
