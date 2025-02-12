@@ -27,7 +27,7 @@
     * [Update Public Key](system-settings/system-settings/licence-information/update-public-key.md)
   * [System Properties](system-settings/system-settings/system-properties/README.md)
     * [Creating New System Property](system-settings/system-settings/system-properties/creating-new-system-property.md)
-    * [Updating Property](system-settings/system-settings/system-properties/updating-property.md)
+    * [Edit Property](system-settings/system-settings/system-properties/updating-property.md)
     * [Delete Property](system-settings/system-settings/system-properties/delete-property.md)
   * [Selenium Hubs](system-settings/system-settings/selenium-hubs/README.md)
     * [Creating Selenium Hub](system-settings/system-settings/selenium-hubs/creating-selenium-hub.md)
