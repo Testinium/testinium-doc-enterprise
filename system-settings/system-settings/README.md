@@ -1,11 +1,13 @@
 # System Settings
 
-It is the module where all settings related to the system are made. The following definining process are made. These screens can be viewed by Testinium Admin, no client admin/user can see these screens.
+_**System Settings**_ is the module where all settings related to the system are made. System settings such as below are made from the screens in this module;
 
-* Role/Permission Management&#x20;
-* Phone and browser definitions&#x20;
-* Test environment definitions&#x20;
-* Screen resolution definitions&#x20;
-* Predefined exceptional case definitions&#x20;
+* Role/Permission Management
+* Phone and browser definitions
+* Test environment definitions
+* Screen resolution definitions
+* Predefined exceptional case definitions
 
-![](../../.gitbook/assets/SystemSettings.png)
+{% hint style="info" %}
+_These screens can be viewed by admin user, no client administrator/user can see these screens._
+{% endhint %}

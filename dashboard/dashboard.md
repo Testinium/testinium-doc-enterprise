@@ -1,27 +1,18 @@
 # Dashboard
 
-If the Dashboard is analyzed from top to bottom; At the top, there is the company and user information. This field is visible to admin users.&#x20;
+_**Dashboard**_ is the screen shown in the system after the user logs in to the system. This screen also contains information about test runs, user and company.
 
-&#x20;
+Information about the fields on the dashboard screen is given below;
 
-In the Select Project field, the project list that is opened on company basis is demonstrated.&#x20;
+1. _**Test Results By Daily Period;**_ It is the field where visual dashboards where test results are shown according to statuses (error, failure, success, warning etc.) according to certain time periods (today, last 7 days, last 30 days, last 90 days). These visual reports can be filtered according to the project by clicking the Select Project button.
+2. _**Statics;**_ is the field where information cards are located.&#x20;
 
-&#x20;
+&#x20;     The following cards are included in this field;
 
-The system shows the test result graphs of all projects in the first place (Test Results by Daily Period). If there is only one project in the system, the system displays its result graphics. For projects that are defined more than one, the result graphics of the project can be displayed by selecting it from the Select Project section. Minute Usage in the Statistics section shows the total of IOS, Windows, Mac, Linux, Android usage. It displays the usage rate and billing information on a per-minute basis from the links below.&#x20;
-
-&#x20;
-
-The Quick Overview section shows how many plans, projects, users, scenarios and requests there are.&#x20;
-
-&#x20;
-
-In the Active Tests section, the currently running test scenarios are included. The test can be stopped with the stop button. The Refresh button is used to keep the list up-to-date.&#x20;
-
-&#x20;
-
-Running plans are listed in the Running Test Plans section. The test can be stopped with the Stop button.&#x20;
-
-&#x20;
-
-![](../.gitbook/assets/Dashboard.png)
+* _**Project;**_ it shows the total number of projects in Testinium. When clicked, projects can be seen listed on the Project List page.
+* _**User;**_ it shows the total number of users in the selected Company. When clicked, the User List page opens and you can add new users, modify existing users and delete users from this area.
+* _**Scenario;**_ this field shows the total number of scenarios. When clicked, the Scenario List page opens and scenarios can be viewed by filtering the project from this page.
+* _**Plan;**_ shows the total number of plans in the Testinium account. When clicked, it opens the Test Plan List page where project-based plans are listed.
+* _**Used Minutes;**_ it shows the amount of test minutes run. On the Invoice History page that opens when clicked, date and company filters can be made, and the test minutes run in the selected company in a certain time interval can be displayed.
+* _**Running Test Plans;**_ running plans are listed. The test can be stopped with the Stop button.
+* _**Active Tests;**_ number of test cases currently running. Clicking on the card opens the running scenario list. On the screen; The test can be stopped by clicking the Stop button. Refresh button is used to update the list.

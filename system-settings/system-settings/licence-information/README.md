@@ -1,6 +1,5 @@
 # Licence Information
 
-Licence viewing, adding, updating operations are done from this page.
+_**Licence Information**_ is the screen where license viewing, adding and updating operations are performed.
 
-![](<../../../.gitbook/assets/LicenceInformation (1).png>)
-
+<figure><img src="../../../.gitbook/assets/License.png" alt=""><figcaption></figcaption></figure>

@@ -13,6 +13,7 @@
 ## Dashboard
 
 * [Dashboard](dashboard/dashboard.md)
+* [Dashboard](dashboard/dashboard-1.md)
 * [User Profile](dashboard/user-profile.md)
 * [Company Details](dashboard/company-details.md)
 
@@ -21,7 +22,9 @@
 * [System Settings](system-settings/system-settings/README.md)
   * [Licence Information](system-settings/system-settings/licence-information/README.md)
     * [Add New Licence Key](system-settings/system-settings/licence-information/add-new-licence-key.md)
-    * [Update Licence Key](system-settings/system-settings/licence-information/update-licence-key.md)
+    * [Edit Licence Key](system-settings/system-settings/licence-information/update-licence-key.md)
+    * [Delete Licence Key](system-settings/system-settings/licence-information/delete-licence-key.md)
+    * [Update Public Key](system-settings/system-settings/licence-information/update-public-key.md)
   * [System Properties](system-settings/system-settings/system-properties/README.md)
     * [Creating New System Property](system-settings/system-settings/system-properties/creating-new-system-property.md)
     * [Updating Property](system-settings/system-settings/system-properties/updating-property.md)
