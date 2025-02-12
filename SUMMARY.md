@@ -2,12 +2,12 @@
 
 ## TESTINIUM ENTERPRISE
 
-* [GENERAL INFORMATION](README.md)
+* [Testinium Enterprise Documentation](README.md)
 * [PREREQUISITES](testinium-enterprise/prerequisites.md)
 
 ## Login
 
-* [Login](login/login.md)
+* [User Login Guide](login/login.md)
 * [Reset Password](login/forgot-password.md)
 
 ## Dashboard
