@@ -27,14 +27,35 @@ The endpoint allows users to update the selected iOS mobile app for a specific t
 Upon a successful request, the API returns the updated `PlanDTO` object representing the test plan with the selected iOS mobile app.
 
 ```json
-{
-  "id": 123,
-  "plan_name": "Sample Test Plan",
-  "selectedIosMobileApp": {
-    "id": 456,
-    "mobileAppName": "Sample iOS App"
-  }
-}
+
+    {
+        "id": 580,
+        "project_name": "APPFile",
+        "description": "",
+        "enabled": true,
+        "repository_path": "appfile",
+        "test_framework": "APPIUM",
+        "test_file_type": "APPIUM_GAUGE",
+        "test_runner_tool": "MAVEN",
+        "mobile_apps": [
+            {
+                "id": 54,
+                "mobile_app_name": "pegasus-pilot-release-2.39.0.38__2_-ee15733f-2799725523214323595.apk",
+                "mobile_app_hash": "57e487d42eaa459b1713df8c1dd691a8",
+                "operating_system": "ANDROID",
+                "mobile_app_metadata": "{\"packageName\":\"com.pozitron.pegasus.pilotRelease\",\"label\":\"PGS Pilot\",\"icon\":\"res/u3.png\",\"versionName\":\"2.39.0.38\",\"versionCode\":119,\"minSdkVersion\":\"23\",\"targetSdkVersion\":\"33\"}",
+                "created_at": "2024-10-18 09:34:30"
+            },
+            {
+                "id": 53,
+                "mobile_app_name": "Gratis-b250541b__2_-8988176051238453961.ipa",
+                "mobile_app_hash": "556372e35d7f2b6fa4b7ceb4c0af8b58",
+                "operating_system": "IOS",
+                "mobile_app_metadata": "{\"bundleName\":\"Gratis\",\"bundleDisplayName\":\"Gratis\",\"bundleVersion\":\"3.2.12\",\"bundleMinOsVersion\":\"12.0\",\"bundleDevelopmentRegion\":\"tr\",\"bundleExecutable\":\"Gratis\",\"bundleIconFiles\":\"\",\"bundleInfoDictVersion\":\"6.0\",\"bundlePackageType\":\"APPL\",\"bundleMainStoryBoardFile\":\"Main\"}",
+                "created_at": "2024-10-18 09:34:30"
+            }
+        ]
+    }
 ```
 
 | Field                  | Type        | Description                                        |
