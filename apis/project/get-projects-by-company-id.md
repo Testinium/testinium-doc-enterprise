@@ -25,8 +25,6 @@ This endpoint retrieves a list of projects associated with a specific company. I
 On success, the API returns the following JSON structure for Appium project:
 
 ```json
-
-[
   {
     "id": 77,
     "project_name": "AppiumJava",
@@ -54,40 +52,7 @@ On success, the API returns the following JSON structure for Appium project:
         "created_at": "2024-11-28 10:58:07"
       }
     ]
-  },
-  {
-    "id": 89,
-    "project_name": "project1",
-    "description": "",
-    "enabled": true,
-    "repository_path": "",
-    "test_framework": "APPIUM",
-    "test_file_type": "APPIUM_JAVA",
-    "test_runner_tool": "MAVEN"
-  },
-  {
-    "id": 90,
-    "project_name": "KarateService",
-    "description": "",
-    "enabled": true,
-    "repository_path": "karateservice",
-    "test_framework": "SERVICE",
-    "test_file_type": "SERVICE_KARATE",
-    "test_runner_tool": "MAVEN",
-    "mobile_apps": []
-  },
-  {
-    "id": 91,
-    "project_name": "otomasyon",
-    "description": "",
-    "enabled": true,
-    "repository_path": "otomasyon",
-    "test_framework": "SELENIUM",
-    "test_file_type": "SELENIUM_GAUGE",
-    "test_runner_tool": "MAVEN",
-    "mobile_apps": []
   }
-]
 ```
 
 | Field              | Type      | Description                                                 |
