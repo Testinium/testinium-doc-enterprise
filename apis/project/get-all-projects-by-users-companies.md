@@ -29,14 +29,32 @@ Upon a successful request, the API returns the following JSON structure:
 ```json
 [
   {
-     "id": 335,
-     "project_name": "project1",
-     "description": "",
-     "enabled": true,
-     "repository_path": "project1",
-     "test_framework": "APPIUM",
-     "test_file_type": "APPIUM_GAUGE",
-     "test_runner_tool": "MAVEN"
+    "id": 77,
+    "project_name": "AppiumJava",
+    "description": "",
+    "enabled": true,
+    "repository_path": "appiumjava",
+    "test_framework": "APPIUM",
+    "test_file_type": "APPIUM_JAVA",
+    "test_runner_tool": "MAVEN",
+    "mobile_apps": [
+      {
+        "id": 58,
+        "mobile_app_name": "Gratis-68c16a02-8181239309953606241.ipa",
+        "mobile_app_hash": "046696ec4d2e7443f348fee4b49b4a2c",
+        "operating_system": "IOS",
+        "mobile_app_metadata": "{\"bundleName\":\"Gratis\",\"bundleDisplayName\":\"Gratis\",\"bundleVersion\":\"3.3.0\",\"bundleMinOsVersion\":\"12.0\",\"bundleDevelopmentRegion\":\"tr\",\"bundleExecutable\":\"Gratis\",\"bundleIconFiles\":\"\",\"bundleInfoDictVersion\":\"6.0\",\"bundlePackageType\":\"APPL\",\"bundleMainStoryBoardFile\":\"Main\"}",
+        "created_at": "2024-11-28 10:59:00"
+      },
+      {
+        "id": 57,
+        "mobile_app_name": "3.2.39__130_-83f575df-b7266d12-ae6c7c43-401562538376308185.apk",
+        "mobile_app_hash": "177f1b975b8f99e8006dd8bf88686f6e",
+        "operating_system": "ANDROID",
+        "mobile_app_metadata": "{\"packageName\":\"com.gratis.android\",\"label\":\"Gratis\",\"icon\":\"res/d2.webp\",\"versionName\":\"3.2.39\",\"versionCode\":130,\"minSdkVersion\":\"24\",\"targetSdkVersion\":\"34\",\"glEsVersion\":{\"major\":2,\"minor\":0,\"required\":false}}",
+        "created_at": "2024-11-28 10:58:07"
+      }
+    ]
   }
 ]
 ```
