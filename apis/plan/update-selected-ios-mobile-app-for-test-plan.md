@@ -26,7 +26,6 @@ The endpoint allows users to update the selected iOS mobile app for a specific t
 
 Upon a successful request, the API returns the updated `PlanDTO` object representing the test plan with the selected iOS mobile app.
 
-````json
 ```json
 {
     "id": 261,
@@ -85,8 +84,8 @@ Upon a successful request, the API returns the updated `PlanDTO` object represen
         "created_at": "2024-10-18 09:34:30"
     }
 }
+
 ```
-````
 
 | Field                  | Type        | Description                                        |
 | ---------------------- | ----------- | -------------------------------------------------- |
