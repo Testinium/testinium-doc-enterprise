@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Create Test Result
 
 The endpoint allows users to create a new test result by submitting necessary test information, including optional log and video files.
