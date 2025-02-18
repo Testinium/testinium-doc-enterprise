@@ -38,6 +38,6 @@ On successful deletion, the API returns an HTTP status code:
 ### Example Request
 
 ```bash
-curl -X DELETE "<custom-env-url>/Testinium.RestApi/api/projects/mobileapp/{mobileAppId}" \
--H "Authorization: Bearer <token>"
+curl --location --request DELETE '<custom-env-url>/Testinium.RestApi/api/projects/mobileapp/{mobileAppId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

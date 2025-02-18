@@ -40,7 +40,6 @@ This endpoint currently throws an exception indicating that the service method i
 ### Example Request
 
 ```bash
-curl -X DELETE "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location --request DELETE '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}' \
+--header 'Authorization: <your_access_token>'
 ```

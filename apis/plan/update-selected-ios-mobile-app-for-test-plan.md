@@ -110,7 +110,7 @@ Upon a successful request, the API returns the updated `PlanDTO` object represen
 ### Example Request
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/plans/{id}/setIosMobileApp/{mobileAppId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json"
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/plans/{id}/setIosMobileApp/{mobileAppId}' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer <token>'
 ```

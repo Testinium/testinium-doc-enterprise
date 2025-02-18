@@ -56,7 +56,8 @@ Upon a successful request, the API returns an HTTP status of 200 OK.
 ### Example Request
 
 ```bash
-curl -X POST "<custom-env-url>/Testinium.RestApi/api/file/project/{projectId}" \
--H "Authorization: Bearer <your_access_token>" \
--F "files=@path_to_file1"
+curl --location '<custom-env-url>/Testinium.RestApi/api/file/project/{projectId}' \
+--header 'Authorization: Bearer <your_access_token>' \
+--form 'files=@path_to_file1'
+
 ```

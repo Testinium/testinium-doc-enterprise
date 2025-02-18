@@ -18,10 +18,16 @@ This endpoint is used to update an existing project. A user can update project d
 The JSON format request data that needs to be sent for updating a project is as follows:
 
 ```json
-{
-  "name": "Updated Project Name",
-  "description": "Updated project description"
-}
+  {
+    "project_name": "otomasyon13",
+    "description": "",
+    "enabled": true,
+    "repository_path": "otomasyon",
+    "test_framework": "SELENIUM",
+    "test_file_type": "SELENIUM_GAUGE",
+    "test_runner_tool": "MAVEN",
+    "mobile_apps": []
+  }
 ```
 
 | Parameter       | Type     | Required | Description                                           |
@@ -40,21 +46,14 @@ Upon a successful request, the API returns the following JSON structure:
 
 ```json
 {
-  "id": 123,
-  "name": "Updated Project Name",
-  "description": "Updated project description",
-  "startDate": "2024-10-15",
-  "endDate": "2024-12-31",
-  "testFramework": "Karate",
-  "user": {
-    "id": 1,
-    "username": "john_doe",
-    "email": "john@example.com"
-  },
-  "company": {
-    "id": 10,
-    "name": "Example Corp"
-  }
+    "project_name": "otomasyon13",
+    "description": "",
+    "enabled": true,
+    "repository_path": "otomasyon",
+    "test_framework": "SELENIUM",
+    "test_file_type": "SELENIUM_GAUGE",
+    "test_runner_tool": "MAVEN",
+    "mobile_apps": []
 }
 ```
 
@@ -88,11 +87,17 @@ Possible error codes and their explanations during the operation:
 ### Example Requests
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId} \
--H "Authorization: Bearer <token>" \
--H "Content-Type: application/json" \
--d '{
-  "name": "Updated Project Name",
-  "description": "Updated project description"
-}'
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}' \
+--header 'Content-Type: application/json' \ 
+--header 'Authorization: Bearer <token>' \
+--data '  {
+    "project_name": "otomasyon13",
+    "description": "",
+    "enabled": true,
+    "repository_path": "otomasyon",
+    "test_framework": "SELENIUM",
+    "test_file_type": "SELENIUM_GAUGE",
+    "test_runner_tool": "MAVEN",
+    "mobile_apps": []
+  }'
 ```

@@ -158,6 +158,7 @@
   * [Get Projects by Company ID](apis/project/get-projects-by-company-id.md)
   * [Get Active Project By ID](apis/project/get-active-project-by-id.md)
   * [Get All Projects by User's Companies](apis/project/get-all-projects-by-users-companies.md)
+  * [Get All Companies](apis/project/get-all-companies.md)
   * [Create Project](apis/project/create-project.md)
   * [Update Project](apis/project/update-project.md)
   * [Delete Project](apis/project/delete-project.md)
