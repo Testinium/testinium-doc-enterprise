@@ -173,7 +173,6 @@
   * [Get Test Parameters](apis/scenario/get-test-parameters.md)
   * [Create Scenario](apis/scenario/create-scenario.md)
   * [Update Scenario](apis/scenario/update-scenario.md)
-  * [Update Parent Scenario](apis/scenario/update-parent-scenario.md)
   * [Update Test Parameters](apis/scenario/update-test-parameters.md)
   * [Delete Scenario](apis/scenario/delete-scenario.md)
 * [Plan](apis/plan/README.md)

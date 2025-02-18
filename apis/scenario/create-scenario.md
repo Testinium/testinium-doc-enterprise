@@ -27,15 +27,15 @@ The request body must be a JSON object containing the details of the scenario.
 
 ```json
 {
-  "scenarioName": "Login Test",
-  "description": "Test if the user can login successfully",
-  "expectedResult": "User should be redirected to the dashboard",
+  "scenario_name": "DenemeSenaryo13",
+  "description": "",
+  "expected_result": "",
   "enabled": true,
-  "parentScenarioId": null,
-  "executeMode": "AUTOMATED",
-  "sourceFile": "loginTest.feature",
-  "projectId": 1,
-  "type": "SELENIUM"
+  "execute_mode": "AUTOMATED",
+  "source_file": "Android/MainPage.spec",
+  "project_id": 580,
+  "java_test_class": "Android/MainPage",
+  "java_test_methods": "@Swipeeee"
 }
 ```
 
@@ -59,16 +59,16 @@ Upon a successful request, the API returns a `ScenarioDTO` object containing the
 
 ```json
 {
-  "id": 1,
-  "scenario_name": "Login Test",
-  "description": "Test if the user can login successfully",
-  "expectedResult": "User should be redirected to the dashboard",
-  "enabled": true,
-  "parentScenarioId": null,
-  "executeMode": "AUTOMATED",
-  "sourceFile": "loginTest.feature",
-  "projectId": 1,
-  "type": "SELENIUM"
+    "id": 3132,
+    "scenario_name": "DenemeSenaryo13",
+    "description": "",
+    "expected_result": "",
+    "enabled": true,
+    "execute_mode": "AUTOMATED",
+    "source_file": "Android/MainPage.spec",
+    "project_id": 580,
+    "java_test_class": "Android/MainPage",
+    "java_test_methods": "@Swipeeee"
 }
 ```
 
@@ -104,18 +104,18 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X POST "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios" \
+curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios' \
 --header 'Authorization: Bearer <your_access_token>' \
--H "Content-Type: application/json" \
--d '{
-  "scenarioName": "Login Test",
-  "description": "Test if the user can login successfully",
-  "expectedResult": "User should be redirected to the dashboard",
-  "enabled": true,
-  "parentScenarioId": null,
-  "executeMode": "AUTOMATED",
-  "sourceFile": "loginTest.feature",
-  "projectId": 1,
-  "type": "SELENIUM"
-}'
+--header 'Content-Type: application/json' \
+--data-raw '{
+        "scenario_name": "DenemeSenaryo13",
+        "description": "",
+        "expected_result": "",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Android/MainPage.spec",
+        "project_id": 580,
+        "java_test_class": "Android/MainPage",
+        "java_test_methods": "@Swipeeee"
+    }'
 ```

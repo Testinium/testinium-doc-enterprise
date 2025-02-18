@@ -28,9 +28,15 @@ The request body must be a JSON object containing the details of the scenario to
 
 ```json
 {
-  "name": "Updated Scenario",
-  "description": "Updated description of the scenario",
-  "sourceFile": "new/path/to/sourcefile"
+  "scenario_name": "DenemeSenaryo13",
+  "description": "",
+  "expected_result": "",
+  "enabled": true,
+  "execute_mode": "AUTOMATED",
+  "source_file": "Android/MainPage.spec",
+  "project_id": 580,
+  "java_test_class": "Android/MainPage",
+  "java_test_methods": "@Swipeeee"
 }
 ```
 
@@ -48,10 +54,16 @@ Upon a successful request, the API returns a `ScenarioDTO` object containing the
 
 ```json
 {
-  "id": 1,
-  "name": "Updated Scenario",
-  "description": "Updated description of the scenario",
-  "sourceFile": "new/path/to/sourcefile"
+    "id": 3132,
+    "scenario_name": "DenemeSenaryo",
+    "description": "",
+    "expected_result": "",
+    "enabled": true,
+    "execute_mode": "AUTOMATED",
+    "source_file": "Android/MainPage.spec",
+    "project_id": 580,
+    "java_test_class": "Android/MainPage",
+    "java_test_methods": "@Swipeeee"
 }
 ```
 
@@ -82,12 +94,18 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}" \
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}' \
 --header 'Authorization: Bearer <your_access_token>' \
--H "Content-Type: application/json" \
--d '{
-  "name": "Updated Scenario",
-  "description": "Updated description of the scenario",
-  "sourceFile": "new/path/to/sourcefile"
-}'
+--header 'Content-Type: application/json' \
+--data-raw '{
+        "scenario_name": "DenemeSenaryo",
+        "description": "",
+        "expected_result": "",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Android/MainPage.spec",
+        "project_id": 580,
+        "java_test_class": "Android/MainPage",
+        "java_test_methods": "@Swipeeee"
+    }'
 ```

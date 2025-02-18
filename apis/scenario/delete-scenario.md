@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delete Scenario
 
 The endpoint is used to delete an existing scenario within a specific project. However, it currently returns an error message indicating that the service method is unsupported.
@@ -53,6 +57,6 @@ Possible error codes during the operation:
 ### Example Request
 
 ```bash
-curl -X DELETE "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}" \
+curl --location --request DELETE '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}' \
 --header 'Authorization: Bearer <your_access_token>'
 ```

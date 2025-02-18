@@ -19,9 +19,31 @@ Upon a successful request, the API returns a list of test scenarios in JSON form
 
 ```json
     {
-        "id": 29,
-        "scenario_name": "Scenario1",
+        "id": 3,
+        "scenario_name": "webtest1",
         "description": "",
+        "expected_result": "",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Skechers.spec",
+        "java_test_class": "Skechers",
+        "java_test_methods": "@Sc2"
+    },
+    {
+        "id": 4,
+        "scenario_name": "OpenApp",
+        "description": "",
+        "expected_result": "",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "OnlyWakeUp.spec",
+        "project_id": 4,
+        "java_test_class": "OnlyWakeUp",
+        "java_test_methods": "@OnlyWakeUp"
+    },
+    {
+        "id": 109,
+        "scenario_name": "grupsenaryo",
         "enabled": true,
         "execute_mode": "AUTOMATED"
     }
@@ -51,7 +73,7 @@ Upon a successful request, the API returns a list of test scenarios in JSON form
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/scenarios" \
+curl --location '<custom-env-url>/Testinium.RestApi/api/scenarios' \
+--header 'Accept: application/json' \
 --header 'Authorization: Bearer <your_access_token>' \
--H "Accept: application/json"
 ```

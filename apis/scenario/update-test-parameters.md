@@ -83,10 +83,10 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/testParameters" \
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/testParameters' \
+--header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <your_access_token>' \
--H "Content-Type: application/json" \
--d '{
+--data '{
   "testParameters": [
     {
       "name": "parameter1",

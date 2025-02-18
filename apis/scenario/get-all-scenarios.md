@@ -36,32 +36,25 @@ Upon a successful request, the API returns a list of scenarios for the specified
 
 ```json
 [
-  {
-    "id": 2353,
-    "scenario_name": "scenario1",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED"
-  },
-  {
-    "id": 2354,
-    "scenario_name": "@regression",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED",
-    "source_file": "denemeSc2.feature"
-  },
-  {
-    "id": 2355,
-    "scenario_name": "@smoke",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED",
-    "source_file": "denemeSc2.feature"
-  }
+    {
+        "id": 3085,
+        "scenario_name": "sevgitest12345",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "project_id": 580
+    },
+    {
+        "id": 3086,
+        "scenario_name": "Sevgi Test12345",
+        "description": "12345",
+        "expected_result": "12345",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Ios/IOSMainnPage.spec",
+        "project_id": 580,
+        "java_test_class": "Ios/IOSMainnPage",
+        "java_test_methods": "@Gratissss"
+    }
 ]
 ```
 
@@ -91,7 +84,6 @@ Upon a successful request, the API returns a list of scenarios for the specified
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

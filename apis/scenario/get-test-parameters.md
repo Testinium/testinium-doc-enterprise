@@ -9,7 +9,6 @@ The endpoint retrieves the test parameters associated with a specific scenario i
 * **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/testParameters`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
-* **Content-Type**: `application/json`
 
 ***
 
@@ -29,16 +28,6 @@ Upon a successful request, the API returns a `TestParameterListDTO` object conta
 ```json
 {
   "testParameters": [
-    {
-      "name": "parameter1",
-      "value": "value1",
-      "description": "Description"
-    },
-    {
-      "name": "parameter2",
-      "value": "value2",
-      "description": "Description"
-    }
   ]
 }
 ```
@@ -66,7 +55,6 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X GET "<your-api-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/testParameters" \
---header 'Authorization: Bearer <your_access_token>' \
--H "Accept: application/json"
+curl --location '<your-api-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/testParameters' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

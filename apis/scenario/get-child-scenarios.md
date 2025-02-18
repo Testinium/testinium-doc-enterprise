@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Get Child Scenarios
 
 The endpoint retrieves the child scenarios associated with a specific scenario within a project. It provides a list of child scenarios based on the given project and scenario information.
