@@ -24,7 +24,6 @@ The endpoint allows users to retrieve all test executions for a specific test pl
 
 Upon a successful request, the API returns a paginated list of test executions in the form of a `PaginatedTestExecutionList` object.
 
-````json
 ```json
 {
     "pagination": {
@@ -101,7 +100,6 @@ Upon a successful request, the API returns a paginated list of test executions i
     ]
 }
 ```
-````
 
 | Field            | Type     | Description                                            |
 | ---------------- | -------- | ------------------------------------------------------ |
@@ -125,6 +123,6 @@ Upon a successful request, the API returns a paginated list of test executions i
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions" \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

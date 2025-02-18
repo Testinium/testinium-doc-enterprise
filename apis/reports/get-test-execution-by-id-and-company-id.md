@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Get Test Execution by ID and Company ID
 
 The endpoint allows users to retrieve detailed information about a specific test execution by its ID and associated Company ID.
@@ -105,6 +109,6 @@ Upon a successful request, the API returns a `TestExecutionDTO` object containin
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testExecutions/{execId}/company/{companyId}" \
--H "Authorization: Bearer <your_access_token>"
+curl -X GET "<custom-env-url>/Testinium.RestApi/api/testExecutions/{execId}/company/{companyId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

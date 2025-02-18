@@ -103,6 +103,6 @@ Upon a successful request, the API returns a `TestExecutionDTO` object containin
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testExecutions/{execId}" \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/testExecutions/{execId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

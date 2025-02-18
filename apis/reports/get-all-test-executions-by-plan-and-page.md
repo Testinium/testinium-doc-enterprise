@@ -27,7 +27,7 @@ Upon a successful request, the API returns a `PaginatedTestExecutionList` object
 
 Page 1:
 
-````json
+```json
 {
     "pagination": {
         "current_page": 1,
@@ -103,7 +103,6 @@ Page 1:
     ]
 }
 ```
-````
 
 Page 2:
 
@@ -147,6 +146,6 @@ Page 2:
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}" \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

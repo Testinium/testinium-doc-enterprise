@@ -26,38 +26,44 @@ The response contains a `PaginatedTestResultList` object with details on paginat
 
 ```json
 {
-  "pagination": {
-    "current_page": 1,
-    "total_count": 1,
-    "page_limit": 50
-  },
-  "test_result_list": [
-    {
-      "id": 150912,
-      "level": "SUCCESS",
-      "start_date": 1428833706000,
-      "end_date": 1428833706000,
-      "runtime": 0,
-      "session_id": "dummy-47359440135365756567",
-      "video_enabled": false,
-      "performance_data_enabled": false,
-      "test_scenario": {
-        "id": 152
-      },
-      "test_plan": {
-        "id": 35
-      },
-      "project": {
-        "id": 28
-      },
-      "video_format": "FLV",
-      "test_execution": {
-        "id": 8786
-      },
-      "node_log_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/node.log",
-      "executor_log_path": "http://127.0.0.1:8080//storage?key=1/2015/04/12/dummy-47359440135365756567/testResult.log"
-    }
-  ]
+    "pagination": {
+        "current_page": 1,
+        "total_count": 1,
+        "page_limit": 50
+    },
+    "test_result_list": [
+        {
+            "id": 435,
+            "level": "ERROR",
+            "start_date": 1722511864000,
+            "end_date": 1722511864000,
+            "runtime": 42,
+            "session_id": "dummy-38824800783936853956",
+            "message": "Test report could not be found. Please check your executor log.",
+            "screen_shot_type": "YES",
+            "video_enabled": false,
+            "performance_data_enabled": false,
+            "test_key": "TEST-C1-P5-E102-S6-ENV:WIN10-Chrome-LATEST",
+            "test_scenario": {
+                "id": 6
+            },
+            "test_plan": {
+                "id": 5
+            },
+            "project": {
+                "id": 5
+            },
+            "video_format": "FLV",
+            "environment": {
+                "id": 8
+            },
+            "test_execution": {
+                "id": 102
+            },
+            "node_log_path": "https://dev.testinium.com//storage?key=1/2024/08/01/dummy-38824800783936853956/node.log",
+            "executor_log_path": "https://dev.testinium.com//storage?key=1/2024/08/01/dummy-38824800783936853956/testResult.log"
+        }
+    ]
 }
 ```
 
@@ -106,6 +112,6 @@ The response contains a `PaginatedTestResultList` object with details on paginat
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testResults/executionId/{execId} \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/testResults/executionId/{execId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

@@ -26,22 +26,35 @@ The response will contain a `TestResultDTO` object if a test result is found for
 
 ```json
 {
-  "id": 102,
-  "sessionId": "unique-session-id",
-  "user": {
-    "id": 34,
-    "username": "testUser"
-  },
-  "company": {
-    "id": 56,
-    "name": "TestCompany"
-  },
-  "nodeLogPath": "/logs/testResult.log",
-  "videoPath": "/videos/testResult.mp4",
-  "status": "SUCCESS",
-  "runtime": 78000,
-  "start_date": 1450890157000,
-  "end_date": 1450890235000
+    "id": 102,
+    "level": "ERROR",
+    "start_date": 1720765136000,
+    "end_date": 1720765136000,
+    "runtime": 21,
+    "session_id": "dummy-57996406855270899217",
+    "message": "Test report could not be found. Please check your executor log.",
+    "screen_shot_type": "YES",
+    "video_enabled": false,
+    "performance_data_enabled": false,
+    "test_key": "TEST-C1-P5-E47-S6-ENV:WIN10-Chrome-LATEST",
+    "test_scenario": {
+        "id": 6
+    },
+    "test_plan": {
+        "id": 5
+    },
+    "project": {
+        "id": 5
+    },
+    "video_format": "FLV",
+    "environment": {
+        "id": 8
+    },
+    "test_execution": {
+        "id": 47
+    },
+    "node_log_path": "https://dev.testinium.com//storage?key=1/2024/07/12/dummy-57996406855270899217/node.log",
+    "executor_log_path": "https://dev.testinium.com//storage?key=1/2024/07/12/dummy-57996406855270899217/testResult.log"
 }
 ```
 
@@ -75,6 +88,6 @@ The response will contain a `TestResultDTO` object if a test result is found for
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testResults/{resultId}" \
--H "Authorization: Bearer <your_access_token>"
+curl --location 'custom-env-url>/Testinium.RestApi/api/testResults/{resultId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

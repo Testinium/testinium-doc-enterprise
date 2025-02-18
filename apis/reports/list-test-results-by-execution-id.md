@@ -107,6 +107,6 @@ The response contains a `PaginatedTestResultList` object with details on paginat
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testResults/executionId/{execId}/pages/{page}" \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/testResults/executionId/{execId}/pages/{page}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

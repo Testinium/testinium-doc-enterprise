@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Find Test Result by Session ID
 
 The endpoint retrieves a test result based on the provided session ID and the user's associated company.
@@ -76,6 +80,6 @@ The response will contain a `TestResultDTO` object if a test result is found for
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/testResults/session/unique-session-id" \
--H "Authorization: Bearer <your_access_token>"
+curl -X GET "<custom-env-url>/Testinium.RestApi/api/testResults/session/unique-session-id' \
+--header 'Authorization: Bearer <your_access_token>'
 ```
