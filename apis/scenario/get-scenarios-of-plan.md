@@ -28,32 +28,30 @@ Upon a successful request, the API returns a list of scenarios for the specified
 
 ```json
 [
-  {
-    "id": 2353,
-    "scenario_name": "scenario1",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED"
-  },
-  {
-    "id": 2354,
-    "scenario_name": "@regression",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED",
-    "source_file": "denemeSc2.feature"
-  },
-  {
-    "id": 2355,
-    "scenario_name": "@smoke",
-    "description": "",
-    "expected_result": "",
-    "enabled": true,
-    "execute_mode": "AUTOMATED",
-    "source_file": "denemeSc2.feature"
-  }
+    {
+        "id": 3076,
+        "scenario_name": "@Gratis_Android_KasaArkasiPopupSlideVeUrunEkleme",
+        "description": "Sevgi Test Desc.",
+        "expected_result": "Sevgi Test Exc. Result",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Android/Cart.spec",
+        "project_id": 580,
+        "java_test_class": "Android/Cart",
+        "java_test_methods": "@Gratis_Android_KasaArkasiPopupSlideVeUrunEkleme"
+    },
+    {
+        "id": 3077,
+        "scenario_name": "@Gratis_Android_KasaArkasiSlideVeUrunEkleme",
+        "description": "Sevgi Test Desc.",
+        "expected_result": "Sevgi Test Exc. Result",
+        "enabled": true,
+        "execute_mode": "AUTOMATED",
+        "source_file": "Android/Cart.spec",
+        "project_id": 580,
+        "java_test_class": "Android/Cart",
+        "java_test_methods": "@Gratis_Android_KasaArkasiSlideVeUrunEkleme"
+    }
 ]
 ```
 
@@ -85,6 +83,6 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}/scenarios" \
--H "Authorization: Bearer <your_access_token>"
+curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}/scenarios' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

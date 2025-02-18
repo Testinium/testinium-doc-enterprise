@@ -71,6 +71,6 @@ Upon a successful request, the API returns a test scenario in JSON format.
 
 ```bash
 curl -X GET "<custom-env-url>/Testinium.RestApi/api/scenarios/{scenarioNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
+--header 'Authorization: Bearer <your_access_token>' \
 -H "Accept: application/json"
 ```

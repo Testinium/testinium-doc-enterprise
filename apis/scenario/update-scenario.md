@@ -83,7 +83,7 @@ Possible error codes and their explanations during the operation:
 
 ```bash
 curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
+--header 'Authorization: Bearer <your_access_token>' \
 -H "Content-Type: application/json" \
 -d '{
   "name": "Updated Scenario",

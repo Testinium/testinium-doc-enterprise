@@ -54,6 +54,5 @@ Possible error codes during the operation:
 
 ```bash
 curl -X DELETE "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json"
+--header 'Authorization: Bearer <your_access_token>'
 ```

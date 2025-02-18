@@ -66,6 +66,6 @@ Possible error codes and their explanations during the operation:
 
 ```bash
 curl -X GET "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/childScenarios" \
--H "Authorization: Bearer <your_access_token>" \
+--header 'Authorization: Bearer <your_access_token>' \
 -H "Accept: application/json"
 ```
