@@ -124,7 +124,7 @@
 * [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto.md)
   * [Show Report](reports/show-report.md)
-  * [Export Excel](reports/export-excel.md)
+  * [Export Report](reports/export-excel.md)
   * [Delete Test Report](reports/delete-test-report.md)
   * [Test Execution(Remote)](reports/test-execution-remote/README.md)
     * [Show Report](reports/test-execution-remote/show-report.md)

@@ -8,9 +8,7 @@ Information about the fields on the dashboard screen is given below;
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-02-19 at 16.37.10.png" alt=""><figcaption></figcaption></figure>
 
-2. _**Statics;**_ is the field where information cards are located.&#x20;
-
-&#x20;     The following cards are included in this field;
+2. _**Statics;**_ is the field where information cards are located.  The following cards are included in this field;
 
 * _**Project;**_ it shows the total number of projects in Testinium. When clicked, projects can be seen listed on the Project List page.
 * _**User;**_ it shows the total number of users in the selected Company. When clicked, the User List page opens and you can add new users, modify existing users and delete users from this area.
@@ -19,5 +17,3 @@ Information about the fields on the dashboard screen is given below;
 * _**Used Minutes;**_ it shows the amount of test minutes run. On the Invoice History page that opens when clicked, date and company filters can be made, and the test minutes run in the selected company in a certain time interval can be displayed.
 * _**Running Test Plans;**_ running plans are listed. The test can be stopped with the Stop button.
 * _**Active Tests;**_ number of test cases currently running. Clicking on the card opens the running scenario list. On the screen; The test can be stopped by clicking the Stop button. Refresh button is used to update the list.
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-02-19 at 16.37.10.png" alt=""><figcaption></figcaption></figure>

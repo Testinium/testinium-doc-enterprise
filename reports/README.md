@@ -1,7 +1,5 @@
-# Reports
+# REPORTS
 
-When the New Test Step button is clicked, the previously defined test steps are listed. And when the selection is made, it is expected to be sorted as a line.
+_**Reports**_ is the module containing reports created according to certain formats and report settings.
 
-
-
-![](<../.gitbook/assets/TestReports (1).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-19 at 16.40.28.png" alt=""><figcaption></figcaption></figure>

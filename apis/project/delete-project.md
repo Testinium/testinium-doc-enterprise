@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delete Project
 
 This endpoint allows a user to delete an existing project. Below are the details regarding the usage of this API.
@@ -25,9 +29,7 @@ To delete a project, the project name or ID must be specified in the URL path.
 
 #### Parameters
 
-| Parameter         | Type     | Required | Description                              |
-| ----------------- | -------- | -------- | ---------------------------------------- |
-| `projectNameOrId` | `string` | Yes      | The name or ID of the project to delete. |
+<table><thead><tr><th width="208">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>string</code></td><td>Yes</td><td>The name or ID of the project to delete.</td></tr></tbody></table>
 
 ***
 
