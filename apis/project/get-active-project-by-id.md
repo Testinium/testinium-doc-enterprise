@@ -9,7 +9,6 @@ The endpoint retrieves the active project by its ID. It ensures that the project
 * **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectId}/active`
 * **Method**: `GET`
 * **Authentication**: Requires `Bearer Token`
-* **Content-Type**: `application/json`
 
 ***
 

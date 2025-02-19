@@ -5,6 +5,9 @@ _**Dashboard**_ is the screen shown in the system after the user logs in to the 
 Information about the fields on the dashboard screen is given below;
 
 1. _**Test Results By Daily Period;**_ It is the field where visual dashboards where test results are shown according to statuses (error, failure, success, warning etc.) according to certain time periods (today, last 7 days, last 30 days, last 90 days). These visual reports can be filtered according to the project by clicking the Select Project button.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-19 at 16.37.10.png" alt=""><figcaption></figcaption></figure>
+
 2. _**Statics;**_ is the field where information cards are located.&#x20;
 
 &#x20;     The following cards are included in this field;
@@ -16,3 +19,5 @@ Information about the fields on the dashboard screen is given below;
 * _**Used Minutes;**_ it shows the amount of test minutes run. On the Invoice History page that opens when clicked, date and company filters can be made, and the test minutes run in the selected company in a certain time interval can be displayed.
 * _**Running Test Plans;**_ running plans are listed. The test can be stopped with the Stop button.
 * _**Active Tests;**_ number of test cases currently running. Clicking on the card opens the running scenario list. On the screen; The test can be stopped by clicking the Stop button. Refresh button is used to update the list.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-19 at 16.37.10.png" alt=""><figcaption></figcaption></figure>
