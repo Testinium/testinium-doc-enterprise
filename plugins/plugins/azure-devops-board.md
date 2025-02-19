@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Azure Devops Board
 
 Testinium Enterprise Azure DevOps Board plugin integration enables users to create execution reports for test scenarios in Azure DevOps Board based on their test runs.
