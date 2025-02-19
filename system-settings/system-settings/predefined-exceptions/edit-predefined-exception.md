@@ -2,26 +2,21 @@
 
 ![](../../../.gitbook/assets/PredefinedExceptionList-Update.png)
 
-All defined exceptions are listed on the listing screen. The last two icons in the list area are for Update and Delete.&#x20;
+The following steps are followed on the Predefined Exception List page to edit exception;
 
-&#x20;
+1. Click the _**Edit**_ button.
 
-Click the Update icon for the record that is wanted to be updated from the list.&#x20;
+<figure><img src="../../../.gitbook/assets/Predefined Exception Edit btn.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+2. Edit the following fields in the Predefined Exception Form page;
 
-![](<../../../.gitbook/assets/PredefinedExceptionForm (1).png>)
+* Exception Name
+* Message
+* Exception Status
+* Web, Mobile, Service selection
 
-On the pop-up screen;&#x20;
+<figure><img src="../../../.gitbook/assets/Predefined Exc Edit Screen.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+3.  a. Click the _**Save**_ button to save update.
 
-1. Exception Name&#x20;
-2. Message to be shown&#x20;
-3. Exception Status&#x20;
-4. Show on Web &#x20;
-5. Show on Mobile &#x20;
-
-&#x20;
-
-One, or all, of these values are changed and the Save button is clicked. The system saves the changed information of the current exception value to the system. If the Cancel button is clicked, the system cancels the exception update process.&#x20;
+    b. Click the _**Cancel**_ button to cancel the editing operation.

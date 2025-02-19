@@ -1,9 +1,15 @@
 # Delete Screen Resolution
 
-Screen resolution manufacturers defined in the system can be deleted. User should click on the Delete button for the record to be deleted from the listing screen.
+The following steps are followed on the Screen Resolution page to delete a resolution;
 
+1. Click the _**Delete**_ button.
 
+<figure><img src="../../../.gitbook/assets/Screen Resol Screen Delete Button (2).png" alt=""><figcaption></figcaption></figure>
 
-![](../../../.gitbook/assets/ScreenResolution-Delete.png)
+2.  In the warning popup;&#x20;
 
-On the pop-up that appears, the Yes button is clicked in response to the question "Do you want to delete this record?". If the No button is clicked, the system cancels the deletion process.&#x20;
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../.gitbook/assets/Screen Resol Delete Screen.png" alt=""><figcaption></figcaption></figure>

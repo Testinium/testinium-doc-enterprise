@@ -2,11 +2,11 @@
 
 A new test environment definition in the system is made by following the steps below;
 
-1. Click the _**Cretae New Environment**_ button.
+1. Click the _**Create New Environment**_ button.
 
 <figure><img src="../../../.gitbook/assets/TestEnv Screen Create btn.png" alt=""><figcaption></figcaption></figure>
 
-2. Select/Enter the following fields in the Browser/Phone Form page.
+2. Select/Enter the following fields in the Test Environment Form page.
 
 * Operating Sistem
 * Browser

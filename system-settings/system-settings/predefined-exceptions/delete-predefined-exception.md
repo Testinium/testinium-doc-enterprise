@@ -1,11 +1,16 @@
 # Delete Predefined Exception
 
-![](<../../../.gitbook/assets/PredefinedExceptionList-Update (1).png>)
+The following steps are followed on the Predefined Exception List  page to delete an exception;
 
-Exceptions that are defined in the system can be deleted. Click on the Delete icon for the record that is wanted to be deleted from the listing screen.
+1. Click the _**Delete**_ button.
 
+<figure><img src="../../../.gitbook/assets/Predefined Exception delete btn.png" alt=""><figcaption></figcaption></figure>
 
+2.  In the warning popup;&#x20;
 
-![](../../../.gitbook/assets/PredefinedExceptionDelete.png)
+    a. Click _**Yes**_ to delete.
 
-On the pop-up that appears, the Yes button is clicked in response to the question "Do you want to delete this record?". If the No button is clicked, the system cancels the deletion process.
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../.gitbook/assets/Predefined exp delete screen.png" alt=""><figcaption></figcaption></figure>
+

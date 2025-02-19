@@ -1,11 +1,11 @@
 # Screen Resolutions
 
-Operating system based screen resolutions are defined in the system. These defined screen resolutions determine at which resolution the test will be run. While making a Test Plan, it is selected in which operating system and at which resolution the test will be run. The screenshot is also taken by the system at this resolution.&#x20;
+_**Screen Resolutions;**_ it is the screen where operating system based definitions are made that determine in which resolution the test will be run.
 
-&#x20;
+{% hint style="info" %}
+Test Plan is made by selecting which operating system and in which resolution the test will be run.&#x20;
 
-Testinium > System Settings > Screen Resolutions&#x20;
+The screenshot of the running test is taken according to the resolution definition made in the system.
+{% endhint %}
 
-
-
-![](../../../.gitbook/assets/ScreenResolution.png)
+<figure><img src="../../../.gitbook/assets/Screen Resol Screen.png" alt=""><figcaption></figcaption></figure>

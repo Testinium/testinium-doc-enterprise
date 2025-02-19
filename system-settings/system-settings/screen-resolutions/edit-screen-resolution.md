@@ -1,24 +1,19 @@
 # Edit Screen Resolution
 
-All defined screen resolutions are listed on the listing screen. The last two icons in the list area are for Update and Delete.
+The following steps are followed on the Screen Resolutions page to edit resolutions;
 
-![](../../../.gitbook/assets/ScreenResolutionList-Update.png)
+1. Click the _**Edit**_ button.
 
-Click the Update icon for the record you want to update from the list.
+<figure><img src="../../../.gitbook/assets/Screen Resol Screen Edit Button (1).png" alt=""><figcaption></figcaption></figure>
 
+2. Edit the following fields in the Screen Resolution Form page;
 
+* Operating System
+* Screen Resolution
 
-![](../../../.gitbook/assets/ScreenResolutionForm-Update.png)
+<figure><img src="../../../.gitbook/assets/Screen Resol Edit Screen.png" alt=""><figcaption></figcaption></figure>
 
-On the pop-up screen;&#x20;
+3.  a. Click the _**Save**_ button to save update.
 
- &#x20;
+    b. Click the _**Cancel**_ button to cancel the editing operation.
 
-1. Operating System&#x20;
-2. Screen Resolution&#x20;
-
- &#x20;
-
-One or all of its values are changed and Save saves the changed information to the system.&#x20;
-
-Cancels the cancel operation.&#x20;

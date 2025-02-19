@@ -1,16 +1,18 @@
 # Create New Screen Resolution
 
-It is the screen where a new screen resolution is defined in the system. 
+A new screen resolution definition in the system is made by following the steps below;
 
-![](../../../.gitbook/assets/ScreenResolution-Create.png)
+1. Click the _**Create New Resolution**_ button.
 
-On the pop-up screen;&#x20;
+<figure><img src="../../../.gitbook/assets/Screen Resol Screen Create Button.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+2. Select the following fields in the Screen Resolution Form page.
 
-1. Operating System&#x20;
-2. Screen Resolution&#x20;
+* Operating System
+* Screen Resolution
 
-&#x20;
+<figure><img src="../../../.gitbook/assets/Screen Resol Create Screen.png" alt=""><figcaption></figcaption></figure>
 
-These values are entered and the Save button is clicked. The system saves the new screen resolution value to the system. If the Cancel button is clicked, the system cancels the new screen resolution defining process.&#x20;
+3.  a. Click the _**Save**_ button to save the resolution.
+
+    b. Click the _**Cancel**_ button to cancel the creating operation.

@@ -56,7 +56,7 @@
     * [Edit Screen Resolution](system-settings/system-settings/screen-resolutions/edit-screen-resolution.md)
     * [Delete Screen Resolution](system-settings/system-settings/screen-resolutions/delete-screen-resolution.md)
   * [Predefined Exceptions](system-settings/system-settings/predefined-exceptions/README.md)
-    * [Create New Predefined Exception](system-settings/system-settings/predefined-exceptions/create-new-predefined-exception.md)
+    * [Create Predefined Exception](system-settings/system-settings/predefined-exceptions/create-new-predefined-exception.md)
     * [Edit Predefined Exception](system-settings/system-settings/predefined-exceptions/edit-predefined-exception.md)
     * [Delete Predefined Exception](system-settings/system-settings/predefined-exceptions/delete-predefined-exception.md)
   * [Cloud Test Environment](system-settings/system-settings/cloud-test-environment.md)
