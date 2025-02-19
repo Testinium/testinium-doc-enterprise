@@ -67,6 +67,7 @@
   * [Notifications](system-settings/system-settings/notifications.md)
   * [Project Clone](system-settings/system-settings/project-clone.md)
   * [Company’s Scheduled Plan](system-settings/system-settings/companys-scheduled-plan.md)
+  * [Active Tests](system-settings/system-settings/active-tests.md)
 
 ## Companies
 
