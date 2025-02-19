@@ -43,4 +43,63 @@ Testinium Enterprise Azure DevOps Board plugin integration enables users to crea
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 00.15.40.png" alt=""><figcaption></figcaption></figure>
 
-10.
+10. From the listed plugins, select **Azure DevOps** and click the **Edit** button.
+
+    On the displayed page, fill in the following details:
+
+    * **Organization Server URL** (Azure DevOps Board Link)
+    * **Organization Name**
+    * **Access Token**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 00.52.44.png" alt=""><figcaption></figcaption></figure>
+
+11. For Azure DevOps integration in Testinium, a token must be **generated** from the **Organization Server URL** page.
+
+* Navigate to the **Organization Server URL**.
+* Click on **User Settings** and select **Personal Access Tokens** from the displayed menu.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 00.58.33.png" alt=""><figcaption></figcaption></figure>
+
+12. On the **Personal Access Token** screen, click the **New Token** button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 00.59.13.png" alt=""><figcaption></figcaption></figure>
+
+13. On the displayed screen, fill in the following fields: **Name, Organization,** and **Expiration**. In the **Scopes** section, select **Full Access**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.00.27.png" alt=""><figcaption></figcaption></figure>
+
+14. Click the **Create** button to generate the token. Copy the generated token and paste it into the relevant field in **Testinium**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.02.35.png" alt=""><figcaption></figcaption></figure>
+
+16. After adding the plugin and configuring the Azure DevOps Board account settings, follow the steps below to set up project-based configurations:
+
+* Navigate to the **Projects** page from the **Dashboard** and select the project to be integrated.
+* Click the **Edit** button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.03.30.png" alt=""><figcaption></figcaption></figure>
+
+17. On the **Project Edit** page, click the **Edit Azure DevOps Settings** button to configure the integration settings.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.07.51.png" alt=""><figcaption></figcaption></figure>
+
+18. On the displayed screen, fill in the following fields:
+    * **Assigned User**
+    * **Azure Project** (The project where issues will be created in Azure DevOps Board)
+    * **Issue Type**
+    * **Selected Fields**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.09.01.png" alt=""><figcaption></figcaption></figure>
+
+19. The Fields section is listed based on the selected **Issue Type**. Use the arrow icon in the Fields list to move the selected fields to the **Selected Fields** section. (The **Title** field is mandatory for creating an issue in Azure DevOps.)
+
+    **Note:** The available fields in the **Fields** section vary depending on the selected **Issue Type**. For specific requests or custom fields, please contact the Support team.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.10.37.png" alt=""><figcaption></figcaption></figure>
+
+20. After completing the **Azure DevOps** integration settings for the project, follow the steps below to create an issue in **Azure DevOps** within the related project:
+    * Open the **Plans** screen.
+    * Select the relevant project from the **Project Name** field. The plans associated with the project will be listed.
+    * Click the **Test Report** button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.16.18.png" alt=""><figcaption></figcaption></figure>
