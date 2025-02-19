@@ -152,6 +152,7 @@
   * [Ldap](plugins/plugins/ldap.md)
   * [Testinium Cloud](plugins/plugins/testinium-cloud.md)
   * [TestRail](plugins/plugins/testrail.md)
+  * [Azure Devops Board](plugins/plugins/azure-devops-board.md)
 
 ## API's
 
