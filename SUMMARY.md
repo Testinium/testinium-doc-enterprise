@@ -25,6 +25,7 @@
     * [Edit Licence Key](system-settings/system-settings/licence-information/update-licence-key.md)
     * [Delete Licence Key](system-settings/system-settings/licence-information/delete-licence-key.md)
     * [Update Public Key](system-settings/system-settings/licence-information/update-public-key.md)
+  * [General Test Plan Settings](system-settings/system-settings/general-test-plan-settings.md)
   * [System Properties](system-settings/system-settings/system-properties/README.md)
     * [Creating New System Property](system-settings/system-settings/system-properties/creating-new-system-property.md)
     * [Edit Property](system-settings/system-settings/system-properties/updating-property.md)
@@ -51,6 +52,7 @@
     * [Edit Enviroment](system-settings/system-settings/test-environments/edit-enviroment.md)
     * [Delete Environment](system-settings/system-settings/test-environments/delete-environment.md)
   * [Test Environment Status](system-settings/system-settings/test-environment-status.md)
+  * [Active Tests](system-settings/system-settings/active-tests.md)
   * [Screen Resolutions](system-settings/system-settings/screen-resolutions/README.md)
     * [Create New Screen Resolution](system-settings/system-settings/screen-resolutions/create-new-screen-resolution.md)
     * [Edit Screen Resolution](system-settings/system-settings/screen-resolutions/edit-screen-resolution.md)
@@ -67,7 +69,6 @@
   * [Notifications](system-settings/system-settings/notifications.md)
   * [Project Clone](system-settings/system-settings/project-clone.md)
   * [Company’s Scheduled Plan](system-settings/system-settings/companys-scheduled-plan.md)
-  * [Active Tests](system-settings/system-settings/active-tests.md)
 
 ## Companies
 
