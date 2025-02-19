@@ -1,7 +1,15 @@
-# Updating Selenium Hub
+# Edit Selenium Hub
 
-&#x20;
+The following steps are followed on the Selenium Hubs page to edit hubs;
 
-On the Selenium Hub page, click the edit button on the right side of the hub that you want to edit.&#x20;
+1. Click the _**Edit**_ button.
 
-![](../../../.gitbook/assets/SeleniumHubForm-Update.png)
+<figure><img src="../../../.gitbook/assets/Selenium Hub 2 edit button.png" alt=""><figcaption></figcaption></figure>
+
+2. Edit Hub Name, Hub Url, Hub Internal Url and Enable fields on the Selenium Hubs Form if necessary.
+
+<figure><img src="../../../.gitbook/assets/selenium hub edit screen.png" alt=""><figcaption></figcaption></figure>
+
+3.  a. Click the _**Save**_ button to save update.
+
+    b. Click the _**Cancel**_ button to cancel the editing operation.

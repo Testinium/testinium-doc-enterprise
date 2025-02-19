@@ -14,7 +14,9 @@ The endpoint retrieves all test plans associated with a specific project. The us
 
 ### Path Variables
 
-<table><thead><tr><th width="203">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project for which to retrieve plans.</td></tr></tbody></table>
+| Parameter         | Type     | Required | Description                                                |
+| ----------------- | -------- | -------- | ---------------------------------------------------------- |
+| `projectNameOrId` | `Object` | Yes      | The name or ID of the project for which to retrieve plans. |
 
 ***
 

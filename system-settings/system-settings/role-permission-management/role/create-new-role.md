@@ -1,22 +1,21 @@
 # Create New Role
 
-These are the screens where a new role description is made in the system.
+A new role definition in the system is made by following the steps below;
 
+1. Click the _**Cretae New Role**_ button.
 
+<figure><img src="../../../../.gitbook/assets/Role Screen Create Button (1).png" alt=""><figcaption></figcaption></figure>
 
+2. Enter the following fields in the Role Management page.
 
+* Role Name
+* Description
+* Enable
+* Role Permissions
 
-![](../../../../.gitbook/assets/RoleCreate.png)
+<figure><img src="../../../../.gitbook/assets/Role - Create Screen.png" alt=""><figcaption></figcaption></figure>
 
-On the pop-up screen;&#x20;
+3.  a. Click the _**Save**_ button to save the role.
 
-&#x20;
+    b. Click the _**Cancel**_ button to cancel the creating operation.
 
-1. Role Name&#x20;
-2. Description &#x20;
-3. Enabled &#x20;
-4. All Permissions / Role Permissions &#x20;
-
-&#x20;
-
-These values are entered and the Save button is clicked. The system saves the new role value to the system. If the Cancel button is clicked, the system cancels the new role definition process.&#x20;

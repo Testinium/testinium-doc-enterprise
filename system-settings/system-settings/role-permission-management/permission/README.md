@@ -1,5 +1,5 @@
 # Permission
 
-Permission descriptions as follows.
+_**Permissions**_ is the screen where defining, editing and deleting operations related to permissions are performed.
 
-![](../../../../.gitbook/assets/PermissionList.png)
+<figure><img src="../../../../.gitbook/assets/Perm Screen.png" alt=""><figcaption></figcaption></figure>

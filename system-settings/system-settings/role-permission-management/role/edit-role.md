@@ -1,24 +1,19 @@
 # Edit Role
 
-All defined role descriptions are listed on the listing screen. The last two icons in the list area are for Update and Delete.
+The following steps are followed on the Role List page to edit roles;
 
+1. Click the _**Edit**_ button.
 
+<figure><img src="../../../../.gitbook/assets/Role Screen Edit Button.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../.gitbook/assets/RoleList.png)
+2. Edit the following fields if necessary;
+   * Role Name
+   * Description
+   * Enable
+   * Role Permissions
 
-All defined role descriptions are listed on the listing screen. The last two icons in the list area are for Update and Delete.&#x20;
+<figure><img src="../../../../.gitbook/assets/Role Edit Screen.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../.gitbook/assets/RoleManagement.png)
+3.  a. Click the _**Save**_ button to save update.
 
-On the Pop-Up screen;&#x20;
-
-&#x20;
-
-1. Role Name&#x20;
-2. Description &#x20;
-3. Enabled &#x20;
-4. All Permissions / Role Permissions&#x20;
-
-&#x20;
-
-One or all of these values are changed and the Save button is clicked. The system saves the changed information of the current role value to the system. If the Cancel button is clicked, the system cancels the role update process.&#x20;
+    b. Click the _**Cancel**_ button to cancel the editing operation.

@@ -1,5 +1,5 @@
 # Selenium Hubs
 
-This page shows the hub list.
+_**Selenium Hubs**_ it is a page shows the hub list.
 
-![](../../../.gitbook/assets/SeleniumHubList.png)
+<figure><img src="../../../.gitbook/assets/Selenium Hub.png" alt=""><figcaption></figcaption></figure>

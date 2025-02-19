@@ -1,19 +1,19 @@
 # Create New Permission
 
-These are the screens where a new permission is defined in the system.
+A new permission definition in the system is made by following the steps below;
 
+1. Click the _**Cretae New Permission**_ button.
 
+<figure><img src="../../../../.gitbook/assets/Perm Screen create btn.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../.gitbook/assets/PermissionForm.png)
+2. Enter the following fields in the Permission Form page.
+   * Permission Name
+   * URL (Page URL)
+   * Description
 
-On the pop-up screen;&#x20;
+<figure><img src="../../../../.gitbook/assets/Create Perm Screen.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+3.  a. Click the _**Save**_ button to save the permission.
 
-1. Permission Name&#x20;
-2. URL (Page URL)&#x20;
-3. Description&#x20;
+    b. Click the _**Cancel**_ button to cancel the creating operation.
 
-
-
-These values are entered and the Save button is clicked. The system saves the new permission value to the system. If the Cancel button is clicked, the system cancels the new permission definition process.&#x20;

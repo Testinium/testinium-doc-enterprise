@@ -1,8 +1,6 @@
 # Role / Permission Management
 
-All users that are defined in the system have access to pages/menus/operation buttons. These descriptions are made from the Role/Permission screens. Role and Permission descriptions are made separately under this menu. The role description is as follows. Roles are defined depending on authorizations.&#x20;
+_**Role/Permission Management;**_ These are the screens where the necessary definitions are made for all users defined in the system to access the pages/menus/action buttons.
 
-&#x20;
-
-Testinium > System Settings > Role/Permission Management&#x20;
-
+* Role and Permission definitions are made separately under this menu.&#x20;
+* Roles are defined depending on authorizations.

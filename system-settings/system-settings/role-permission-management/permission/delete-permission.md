@@ -1,7 +1,15 @@
 # Delete Permission
 
-&#x20;
+The following steps are followed on the Permission List page to delete a permission;
 
-The permission that is defined in the system can be deleted, but this is not a highly recommended action. Click on the Delete icon for the record that is wanted to be deleted from the listing screen.&#x20;
+1. Click the _**Delete**_ button.
 
-![](../../../../.gitbook/assets/PermissionDelete.png)
+<figure><img src="../../../../.gitbook/assets/Perm Screen delete btn.png" alt=""><figcaption></figcaption></figure>
+
+2.  In the warning popup;&#x20;
+
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../../.gitbook/assets/Delete Perm Scrren.png" alt=""><figcaption></figcaption></figure>

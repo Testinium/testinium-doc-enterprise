@@ -1,5 +1,8 @@
-# Role
+# Roles
 
-Role descriptions as follows.
+_**Roles**_ is the screen where defining, editing and deleting operations related to roles are performed.
 
-![](<../../../../.gitbook/assets/RoleList (1).png>)
+<figure><img src="../../../../.gitbook/assets/Role Screen.png" alt=""><figcaption></figcaption></figure>
+
+
+

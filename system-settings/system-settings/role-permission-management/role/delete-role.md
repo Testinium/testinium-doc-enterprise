@@ -1,9 +1,15 @@
 # Delete Role
 
-Roles defined in the system other than the standard 4 roles can be deleted, but this is not a recommended action. If the defined role is assigned to some users, the system will not allow the role to be deleted. Click on the Delete icon for the record that is wanted to be deleted from the listing screen.
+The following steps are followed on the Role List page to delete a role;
 
+1. Click the _**Delete**_ button.
 
+<figure><img src="../../../../.gitbook/assets/Role Screen Delete Button.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../.gitbook/assets/RoleDelete.png)
+2.  In the warning popup;&#x20;
 
-On the pop-up that appears, the Yes button is clicked in response to the question "Do you want to delete this record?". If the No button is clicked, the system cancels the deletion process. Permission definition is as follows:
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../../.gitbook/assets/Role -Delete Screen.png" alt=""><figcaption></figcaption></figure>
