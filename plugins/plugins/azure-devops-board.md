@@ -1,10 +1,6 @@
----
-hidden: true
----
-
 # Azure Devops Board
 
-1. Log in to the system through the **Login** screen.
+1. Log in to the system through the Login screen.
 2. Fill in the following fields on the displayed screen:
 
 * **Username**
