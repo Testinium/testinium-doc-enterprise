@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delete Test Plan
 
 The endpoint deletes a specified test plan for a particular project. The user must provide the project and plan identifiers in the path. The API will return an appropriate response based on whether the deletion was successful or if there was an error.
@@ -15,10 +19,7 @@ The endpoint deletes a specified test plan for a particular project. The user mu
 
 ### Path Variables
 
-| Parameter         | Type     | Required | Description                                        |
-| ----------------- | -------- | -------- | -------------------------------------------------- |
-| `projectNameOrId` | `Object` | Yes      | The name or ID of the project containing the plan. |
-| `planNameOrId`    | `Object` | Yes      | The name or ID of the plan to be deleted.          |
+<table><thead><tr><th width="201">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project containing the plan.</td></tr><tr><td><code>planNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the plan to be deleted.</td></tr></tbody></table>
 
 ***
 
@@ -46,6 +47,6 @@ Possible error codes and their explanations during the operation:
 
 ```bash
 curl -X DELETE "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
+--header 'Authorization: Bearer <your_access_token>' \
 -H "Accept: application/json"
 ```

@@ -9,7 +9,6 @@ The endpoint triggers the execution of a specific test plan for the authenticate
 * **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/run`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
-* **Content-Type**: `application/json`
 
 ***
 
@@ -21,17 +20,11 @@ The endpoint triggers the execution of a specific test plan for the authenticate
 
 ***
 
-### Query Parameters
-
-| Parameter     | Type     | Required | Description                                                |
-| ------------- | -------- | -------- | ---------------------------------------------------------- |
-| `callbackUrl` | `String` | No       | Optional callback URL to receive execution status updates. |
-
-***
-
 ### Response Body
 
 The API returns the result of the test plan execution in the `RunTestPlanResponse` object.
+
+Service and WEB:
 
 ```json
 {
@@ -43,7 +36,23 @@ The API returns the result of the test plan execution in the `RunTestPlanRespons
 }
 ```
 
-#### Response Fields
+Appium:
+
+```json
+{
+    "unavailable_env_list": [
+        {
+            "id": 15
+        }
+    ],
+    "successful": false,
+    "already_running": false
+}
+```
+
+
+
+### Response Fields
 
 | Field                  | Type      | Description                                                |
 | ---------------------- | --------- | ---------------------------------------------------------- |
@@ -70,7 +79,6 @@ The API returns the result of the test plan execution in the `RunTestPlanRespons
 #### Using `curl`
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/run" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/run' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

@@ -1,12 +1,12 @@
-# Get All Plans by User's Companies
+# Get All Plans By Project Name or ID
 
-The endpoint retrieves all test plans associated with a specific project that belong to the companies that the authenticated user is associated with. The user must provide the project identifier in the path. It returns a list of test plans in the form of `PlanDTO` objects.
+The endpoint retrieves all test plans associated with a specific project. The user must provide the project identifier in the path. It returns a list of test plans in the form of `PlanDTO` objects.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectId}/plans/byUserCompanies`
+* **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
 
@@ -14,15 +14,11 @@ The endpoint retrieves all test plans associated with a specific project that be
 
 ### Path Variables
 
-| Parameter   | Type   | Required | Description                                        |
-| ----------- | ------ | -------- | -------------------------------------------------- |
-| `projectId` | `Long` | Yes      | The ID of the project for which to retrieve plans. |
+<table><thead><tr><th width="203">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project for which to retrieve plans.</td></tr></tbody></table>
 
 ***
 
 ### Response Body
-
-Upon a successful request, the API returns a list of active test plans in JSON format.
 
 ```json
 [
@@ -170,18 +166,18 @@ Upon a successful request, the API returns a list of active test plans in JSON f
 
 Possible error codes and their explanations during the operation:
 
-| HTTP Code | Error Message           | Description                                                                  |
-| --------- | ----------------------- | ---------------------------------------------------------------------------- |
-| `401`     | `Unauthorized`          | Authorization failed. The user is not logged in.                             |
-| `403`     | `Forbidden`             | The user does not have permission to access plans for the specified project. |
-| `404`     | `Project not found`     | The specified project was not found.                                         |
-| `500`     | `Internal Server Error` | An unexpected error occurred on the server side.                             |
+| HTTP Code | Error Message           | Description                                              |
+| --------- | ----------------------- | -------------------------------------------------------- |
+| `401`     | `Unauthorized`          | Authorization failed. The user is not logged in.         |
+| `403`     | `Forbidden`             | The user does not have permission to access the project. |
+| `404`     | `Project not found`     | The specified project was not found.                     |
+| `500`     | `Internal Server Error` | An unexpected error occurred on the server side.         |
 
 ***
 
 ### Example Request
 
 ```bash
-curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectId}/plans/byUserCompanies' \
+curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans' \
 --header 'Authorization: Bearer <your_access_token>' 
 ```

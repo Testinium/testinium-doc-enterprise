@@ -15,9 +15,7 @@ The endpoint creates a new test plan for a specific project. The user must provi
 
 ### Path Variables
 
-| Parameter         | Type     | Required | Description                                                  |
-| ----------------- | -------- | -------- | ------------------------------------------------------------ |
-| `projectNameOrId` | `Object` | Yes      | The name or ID of the project for which the plan is created. |
+<table><thead><tr><th width="203">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project for which the plan is created.</td></tr></tbody></table>
 
 ***
 
@@ -128,15 +126,26 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X POST "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json" \
--d '{
-  "name": "New Test Plan",
-  "description": "Description of the new test plan",
+curl --location --request POST '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans' \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'Content-Type: application/json' \
+--data '{
+  "type": "SELENIUM",
+  "planName": "Test Plan",
+  "projectId": 123,
+  "companyId": 456,
+  "description": "Plan description",
+  "enabled": true,
+  "planParallelTestLimit": 10,
+  "scenarios": [1, 2, 3],
   "period": {
-    "period_type": "REPETITIVE",
+    "periodType": "REPETITIVE",
     "repeatPeriod": 2
-  }
+  },
+  "alerts": [
+    { "alertId": 789 }
+  ],
+  "alertsEnabled": true,
+  "failedTestRetryCount": 3
 }'
 ```

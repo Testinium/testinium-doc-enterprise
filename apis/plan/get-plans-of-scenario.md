@@ -9,16 +9,12 @@ The endpoint retrieves the plans associated with a specific scenario. It returns
 * **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/plans`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
-* **Content-Type**: `application/json`
 
 ***
 
 ### Path Variables
 
-| Parameter          | Type     | Required | Description                     |
-| ------------------ | -------- | -------- | ------------------------------- |
-| `projectNameOrId`  | `Object` | Yes      | The name or ID of the project.  |
-| `scenarioNameOrId` | `Object` | Yes      | The name or ID of the scenario. |
+<table><thead><tr><th width="217">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project.</td></tr><tr><td><code>scenarioNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the scenario.</td></tr></tbody></table>
 
 ***
 
@@ -114,7 +110,6 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/plans" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/scenarios/{scenarioNameOrId}/plans' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

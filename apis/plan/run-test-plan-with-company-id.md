@@ -27,13 +27,23 @@ Upon a successful request, the API returns a `RunTestPlanResponse` object with a
 
 ```json
 {
-  "successful": true
+    "unavailable_env_list": [
+        {
+            "id": 15
+        }
+    ],
+    "successful": false,
+    "already_running": false
 }
 ```
 
-| Field        | Type      | Description                                                |
-| ------------ | --------- | ---------------------------------------------------------- |
-| `successful` | `boolean` | Indicates whether the test plan run was successful or not. |
+### Response Fields
+
+| Field                  | Type      | Description                                                |
+| ---------------------- | --------- | ---------------------------------------------------------- |
+| `successful`           | `boolean` | Indicates whether the test plan execution was successful.  |
+| `unavailable_env_list` | `Array`   | List of unavailable environments needed for the test plan. |
+| `already_running`      | `boolean` | Indicates if the test plan is already running.             |
 
 ***
 
@@ -51,7 +61,6 @@ Upon a successful request, the API returns a `RunTestPlanResponse` object with a
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/run/company/{companyId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/run/company/{companyId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

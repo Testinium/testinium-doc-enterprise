@@ -52,6 +52,6 @@ Upon a successful request, the API returns a `CheckIsRunningResponse` object ind
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/checkIsRunning" \
--H "Authorization: Bearer <your_access_token>"
+curl --location --request GET '<custom-env-url>/Testinium.RestApi/api/plans/{id}/checkIsRunning' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

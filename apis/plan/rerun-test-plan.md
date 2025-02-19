@@ -72,8 +72,8 @@ Upon a successful request, the API returns a `RerunTestPlanResponse` object indi
 ### Example Request
 
 ```bash
-curl -X POST "<custom-env-url>/Testinium.RestApi/api/plans/{planId}/rerun" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json" \
--d '[1, 2, 3]'
+curl --location --request POST "<custom-env-url>/Testinium.RestApi/api/plans/{planId}/rerun" \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <your_access_token>' \
+--data '[16]'
 ```

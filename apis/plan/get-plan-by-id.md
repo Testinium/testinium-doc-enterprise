@@ -25,35 +25,65 @@ The endpoint retrieves a test plan based on the plan's name or ID. The test plan
 Upon a successful request, the API returns the test plan in JSON format.
 
 ```json
-{
-    "id": 29,
-    "project_id": 20,
-    "company_id": 8,
-    "plan_name": "Grup Bilgi Güncelleme",
-    "group_plan": false,
-    "description": "",
-    "enabled": true,
-    "plan_parallel_test_limit": 0,
-    "scenarios": [
-        124
-    ],
-    "period": {
-        "period_type": "ONCE",
-        "once_date": 1420616640000,
-        "days_of_week": "",
-        "repeat_period": 60
-    },
-    "alerts": [],
-    "alerts_enabled": true,
-    "video_enabled": false,
-    "environments": [
-        {
-            "id": 74
+[
+    {
+        "id": 261,
+        "project_id": 580,
+        "company_id": 1,
+        "plan_name": "Android",
+        "group_plan": false,
+        "description": "",
+        "enabled": true,
+        "plan_parallel_test_limit": 36,
+        "scenarios": [
+            3076,
+            3077,
+            3078,
+            3079,
+            3080,
+            3056,
+            3087,
+            3086,
+            3100
+        ],
+        "period": {
+            "period_type": "MANUAL",
+            "days_of_week": "2,3,4,5,6,7,1",
+            "repeat_period": 60
+        },
+        "alerts": [],
+        "alerts_enabled": false,
+        "failed_test_retry_count": 3,
+        "screen_shot_type": "YES",
+        "video_enabled": false,
+        "environments": [
+            {
+                "id": 9
+            },
+            {
+                "id": 13
+            }
+        ],
+        "clear_app_data": false,
+        "fetch_app_files": [],
+        "selected_android_mobile_app": {
+            "id": 54,
+            "mobile_app_name": "pegasus-pilot-release-2.39.0.38__2_-ee15733f-2799725523214323595.apk",
+            "mobile_app_hash": "57e487d42eaa459b1713df8c1dd691a8",
+            "operating_system": "ANDROID",
+            "mobile_app_metadata": "{\"packageName\":\"com.pozitron.pegasus.pilotRelease\",\"label\":\"PGS Pilot\",\"icon\":\"res/u3.png\",\"versionName\":\"2.39.0.38\",\"versionCode\":119,\"minSdkVersion\":\"23\",\"targetSdkVersion\":\"33\"}",
+            "created_at": "2024-10-18 09:34:30"
+        },
+        "selected_ios_mobile_app": {
+            "id": 53,
+            "mobile_app_name": "Gratis-b250541b__2_-8988176051238453961.ipa",
+            "mobile_app_hash": "556372e35d7f2b6fa4b7ceb4c0af8b58",
+            "operating_system": "IOS",
+            "mobile_app_metadata": "{\"bundleName\":\"Gratis\",\"bundleDisplayName\":\"Gratis\",\"bundleVersion\":\"3.2.12\",\"bundleMinOsVersion\":\"12.0\",\"bundleDevelopmentRegion\":\"tr\",\"bundleExecutable\":\"Gratis\",\"bundleIconFiles\":\"\",\"bundleInfoDictVersion\":\"6.0\",\"bundlePackageType\":\"APPL\",\"bundleMainStoryBoardFile\":\"Main\"}",
+            "created_at": "2024-10-18 09:34:30"
         }
-    ],
-    "clear_app_data": false,
-    "fetch_app_files": []
-}
+    }
+]
 ```
 
 | Field             | Type      | Description                                      |
@@ -90,7 +120,6 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{planNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{planNameOrId}' \
+--header 'Authorization: Bearer <your_access_token>'
 ```

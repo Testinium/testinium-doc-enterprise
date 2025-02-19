@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Add Scenarios To Plan
 
 The endpoint adds scenarios to a specific plan. A request containing the IDs of the scenarios to be added is sent along with the relevant project and plan information.
@@ -28,7 +32,7 @@ The request body must contain a `ScenarioIdsOfPlanDTO` object that includes the 
 
 ```json
 {
-  "scenarioIds": [1, 2, 3]
+   "scenarios": [13, 16]
 }
 ```
 
@@ -72,10 +76,8 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}/scenarios" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json" \
--d '{
-  "scenarioIds": [1, 2, 3]
-}'
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}/scenarios' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <your_access_token>' \
+--data '{"scenarios": [13, 16]}'
 ```

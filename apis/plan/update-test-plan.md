@@ -15,10 +15,7 @@ The endpoint updates an existing test plan for a specific project. The user must
 
 ### Path Variables
 
-| Parameter         | Type     | Required | Description                                        |
-| ----------------- | -------- | -------- | -------------------------------------------------- |
-| `projectNameOrId` | `Object` | Yes      | The name or ID of the project containing the plan. |
-| `planNameOrId`    | `Object` | Yes      | The name or ID of the plan to be updated.          |
+<table><thead><tr><th width="205">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project containing the plan.</td></tr><tr><td><code>planNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the plan to be updated.</td></tr></tbody></table>
 
 ***
 
@@ -27,15 +24,36 @@ The endpoint updates an existing test plan for a specific project. The user must
 The JSON format request data that needs to be sent for updating a test plan is as follows:
 
 ```json
-{
-  "name": "Updated Test Plan",
-  "description": "Updated description of the test plan",
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 3
-  },
-  // Other plan data...
-}
+    {
+        "id": 13,
+        "project_id": 15,
+        "company_id": 1,
+        "plan_name": "UpdatedPlan",
+        "group_plan": false,
+        "description": "",
+        "enabled": true,
+        "plan_parallel_test_limit": 1,
+        "scenarios": [
+            16
+        ],
+        "period": {
+            "period_type": "MANUAL",
+            "days_of_week": "2,3,4,5,6,7,1",
+            "repeat_period": 60
+        },
+        "alerts": [],
+        "alerts_enabled": false,
+        "failed_test_retry_count": 0,
+        "screen_shot_type": "YES",
+        "video_enabled": true,
+        "environments": [
+            {
+                "id": 15
+            }
+        ],
+        "clear_app_data": false,
+        "fetch_app_files": []
+    }
 ```
 
 | Parameter     | Type     | Required | Description                                                                            |
@@ -52,19 +70,34 @@ Upon a successful request, the API returns the following JSON structure:
 
 ```json
 {
-  "id": 123,
-  "name": "Updated Test Plan",
-  "description": "Updated description of the test plan",
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 3
-  },
-  "projectId": 10,
-  "user": {
-    "id": 1,
-    "username": "john_doe",
-    "email": "john@example.com"
-  }
+    "id": 13,
+    "project_id": 15,
+    "company_id": 1,
+    "plan_name": "UpdatedPlan",
+    "group_plan": false,
+    "description": "",
+    "enabled": true,
+    "plan_parallel_test_limit": 1,
+    "scenarios": [
+        16
+    ],
+    "period": {
+        "period_type": "MANUAL",
+        "days_of_week": "2,3,4,5,6,7,1",
+        "repeat_period": 60
+    },
+    "alerts": [],
+    "alerts_enabled": false,
+    "failed_test_retry_count": 0,
+    "screen_shot_type": "YES",
+    "video_enabled": true,
+    "environments": [
+        {
+            "id": 15
+        }
+    ],
+    "clear_app_data": false,
+    "fetch_app_files": []
 }
 ```
 
@@ -96,15 +129,37 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl -X PUT "<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}" \
--H "Authorization: Bearer <your_access_token>" \
--H "Content-Type: application/json" \
--d '{
-  "name": "Updated Test Plan",
-  "description": "Updated description of the test plan",
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 3
-  }
-}'
+curl --location --request PUT '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans/{planNameOrId}' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <your_access_token>' \
+--data '{
+        "id": 13,
+        "project_id": 15,
+        "company_id": 1,
+        "plan_name": "UpdatedPlan",
+        "group_plan": false,
+        "description": "",
+        "enabled": true,
+        "plan_parallel_test_limit": 1,
+        "scenarios": [
+            16
+        ],
+        "period": {
+            "period_type": "MANUAL",
+            "days_of_week": "2,3,4,5,6,7,1",
+            "repeat_period": 60
+        },
+        "alerts": [],
+        "alerts_enabled": false,
+        "failed_test_retry_count": 0,
+        "screen_shot_type": "YES",
+        "video_enabled": true,
+        "environments": [
+            {
+                "id": 15
+            }
+        ],
+        "clear_app_data": false,
+        "fetch_app_files": []
+    }'
 ```

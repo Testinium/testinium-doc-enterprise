@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Force Run Test Plan
 
 The endpoint is used to run a specific test plan. It provides options to forcefully run the plan or to check for environment availability and other preconditions before starting the execution.
@@ -75,6 +79,6 @@ Possible error codes and their explanations during the operation:
 
 ```bash
 curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/run/{forceRun}" \
--H "Authorization: Bearer <your_access_token>" \
+--header 'Authorization: Bearer <your_access_token>' \
 -H "Accept: application/json"
 ```

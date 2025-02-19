@@ -53,7 +53,7 @@ Upon a successful request, the API returns a `StopTestPlanResponse` object. If t
 ### Example Request
 
 ```bash
-curl -X GET "<custom-env-url>/Testinium.RestApi/api/plans/{id}/stop" \
--H "Authorization: Bearer <your_access_token>" \
--H "Accept: application/json"
+curl -X GET '<custom-env-url>/Testinium.RestApi/api/plans/{id}/stop' \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'Content-Type: application/json'
 ```
