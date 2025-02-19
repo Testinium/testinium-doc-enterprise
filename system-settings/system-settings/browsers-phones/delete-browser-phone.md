@@ -1,7 +1,16 @@
 # Delete Browser/Phone
 
-Scanner/phone manufacturers defined in the system can be deleted. Click on the Delete icon for the record to be deleted from the listing screen.&#x20;
+The following steps are followed on the Browser/Phone List page to delete a browser/phone;
 
-![](../../../.gitbook/assets/BrowserPhoneDelete.png)
+1. Click the _**Delete**_ button.
 
-&#x20;On the pop-up that appears, the Yes button is click in response to the question "Do you want to delete this record?". If the No button is clicked, the system cancels the deletion process.
+<figure><img src="../../../.gitbook/assets/Browser screen delete btn.png" alt=""><figcaption></figcaption></figure>
+
+2.  In the warning popup;&#x20;
+
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../.gitbook/assets/Browser Delete Screen.png" alt=""><figcaption></figcaption></figure>
+

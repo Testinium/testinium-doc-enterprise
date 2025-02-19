@@ -110,14 +110,14 @@
 
 ***
 
-* [BDD Editor](bdd-editor/README.md)
+* [BDD EDITOR](bdd-editor/README.md)
   * [Create Concept File](bdd-editor/create-concept-file/README.md)
     * [New scenario](bdd-editor/create-concept-file/new-scenario.md)
     * [New Test Step](bdd-editor/create-concept-file/new-test-step.md)
   * [Create Spec File](bdd-editor/create-spec-file/README.md)
     * [New Scenario](bdd-editor/create-spec-file/new-scenario.md)
     * [New Test Step](bdd-editor/create-spec-file/new-test-step.md)
-* [Reports](reports/README.md)
+* [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto.md)
   * [Show Report](reports/show-report.md)
   * [Export Excel](reports/export-excel.md)

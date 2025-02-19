@@ -1,9 +1,15 @@
 # Delete Environment
 
-Test environments that are defined in the system can be deleted. Click on the Delete icon for the record that is wanted to be deleted from the listing screen.
+The following steps are followed on the Test Environments page to delete a environment;
 
-![](../../../.gitbook/assets/TestEnvironment-Delete.png)
+1. Click the _**Delete**_ button.
 
-&#x20;
+<figure><img src="../../../.gitbook/assets/TestEnv Screen delete btn.png" alt=""><figcaption></figcaption></figure>
 
-On the pop-up that appears, the Yes button is clicked in response to the question "Do you want to delete this record?". If the No button is clicked, the system cancels the deletion process.&#x20;
+2.  In the warning popup;&#x20;
+
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../../.gitbook/assets/TestEnv delete screen.png" alt=""><figcaption></figcaption></figure>

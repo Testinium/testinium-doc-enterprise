@@ -1,14 +1,20 @@
 # Create New Phone/Browser
 
-![](../../../.gitbook/assets/BrowserPhoneForm.png)
+A new browser/phone definition in the system is made by following the steps below;
 
-On the pop-up screen;&#x20;
+1. Click the _**Cretae Browser/Phone**_ button.
 
-1. Code &#x20;
-2. Name&#x20;
-3. Operating System &#x20;
-4. Enabled &#x20;
+<figure><img src="../../../.gitbook/assets/Browser screen create btn.png" alt=""><figcaption></figcaption></figure>
 
-These values are entered and the Save button is clicked. The system saves the new browser/phone value to the system. If the Cancel button is clicked, the system cancels the new browser/phone creation operation.&#x20;
+2. Enter the following fields in the Browser/Phone Form page.
 
-&#x20;
+* Code
+* Name
+* Operating System
+* Enabled
+
+<figure><img src="../../../.gitbook/assets/Browser Create Screen.png" alt=""><figcaption></figcaption></figure>
+
+3.  a. Click the _**Save**_ button to save the browser/phone.
+
+    b. Click the _**Cancel**_ button to cancel the creating operation.

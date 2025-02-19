@@ -1,13 +1,8 @@
 # Browsers / Phones
 
-&#x20;
+Browser/Phone is the screen where the scanner and phone models to be used for the tests in the system are listed and defined.&#x20;
 
-Which browser and phone models will be used for tests in the system are defined/listed on this screen. This screen and the Browser and Device screens have the same function. Filtering can be done in the listing area according to the operating system that is selected from the Operating System area on the listing screen.&#x20;
+* This screen has the same function with Browser and Device screens.
+* &#x20;Filtering can be done according to the Operating System on the listing screen.
 
-&#x20;
-
-Testinium > System Settings > Browser/Phones&#x20;
-
-
-
-![](../../../.gitbook/assets/BrowsersPhonesList.png)
+<figure><img src="../../../.gitbook/assets/Browser screen.png" alt=""><figcaption></figcaption></figure>

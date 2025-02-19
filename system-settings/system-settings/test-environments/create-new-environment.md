@@ -1,21 +1,21 @@
 # Create New Environment
 
-It is the screen where a new test environment is defined in the system.
+A new test environment definition in the system is made by following the steps below;
 
+1. Click the _**Cretae New Environment**_ button.
 
+<figure><img src="../../../.gitbook/assets/TestEnv Screen Create btn.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../.gitbook/assets/TestEnvironmentForm.png)
+2. Select/Enter the following fields in the Browser/Phone Form page.
 
-On the pop-up screen;&#x20;
+* Operating Sistem
+* Browser
+* Browser Version
+* Company Name
+* Enabled
 
-&#x20;
+<figure><img src="../../../.gitbook/assets/TestEnv create screen.png" alt=""><figcaption></figcaption></figure>
 
-1. Operating Sistem &#x20;
-2. Browser&#x20;
-3. Browser Version&#x20;
-4. Company Name&#x20;
-5. Enabled &#x20;
+3.  a. Click the _**Save**_ button to save the test environment.
 
-&#x20;
-
-values are entered and the Save button is clicked. The system saves the new device manufacturer value to the system. If the Cancel button is pressed, the system cancels the new test environment definition process.&#x20;
+    b. Click the _**Cancel**_ button to cancel the creating operation.
