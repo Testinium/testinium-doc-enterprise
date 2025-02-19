@@ -1,15 +1,21 @@
-# Creating Cloud Environment Group
+# Create Cloud Environment Group
 
-This page is accessed by clicking the Create New Group button on the Cloud environment group page. After selecting the group name and operating system, the appropriate environments are listed in the left part of the environment selection area. After the desired environments are selected, the selection is completed with the right key.&#x20;
+A new cloud test environment group definition in the system is made by following the steps below;
 
-&#x20;
+1. Click the _**Cretae New Group**_ button.
 
-Test Run Method: It is chosen randomly if it is sufficient to run the test in any of the selected environments. In cases where each test must be run in all environments, the One by one option is selected.&#x20;
+<figure><img src="../../../.gitbook/assets/Cloud group screen create btn.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+2. Select/Enter the following fields in the Cloud Test Environment List page.
 
-After completing the above processes, user should click the Save button to complete the process.
+* Group Name
+* Operating System
+* Environment Selection&#x20;
+* **Test Run Method;** it is chosen randomly if it is sufficient to run the test in any of the selected environments. In cases where each test must be run in all environments, the One by one option is selected.
 
+<figure><img src="../../../.gitbook/assets/cloud group create.png" alt=""><figcaption></figcaption></figure>
 
+3.  a. Click the _**Save**_ button to save the cloud test environment group.
 
-![](../../../.gitbook/assets/CloudTestEnvironmentGroup-Create.png)
+    b. Click the _**Cancel**_ button to cancel the creating operation.
+

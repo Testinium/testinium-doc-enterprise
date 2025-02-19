@@ -1,9 +1,5 @@
 # Cloud Test Environments Groups
 
+_**Cloud Test Environment**_ is the screen with a grouped version of the environments in the cloud.
 
-
-On this page, there is a grouped version of the environments that are in the Cloud environment.
-
-
-
-![](../../../.gitbook/assets/CloudTestEnvironmentsGroup.png)
+<figure><img src="../../../.gitbook/assets/Cloud group screen.png" alt=""><figcaption></figcaption></figure>

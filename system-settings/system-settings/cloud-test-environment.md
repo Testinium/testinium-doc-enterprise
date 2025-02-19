@@ -1,7 +1,6 @@
 # Cloud Test Environment
 
-This page shows information about the environments that can be used through the cloud environment and their status.
+_**Cloud Test Environment**_ is the screen that contains information about the environments that can be used over the cloud environment and their status.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-19 at 13.57.07.png" alt=""><figcaption></figcaption></figure>
 
-
-![](../../.gitbook/assets/CloudTestEnvironment.png)
