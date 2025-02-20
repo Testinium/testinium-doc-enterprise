@@ -7,7 +7,7 @@
 
 ## Login
 
-* [User Login Guide](login/login.md)
+* [User Login](login/login.md)
 * [Reset Password](login/forgot-password.md)
 
 ## Dashboard
@@ -124,8 +124,8 @@
 * [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto/README.md)
     * [Test Result Reports](reports/test-executions-auto/show-report.md)
+    * [Delete Test Report](reports/test-executions-auto/delete-test-report.md)
     * [Export Report](reports/test-executions-auto/export-excel.md)
-  * [Delete Test Report](reports/delete-test-report.md)
   * [Test Execution(Remote)](reports/test-execution-remote/README.md)
     * [Show Report](reports/test-execution-remote/show-report.md)
   * [Detailed Reports](reports/detailed-reports/README.md)
@@ -142,7 +142,7 @@
   * [Graph Report](reports/graph-report.md)
   * [Execution Graph](reports/execution-graph.md)
   * [Pass Rate Reports](reports/pass-rate-reports.md)
-  * [Tag Reports](reports/tag-reports.md)
+  * [Test Executions (Tag)](reports/tag-reports.md)
 
 ## Plugins
 
