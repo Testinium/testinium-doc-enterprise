@@ -143,6 +143,7 @@
   * [Execution Graph](reports/execution-graph.md)
   * [Pass Rate Reports](reports/pass-rate-reports.md)
   * [Test Executions (Tag)](reports/tag-reports.md)
+  * [Test Result by Period](reports/test-result-by-period.md)
 
 ## Plugins
 
