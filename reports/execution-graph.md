@@ -1,17 +1,33 @@
 # Execution Graph
 
-&#x20;
+Execution Graphs is a report screen where the numbers of the test execution results of the projects according to certain criteria are displayed as graphs.&#x20;
 
-This page shows the graphs about the number of runs of the projects. The graphics are displayed by selecting the start, end and projects and clicking the draw button.&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-20 at 21.27.23.png" alt=""><figcaption></figcaption></figure>
 
+Graphs are created by following the steps below;
 
+1. Enter the date range.
 
-&#x20;
+{% hint style="info" %}
+Projects within this selected date range appear in the Unselected Projects field.
+{% endhint %}
 
-Three graphs are displayed. On these graphs, graphs are displayed according to the total number of runs, by the last run and by the dates of the runs.&#x20;
+2. Move the projects from Unselected Projects to Selected Projects.
+3. Select the status of projects.
+4. Click the _**Draw**_ to create the graphics.
 
-&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-20 at 21.28.28.png" alt=""><figcaption></figcaption></figure>
 
+5. The screen displays three graphs.
 
+* _**Testinium Total Execution Results;**_ number of total test runs by status.
 
-![](<../.gitbook/assets/Screen Shot 2021-12-09 at 08.59.07.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-20 at 22.23.12.png" alt=""><figcaption></figcaption></figure>
+
+* _**Testinium Total Execution Results;**_ number of last runs by status.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-20 at 22.29.26.png" alt=""><figcaption></figcaption></figure>
+
+* _**Test Execution Result By Date;**_ number of test results to run dates by status.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-20 at 22.33.58.png" alt=""><figcaption></figcaption></figure>
