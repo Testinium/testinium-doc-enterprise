@@ -16,7 +16,7 @@
 
 5. On the Company Listing page, click the **Edit** button for the company where the plugin will be integrated.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-19 at 10.48.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 10.07.34.png" alt=""><figcaption></figcaption></figure>
 
 6. On the displayed screen, navigate to the **Plugin** page for the selected Company.
 
@@ -72,7 +72,7 @@
 
 17. On the Project Edit page, click the **Edit Azure DevOps Settings** button to configure the integration settings.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.07.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 10.08.28.png" alt=""><figcaption></figcaption></figure>
 
 18. On the displayed screen, fill in the following fields:
     * **Assigned User**
