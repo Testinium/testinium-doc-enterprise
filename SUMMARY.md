@@ -212,3 +212,8 @@
   * [List Test Results](apis/reports/list-test-results.md)
   * [Find Test Result by Session ID](apis/reports/find-test-result-by-session-id.md)
   * [Create Test Result](apis/reports/create-test-result.md)
+
+***
+
+* [Release Notes](release-notes/README.md)
+  * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/testinium-enterprise-1.16.7-release-notes.md)
