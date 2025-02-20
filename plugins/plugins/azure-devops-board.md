@@ -86,7 +86,7 @@
 
     **Note:** The available fields in the **Fields** section vary depending on the selected **Issue Type**. For specific requests or custom fields, please contact the Support team.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-20 at 01.10.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/azure devops settings project copy.jpeg" alt=""><figcaption></figcaption></figure>
 
 20. After completing the Azure DevOps integration settings for the project, follow the steps below to create an issue in Azure DevOps within the related project:
     * Open the **Plans** page.
