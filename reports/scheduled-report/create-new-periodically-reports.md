@@ -1,50 +1,41 @@
 # Create New Periodically Reports
 
-A new periodic report definition is made in the system. The first General Informations tab appears on the screen.
+_**Create Scheduled Report**_ is the screen where a new periodic report is defined in the system.
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.20.18.png>)
+The first time the screen is entered, the user is directed to the General Information tab.
 
-On the screen that opens;&#x20;
+The following steps are followed to create a new periodic report;
 
-&#x20;
+1. Enter the following fields in the General Information that opens.&#x20;
 
-1. Report Name &#x20;
-2. Mail Content &#x20;
-3. Status &#x20;
-4. Usage Gauge &#x20;
-5. Enabled &#x20;
-6. Project List &#x20;
+* _Report Name_
+* _Mail Content_
+* _Status_
+* _Usage Gauge_
+* _Enabled_
+* _Project List_
 
-&#x20;
-
-These values are entered and the Timing Issues tab is clicked.&#x20;
-
-
+2. Click the _**Timing Issues**_ tab.
+3. Enter the following fields in the Timing Issues.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.21.11.png>)
 
-On the screen that opens;&#x20;
+* Report Frequency
+* Start Date
+* Report Hour
+* End Date
 
-&#x20;
+4. Click the Alert tab.
+5. Enter the mail address to send periodic report.
+6. Click the Add button to add mail address.
 
-1. Report Frequency &#x20;
-2. Start Date &#x20;
-3. Report Hour &#x20;
-4. End Date &#x20;
-
-&#x20;
-
-These values are entered and the Alert Issues tab is clicked.&#x20;
+{% hint style="info" %}
+The related mail address can be removed from the list with the _**Remove**_ button next to the added mail address.
+{% endhint %}
 
 ![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.22.07.png>)
 
-On the screen that opens;&#x20;
+7.  a. Click the _**Save**_ button to save periodic report.
 
-&#x20;
-
-* Enter the e-mail value and click the Add button. The e-mail is added to the list and can be removed with the Remove button if desired.&#x20;
-
-&#x20;
-
-The user clicks the Save button and completes the new periodic report definition process. If the Cancel button is clicked, the system cancels the new periodic report definition process.&#x20;
+    b. Click the _**Cancel**_ button to cancel the definition.
 
