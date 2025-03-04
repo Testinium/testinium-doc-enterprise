@@ -2,10 +2,11 @@
 
 _**Plans**_ is the screen where test plans are defined.
 
-![](../../.gitbook/assets/TestPlanList.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 13.57.45.png" alt=""><figcaption></figcaption></figure>
 
-Under the Columns button, there exists Created By, Created At, Updated By and Updated At options. It is added by selecting the desired options.
+{% hint style="info" %}
+Created By, Created At, Updated By and Updated At information to be seen on the listing screen can be added as columns by clicking the _**Columns**_ button.
+{% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-08 at 15.22.26.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 14.38.04.png" alt=""><figcaption></figcaption></figure>
 
-Under the Columns button, there exists Created By, Created At, Updated By and Updated At options. It is added by selecting the desired options.
