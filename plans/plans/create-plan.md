@@ -1,122 +1,124 @@
 # Create Plan
 
-It is the screen where a new plan definition is made in the system. Before creating a new plan, it is mandatory to select Project Name from the homepage. If the Create a new plan button is clicked without selecting the Project Name, the system displays the error message regarding the selection of the project name. &#x20;
+_**Create Plan**_ is the screen where a new plan definition is made in the system.
 
-The system displays the first Test Plan Details tab.&#x20;
+The following steps are followed to create a new plan;
+
+1. Select a project from the main Plans screen.
+
+{% hint style="info" %}
+If the Create New Plan button is clicked without selecting the Project Name, the system displays the error message regarding the project name selection.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 14.48.19.png" alt=""><figcaption></figcaption></figure>
+
+2. Create the _**Create New Plan**_ button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 14.50.04.png" alt=""><figcaption></figcaption></figure>
+
+3. Enter the fields below in the _**Test Plan Details**_ form;
+
+* Project Name
+* Plan Name
+* Description
+* Scenarios of Plan
+* Add Parameters / Java Test Parameters; Clicking the Add Parameters button, the system displays the Java Test Parameters field. The following fields are entered to add parameters.
+  * Name
+  * Value
+  * Description
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Selenium Grid; The environment where the tests will run, Enterprise or Cloud
+* Failed Test Retry Count (Number of Repetitions on Test Fail)
+* Parallel Test Limit
+* Max Execution Time per Scenario
+* Enabled
+* Screenshots
+* Record Video
+* Capture Performans Data; Displayed in browser tests, not in mobile tests. Reports values such as screens on time
+* Group Test Plan; If one of the two Mobile Devices is the Receiver and the Other is the Sender, the group is defined as the plan and the Receiver/Sender is defined as the parameter in the Plan. (Only in mobile environment tests)
+* Clear App Data (Only in mobile environment tests)
+* Fetch File From Device; In mobile tests, the directory of the log file is given where the log file is almost. (Only in mobile environment tests)
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 14.56.32.png" alt=""><figcaption><p>Test Plan Details 1</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 14.56.20.png" alt=""><figcaption><p>Test Plan Details 2</p></figcaption></figure>
 
 
 
-![](../../.gitbook/assets/TestPlanForm.png)
+4. a. Click _**Next**_ to continue to the next form screen.
 
-On the screen that opens;&#x20;
+&#x20;       b. Click the _**Cancel**_ button to cancel the process of adding a new plan.
 
-1. Project Name &#x20;
-2. Plan Name &#x20;
-3. Description &#x20;
-4. Scenarios of Plan &#x20;
-5. Add Parameters / Java Test Parameters &#x20;
-6. Selenium Grid (The environment where the tests will run, Enterprise or Cloud)&#x20;
-7. Failed Test Retry Count (Number of Repetitions on Test Fail)&#x20;
-8. Parallel Test Limit &#x20;
-9. Max Execution Time per Scenario &#x20;
-10. Enabled &#x20;
-11. Screenshots &#x20;
-12. Record Video &#x20;
-13. Capture Performans Data (Displayed in browser tests, not in mobile tests. Reports values such as screens on time)&#x20;
-14. Group Test Plan (If one of the two Mobile Devices is the Receiver and the Other is the Sender, the group is defined as the plan and the Receiver/Sender is defined as the parameter in the Plan.)&#x20;
-15. Clear App Data&#x20;
-16. Fetch File From Device (In mobile tests, the directory of the log file is given where the log file is almost.&#x20;
+5. The next step depends on the project type;
 
-These values are entered and the Next button is clicked. The system displays the Mobile Platform Selection screen. If Cancel is clicked, the system cancels the process of adding a new plan.&#x20;
+a. If the selected project is _**a web project (Selenium)**_,  _**Browser Selection**_ screen opens.&#x20;
 
-&#x20;
+b. If the selected project is _**a mobile project (Appium)**_, _**Mobile Browser Selection**_ screen opens.
 
-Clicking the Add Parameters button, the system displays the Java Test Parameters field.&#x20;
-
-![](<../../.gitbook/assets/TestPlanForm-SystemParameters (1).png>)
-
-1. Name &#x20;
-2. Value &#x20;
-3. Description &#x20;
-
-Data is entered in the fields and the Add button is clicked. Added values can be updated and deleted. These values are general parameters for the test code. They are not parameters entered for the screen.&#x20;
+c. If the selected project is _**a service project**_, the Schedule screen opens, which is the              next step since no platform selection is made.
 
 ![](../../.gitbook/assets/TestPlanForm-MobileSelection.png)
 
-On the Mobile Platform Selection screen that opens;&#x20;
+On the Mobile Platform Selection screen that opens;
 
-1. Browser&#x20;
-2. Browser Version &#x20;
+1. Browser
+2. Browser Version
 
-The desired mobile is found from the fields and these selections are added to the Selected Mobile Platform section by clicking the Add button.&#x20;
+The desired mobile is found from the fields and these selections are added to the Selected Mobile Platform section by clicking the Add button.
 
-Click the Next button and go to the Schedule tab.&#x20;
+Click the Next button and go to the Schedule tab.
 
-If the Back button is clicked, it will be directed to the Test Plan Details tab.&#x20;
+If the Back button is clicked, it will be directed to the Test Plan Details tab.
 
-If the Cancel button is clicked, the system cancels the plan definition process.&#x20;
-
-
+If the Cancel button is clicked, the system cancels the plan definition process.
 
 ![](../../.gitbook/assets/TestPlanForm-Schedule.png)
 
-If it is a one-time test plan, the Start Date is entered in the Once option.&#x20;
+If it is a one-time test plan, the Start Date is entered in the Once option.
 
-If a repetitive test plan is desired, click on the Repetitive tab and on the screen that opens,&#x20;
+If a repetitive test plan is desired, click on the Repetitive tab and on the screen that opens,
 
-1. Start Date &#x20;
-2. Finished Date &#x20;
-3. Days of Week &#x20;
-4. Repeat Period &#x20;
+1. Start Date
+2. Finished Date
+3. Days of Week
+4. Repeat Period
 
-&#x20;
+These values are entered in the form field.
 
-These values are entered in the form field.&#x20;
+Click the Next button and proceed to the Notifications tab.
 
-Click the Next button and proceed to the Notifications tab.&#x20;
+If the Back button is clicked, it will be directed to the Schedule tab.
 
-If the Back button is clicked, it will be directed to the Schedule tab.&#x20;
+If the Cancel button is clicked, the system cancels the plan definition process.
 
-If the Cancel button is clicked, the system cancels the plan definition process.&#x20;
-
-The system displays the Notifications tab.&#x20;
-
-
+The system displays the Notifications tab.
 
 ![](../../.gitbook/assets/TestPlanForm-Notification.png)
 
-On the screen that opens;&#x20;
+On the screen that opens;
 
-&#x20;
+1. Send Notification
+2. E-mail
+3. Execution Status
+4. Test Result Notification
+5. Test Result Status
 
-1. Send Notification &#x20;
-2. E-mail &#x20;
-3. Execution Status &#x20;
-4. Test Result Notification &#x20;
-5. Test Result Status &#x20;
+These values are entered and the Add button is clicked. The system displays the added record on the listing screen. This added record can be removed with the Remove button.
 
-&#x20;
+Click the Next button and proceed to the Confirm tab.
 
-These values are entered and the Add button is clicked. The system displays the added record on the listing screen. This added record can be removed with the Remove button.&#x20;
+If the Back button is clicked, it will be directed to the Notifications tab.
 
-Click the Next button and proceed to the Confirm tab.&#x20;
+If the Cancel button is clicked, the system cancels the plan definition process.
 
-If the Back button is clicked, it will be directed to the Notifications tab.&#x20;
-
-If the Cancel button is clicked, the system cancels the plan definition process.&#x20;
-
-&#x20;
-
-On the Confirm screen that opens, the system displays a summary of all the information in the previously entered tabs.&#x20;
-
-&#x20;
-
-
+On the Confirm screen that opens, the system displays a summary of all the information in the previously entered tabs.
 
 ![](../../.gitbook/assets/TestPlanForm-Confirm.png)
 
-The system admin clicks the Save button. The system saves the new plan definition.&#x20;
+The system admin clicks the Save button. The system saves the new plan definition.
 
-If the Back button is clicked, it will be directed to the Notifications tab.&#x20;
+If the Back button is clicked, it will be directed to the Notifications tab.
 
-If the Cancel button is pressed, the system cancels the new plan definition process. &#x20;
+If the Cancel button is pressed, the system cancels the new plan definition process. 

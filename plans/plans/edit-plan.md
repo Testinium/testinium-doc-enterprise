@@ -1,21 +1,19 @@
 # Edit Plan
 
-All defined plans are listed on the listing screen. The last four icons in the list area are for Update, Delete, Test Report and Run Plan.&#x20;
+Plans can be updated by following the steps below;
 
-&#x20;
+1. Click the _**Edit**_ button on the relevant plan line in the plan list.
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-08 at 17.14.38.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 16.48.29.png" alt=""><figcaption></figcaption></figure>
 
-Click the Update icon for the record you want to update from the list. System displays the system tabs:&#x20;
+2. Edit the required fields in the Test Plan form in the following steps;
 
-&#x20;
+* Test Plan Details
+* Mobile Platform Selection (for Appium projects)
+* Platform Selection (for Selenium projects)
+* Schedule
+* Notifications
+* Confirm
 
-1. Test Plan Details&#x20;
-2. Mobile Platform Selection&#x20;
-3. Schedule&#x20;
-4. Notifications&#x20;
-5. Confirm&#x20;
+3. a. Click on the _**Save**_ button to save the changes made.                                                               b. Click _**Cancel**_ to cancel the edit operation.
 
-&#x20;
-
-System Admin changes the field he wants to update at each step and clicks the Save button. System information is updated. To cancel the update process Cancel button must be clicked.&#x20;
