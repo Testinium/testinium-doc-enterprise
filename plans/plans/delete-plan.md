@@ -1,7 +1,16 @@
 # Delete Plan
 
-Plans defined in the system can be deleted. User should click on the Delete icon for the record to be deleted from the listing screen.
+The following steps are taken to delete a plan;
 
-![](../../.gitbook/assets/TestPlanList-Delete.png)
+1. Select a plan.
+2. Click the _**Delete**_ button.
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 17.04.54.png" alt=""><figcaption></figcaption></figure>
+
+3. In the warning popup;&#x20;
+
+&#x20;      a. Click _**Yes**_ to delete.
+
+&#x20;      b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 17.05.22.png" alt=""><figcaption></figcaption></figure>
