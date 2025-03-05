@@ -1,19 +1,15 @@
 # Projects
 
-In the system, test scenarios are defined depending on a project and run according to the definitions in the project.&#x20;
+_**Projects**_ is the screen where project definitions are made. In the system, test scenarios are defined depending on a project and run according to the definitions in the project.
 
-&#x20;
-
-Projects are defined according to Web / Mobile or Web Service test preference. Each test plan works on a project.&#x20;
-
-&#x20;
-
-Testinium > Projects&#x20;
+Projects are defined according to Web, Mobile or Service test preference. Each test plan works on a project.
 
 
 
-![](../../.gitbook/assets/ProjectList.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 13.28.40.png" alt=""><figcaption></figcaption></figure>
 
-Under the Columns button, there are Created By, Created At, Updated By and Updated At options. It can be added as a column by selecting any of these options.
+{% hint style="info" %}
+Created By, Created At, Updated By and Updated At information to be seen on the listing screen can be added as columns by clicking the _**Columns**_ button.
+{% endhint %}
 
-![](../../.gitbook/assets/ProjectList-EkstraKolon.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 13.31.01.png" alt=""><figcaption></figcaption></figure>

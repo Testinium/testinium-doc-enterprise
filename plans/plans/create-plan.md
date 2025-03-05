@@ -1,6 +1,6 @@
 # Create Plan
 
-_**Create Plan**_ is the screen where a new plan definition is made in the system.
+_**“Create Plan”**_ directs the user to the screen where a new plan definition is made in the system.
 
 The following steps are followed to create a new plan;
 

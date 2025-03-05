@@ -1,69 +1,48 @@
 # Create New Project
 
-It is the screen where a new project definition is made in the system. Project definition is made by choosing Selenium if testing will be done only through the web browser, Selenium + Appium is chosen if mobile testing will be performed, and Service is chosen if Web Service testing will be performed.
+_**Create New Project**_ directs the user to the screen where a new project definition is made in the system.
 
-![](../../.gitbook/assets/ProjectForm.png)
+The following steps are followed to create a project;
 
-&#x20;
+1. Click the _**Create New Project**_ button from Project List.
 
-On pop-up the screen , the system offers three options;&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 14.15.15.png" alt=""><figcaption></figcaption></figure>
 
-1. Selenium&#x20;
-2. Selenium + Appium&#x20;
-3. Service&#x20;
+2. The first step to create a project is to choose the environment for it;
 
-Click on the icon of the environment that is wanted to be selected.&#x20;
+* _**Selenium;**_ selected if testing will be done via web browser.
+* _**Appium;**_ selected if mobile testing will be done.&#x20;
+* _**Service;**_ selected if web service testing will be performed.
 
-&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 14.24.26.png" alt=""><figcaption></figcaption></figure>
 
-If the choice is Selenium or Service;&#x20;
+3. Project Form is opened by clicking on the selection card.
+4. a. Enter the following fields in the Project Form screen if the selection is _**Selenium**_ or     _**Service;**_
 
+* Test Framework
+* Test File Type
+* Test Runner Tool
+* Project Name
+* Description
+* GIT Project Folder (This is where the test codes are located)
+* Enabled
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 14.28.32.png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/ProjectForm-Selenium.png)
+b. Enter the following fields in the Project Form screen if the selection is _**Appium;**_
 
+* Test Framework
+* Test File Type
+* Test Runner Tool
+* Project Name
+* Description
+* GIT Project Folder
+* Enabled
+* Uploaded Apps&#x20;
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 14.31.40.png" alt=""><figcaption><p>Project Form for Appium 1</p></figcaption></figure>
 
-On the pop-up screen;&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 14.32.02.png" alt=""><figcaption><p>Project Form for Appium 2</p></figcaption></figure>
 
-1. Test Framework &#x20;
-2. Test File Type &#x20;
-3. Test Runner Tool&#x20;
-4. Project Name &#x20;
-5. Description&#x20;
-6. GIT Project Folder (This is where the test codes are located)&#x20;
-7. Enabled  &#x20;
+5. a. Click the _**Save**_ button to save a new project to the system.                                                              b. Click the _**Cancel**_ button to cancel the definition operation.
 
-These values are entered and the Save button is clicked. The system saves the new project &#x20;
-
-definition. If the Cancel button is clicked, the system cancels the new Project definition process.&#x20;
-
-
-
-
-
-If the choice is Selenium + Appium;
-
-![](../../.gitbook/assets/ProjectForm-Appium.png)
-
-
-
-On the pop-up screen;&#x20;
-
-1. Test Framework&#x20;
-2. Test File Type &#x20;
-3. Test Runner Tool &#x20;
-4. Project Name &#x20;
-5. Description&#x20;
-6. GIT Project Folder&#x20;
-7. Enabled&#x20;
-8. IOS Mobile App&#x20;
-9. Android Mobile App
-10. Testinium Cloud Android App
-11. Testinium Cloud IOS App
-
-These values are entered and the Save button is clicked. The system saves the new project definition. If the Cancel button is clicked, the system cancels the new project definition process.
-
-
-
-&#x20;
