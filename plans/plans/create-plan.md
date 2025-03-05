@@ -53,72 +53,48 @@ If the Create New Plan button is clicked without selecting the Project Name, the
 
 5. The next step depends on the project type;
 
-a. If the selected project is _**a web project (Selenium)**_,  _**Browser Selection**_ screen opens.&#x20;
+* If the selected project is _**a web project (Selenium)**_,  _**Browser Selection**_ screen opens.&#x20;
+* If the selected project is _**a mobile project (Appium)**_, _**Mobile Browser Selection**_ screen opens.
+* If the selected project is _**a service project**_, the Schedule screen opens, which is the              next step since no platform selection is made.
 
-b. If the selected project is _**a mobile project (Appium)**_, _**Mobile Browser Selection**_ screen opens.
+6. Enter the following fields on the Mobile Platform Selection/ Platform Selection screen;
 
-c. If the selected project is _**a service project**_, the Schedule screen opens, which is the              next step since no platform selection is made.
+* Mobile Platform Selection (Browser/Browser Version by clicking the Add button)&#x20;
+* Platform Selection (Screen Resolutions/Browser Selection by clicking the Add button)
 
 ![](../../.gitbook/assets/TestPlanForm-MobileSelection.png)
 
-On the Mobile Platform Selection screen that opens;
 
-1. Browser
-2. Browser Version
 
-The desired mobile is found from the fields and these selections are added to the Selected Mobile Platform section by clicking the Add button.
+7. a. Click the _**Next**_ button and go to the Schedule tab.                                                                        b. Click the _**Back**_ button to return Test Plan Details ta&#x62;**.**                                                                    c. Click the _**Cancel**_ button to cancel the plan definition process.
+8. Select Scheduled Period Type on the Scheduled screen and enter the required fields;
 
-Click the Next button and go to the Schedule tab.
-
-If the Back button is clicked, it will be directed to the Test Plan Details tab.
-
-If the Cancel button is clicked, the system cancels the plan definition process.
+* Select _**Once**_ if it is a one-time test plan and enter the Start Date.&#x20;
+* Select _**Repetitive**_ tab if a repetitive test plan is desired and enter Start Date, Finished Date, Days of Week and Repeat Period fields on the screen that opens.&#x20;
+* Select Manual option if the plan will be run manually.
 
 ![](../../.gitbook/assets/TestPlanForm-Schedule.png)
 
-If it is a one-time test plan, the Start Date is entered in the Once option.
+9. a. Click the _**Next**_ button and go to the Notifications tab.                                                                        b. Click the _**Back**_ button to return Platform Selection ta&#x62;**.**                                                                    c. Click the _**Cancel**_ button to cancel the plan definition process.
 
-If a repetitive test plan is desired, click on the Repetitive tab and on the screen that opens,
 
-1. Start Date
-2. Finished Date
-3. Days of Week
-4. Repeat Period
-
-These values are entered in the form field.
-
-Click the Next button and proceed to the Notifications tab.
-
-If the Back button is clicked, it will be directed to the Schedule tab.
-
-If the Cancel button is clicked, the system cancels the plan definition process.
-
-The system displays the Notifications tab.
 
 ![](../../.gitbook/assets/TestPlanForm-Notification.png)
 
-On the screen that opens;
+10. The Notification tab opens, where users are notified according to the specified criteria. The following fields are entered in this tab;
 
-1. Send Notification
-2. E-mail
-3. Execution Status
-4. Test Result Notification
-5. Test Result Status
+* Send Notification (Send Notification Active / Inactive)
+* E-mail
+* Execution Status (When to send a notification during execution)
+* Test Result Notification (Test Result Notification - Scenario X Browser/Phone means sending a notification as a result of the test)
+* Test Result Status  (When to send notification of the test result)
 
-These values are entered and the Add button is clicked. The system displays the added record on the listing screen. This added record can be removed with the Remove button.
-
-Click the Next button and proceed to the Confirm tab.
-
-If the Back button is clicked, it will be directed to the Notifications tab.
-
-If the Cancel button is clicked, the system cancels the plan definition process.
-
-On the Confirm screen that opens, the system displays a summary of all the information in the previously entered tabs.
+11. a. Click the _**Next**_ button and go to the Confirm tab.                                                                        b. Click the _**Back**_ button to return Schedule ta&#x62;**.**                                                                    c. Click the _**Cancel**_ button to cancel the plan definition process.
+12. On the _**Confirm**_ screen that opens, the system displays a summary of all the information in the tabs previously entered.
 
 ![](../../.gitbook/assets/TestPlanForm-Confirm.png)
 
-The system admin clicks the Save button. The system saves the new plan definition.
+13. a. Click the _**Save**_ button to save new plan.                                                                                   b. Click the _**Back**_ button to return Notifications ta&#x62;**.**                                                                    c. Click the _**Cancel**_ button to cancel the plan definition process.
 
-If the Back button is clicked, it will be directed to the Notifications tab.
 
-If the Cancel button is pressed, the system cancels the new plan definition process. 
+
