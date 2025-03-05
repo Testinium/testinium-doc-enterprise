@@ -1,14 +1,16 @@
 # Run Test Plan
 
-When you click Run plan, the system starts to run the test according to the project, demand and test plan settings.&#x20;
+Follow the steps below on the Plan screen to run the test according to the project, demand and test plan settings;
 
-&#x20;
+1. Click the _**Run Test**_ button.
+2.  In the warning popup;&#x20;
 
-![](../../.gitbook/assets/TestPlanList-Run.png)
+    a. Click _**Yes**_ to run.
 
-The test plan is run.
+    b. Click _**No**_ to cancel the running operation.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 17.28.09.png" alt=""><figcaption></figcaption></figure>
 
+3. If the 'Yes' button is pressed on the warning screen, the test is run
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-08 at 22.23.34.png>)
-
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 17.29.08.png" alt=""><figcaption></figcaption></figure>
