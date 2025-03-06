@@ -1,9 +1,16 @@
 # Delete Scenario
 
-Exceptions defined in the system can be deleted. User should click on the Delete icon for the record to be deleted from the listing screen.
+The following steps are taken to delete a scenario;
 
+1. Select a scenario.
+2. Click the _**Delete**_ button.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 15.58.32.png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/TestScenarioList-Delete.png)
+3. In the warning popup;&#x20;
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+&#x20;      a. Click _**Yes**_ to delete.
+
+&#x20;      b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 15.59.06.png" alt=""><figcaption></figcaption></figure>

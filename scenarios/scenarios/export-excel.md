@@ -1,11 +1,15 @@
 # Export Excel
 
-Scenarios are transferred to excel with the Export Excel operation on the listing screen then user should click on the Export Excel button on the listing screen.
+_**Export Excel**_ is the feature that allows the selected scenarios to be exported in excel format.
 
+The following steps should be followed to export the scenarios;
 
+1. Select scenarios to export from the list.
+2. Click the _**Export Excel**_ button.
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-08 at 23.15.42.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 16.20.51.png" alt=""><figcaption></figcaption></figure>
 
-The system offers a selection where the scenarios to be exported to excel are selected. After the scenario selections are made, the Export Excel button is clicked. The system downloads the excel to the computer.&#x20;
+3. Selections are downloaded to the computer in excel format.
 
-&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 16.23.25.png" alt=""><figcaption></figcaption></figure>
+

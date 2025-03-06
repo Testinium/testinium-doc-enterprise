@@ -1,37 +1,41 @@
 # Create New Scenarios
 
-It is the screen where a new scenario definition is made in the system. Before this process, Project Name must be selected on the listing screen. Otherwise, the system gives an error message that the new scenario operation cannot be performed without selecting a project name. The system also applies filtering on the listing screen according to the selected project name.
+_**“Create New Scenarios”**_ directs the user to the screen where a new scenario definition is made in the system.
 
+The following steps are followed to create a new scenario;
 
+1. Select a project from the main Plans screen.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 14.07.39.png" alt=""><figcaption></figcaption></figure>
 
+2. Click the _**Create New Scenario**_ button.
 
-![](<../../.gitbook/assets/TestScenarioForm (1).png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 14.09.04.png" alt=""><figcaption></figcaption></figure>
 
-On the screen that opens; &#x20;
+3. a. Enter the following fields on the Test Scenario Form screen;
 
-1. Project (t is the Project selected on the listing screen)&#x20;
-2. Scenario Name&#x20;
-3. Description&#x20;
-4. Expected Result&#x20;
-5. Test Steps &#x20;
-6. Group Name&#x20;
-7. Repository URL (Whichever link will be used for the test code, that value is entered.)&#x20;
-8. Source File (Which test code to run is selected here.)&#x20;
-9. System Parameters (Whichever parameter will be added, those values should be entered.)&#x20;
-10. Max Execution Time&#x20;
-11. Enabled  &#x20;
+* Project Name (selected from main Scenarios page)
+* Scenario Name
+* Description
+* Expected Result
+* Test Steps
+* Group Name
+* Repository URL (Whichever link will be used for the test code, that value is entered.)
+* Source File (Which test code to run is selected here.)
+* System Parameters (Whichever parameter will be added, those values should be entered.)
+* Max Execution Time
+* Enabled
 
-These values are entered and the Save button is clicked. The system saves the new scenario value to the system. If the Cancel button is pressed, the system cancels the scenario definition process.&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 14.15.26.png" alt=""><figcaption><p>Test Scenario Form 1</p></figcaption></figure>
 
-&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 14.15.39.png" alt=""><figcaption><p>Test Scenario Form 3</p></figcaption></figure>
 
-In the Test Steps field, the test steps are entered one by one and the Add button is pressed. The system adds them to the list. Added records can be deleted from the list.&#x20;
+b. Enter the test steps one by one in the _**Test Steps**_ field and click the Add button.
 
 ![](../../.gitbook/assets/TestScenarioForm-TestSteps.png)
 
-In the System Parameters field, the relevant values are entered into the buttons one by one, and the Add button is pressed. The system lists the entered values. Added values can be deleted and edited.
-
-
+c. Enter the related values one by one in the _**System Parameters**_ field and click the Add button. Added values can be deleted and edited.
 
 ![](../../.gitbook/assets/TestScenarioForm-SystemParameters.png)
+
+4. a. Click the _**Save**_ button to save the scenario.                                                                             b. Click the _**Cancel**_ button to cancel the scenario definition process.

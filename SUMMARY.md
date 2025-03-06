@@ -111,6 +111,7 @@
   * [Edit Scenario](scenarios/scenarios/edit-scenario.md)
   * [Delete Scenario](scenarios/scenarios/delete-scenario.md)
   * [Export Excel](scenarios/scenarios/export-excel.md)
+  * [Create New Group](scenarios/scenarios/create-new-group.md)
 
 ***
 

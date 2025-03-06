@@ -1,7 +1,16 @@
 # Delete Project
 
-Exceptions defined in the system can be deleted. Click on the Delete icon for the record to be deleted from the listing screen.
+The following steps are taken to delete a project;
 
-![](../../.gitbook/assets/ProjectList-Delete.png)
+1. Select a project.
+2. Click the _**Delete**_ button.
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 13.54.53.png" alt=""><figcaption></figcaption></figure>
+
+3.  In the warning popup;&#x20;
+
+    a. Click _**Yes**_ to delete.
+
+    b. Click _**No**_ to cancel the deletion.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 13.55.49.png" alt=""><figcaption></figcaption></figure>

@@ -1,58 +1,39 @@
 # Edit Project
 
-All defined users are listed on the listing screen. The last two icons in the list area are for Update and Delete.
+_**Edit Project**_ directs the user to the screen where a project update is made in the system.
 
-![](../../.gitbook/assets/ProjectList-Update.png)
+The following steps are followed to update a project;
 
-User should click the Update icon for the record you want to update from the list.
+1. Click the _**Edit**_ button.
 
-
-
-User should click the Update icon for the record you want to update from the list.&#x20;
-
-If you want to update a record with Test Framework selection Selenium or Service;&#x20;
+<figure><img src="../../.gitbook/assets/Edit Project.png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](../../.gitbook/assets/ProjectForm-Update.png)
+2. a. Edits can be made in the following fields if the selected project is _**Selenium**_ and _**Service**_ project;
 
-On the screen that opens;&#x20;
+* Test Framework
+* Test File Type
+* Test Runner Tool
+* Project Name
+* Description
+* GIT Project Folder
+* Edit Jira Setting
+* Enabled
 
-&#x20;
+b. Edits can be made in the following fields if the selected project is _**Appium**_ project;
 
-1. Test Framework &#x20;
-2. Test File Type &#x20;
-3. Test Runner Tool &#x20;
-4. Project Name &#x20;
-5. Description &#x20;
-6. GIT Project Folder &#x20;
-7. Edit Jira Setting &#x20;
-8. Enabled &#x20;
+* Test Framework
+* Test File Type
+* Test Runner Tool
+* Project Name
+* Description
+* SVN Project Folder
+* Edit Jira Settings
+* Enabled
+* IOS Mobile App
+* Android Mobile App
 
-&#x20;
+3.  a. Click the _**Save**_ button to save changes.
 
-These values are entered and the Save button is clicked. The system updates the selected project definition. If the Cancel button is pressed, the system will cancel the project update process.&#x20;
-
-
-
-If you want to update a record with Test Framework selection Selenium + Appium;
-
-
-
-![](../../.gitbook/assets/ProjectFrom-Appium.png)
-
-On the screen that opens;&#x20;
-
-1. Test Framework &#x20;
-2. Test File Type &#x20;
-3. Test Runner Tool &#x20;
-4. Project Name &#x20;
-5. Description &#x20;
-6. SVN Project Folder &#x20;
-7. Edit Jira Settings &#x20;
-8. Enabled &#x20;
-9. IOS Mobile App&#x20;
-10. Android Mobile App &#x20;
-
-These values are entered and the Save button is clicked. The system performs the project update process. If the Cancel button is pressed, the system cancels the project update process.&#x20;
-
+    b. Click the _**Cancel**_ button to cancel the edit.
