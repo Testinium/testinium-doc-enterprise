@@ -107,11 +107,11 @@
 
 * [Scenarios](scenarios/scenarios/README.md)
   * [Create New Scenarios](scenarios/scenarios/create-new-scenarios.md)
+  * [Create New Group](scenarios/scenarios/create-new-group.md)
   * [New Sub Scenario](scenarios/scenarios/new-sub-scenario.md)
   * [Edit Scenario](scenarios/scenarios/edit-scenario.md)
   * [Delete Scenario](scenarios/scenarios/delete-scenario.md)
   * [Export Excel](scenarios/scenarios/export-excel.md)
-  * [Create New Group](scenarios/scenarios/create-new-group.md)
 
 ***
 
@@ -127,8 +127,7 @@
     * [Test Result Reports](reports/test-executions-auto/show-report.md)
     * [Delete Test Report](reports/test-executions-auto/delete-test-report.md)
     * [Export Report](reports/test-executions-auto/export-excel.md)
-  * [Test Execution(Remote)](reports/test-execution-remote/README.md)
-    * [Show Report](reports/test-execution-remote/show-report.md)
+  * [Test Execution(Remote)](reports/test-execution-remote.md)
   * [Detailed Reports](reports/detailed-reports/README.md)
     * [List Report](reports/detailed-reports/list-report.md)
     * [Show Report](reports/detailed-reports/show-report.md)

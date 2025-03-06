@@ -15,17 +15,19 @@ The following steps are followed to create a new periodic report;
 * _Enabled_
 * _Project List_
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 22.08.00.png" alt=""><figcaption></figcaption></figure>
+
 2. Click the _**Timing Issues**_ tab.
 3. Enter the following fields in the Timing Issues.
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.21.11.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 22.08.57.png" alt=""><figcaption></figcaption></figure>
 
 * Report Frequency
 * Start Date
 * Report Hour
 * End Date
 
-4. Click the Alert tab.
+4. Click the _**Alert**_ tab.
 5. Enter the mail address to send periodic report.
 6. Click the Add button to add mail address.
 
@@ -33,7 +35,7 @@ The following steps are followed to create a new periodic report;
 The related mail address can be removed from the list with the _**Remove**_ button next to the added mail address.
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.22.07.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 22.09.20.png" alt=""><figcaption></figcaption></figure>
 
 7.  a. Click the _**Save**_ button to save periodic report.
 

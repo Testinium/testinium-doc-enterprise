@@ -2,6 +2,4 @@
 
 _**Scheduled Reports**_ is the screen that allows graphical reports prepared regularly at a specified time interval to be sent to the added persons.
 
-
-
-![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.19.03.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 at 22.06.34.png" alt=""><figcaption></figcaption></figure>
