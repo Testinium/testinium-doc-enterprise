@@ -1,34 +1,42 @@
 # Instant Reports
 
-It provides instant graphical report.&#x20;
+_**Instant Reports**_ is a reporting screen that provides instant graphical reports.
 
-&#x20;
+## Daily Basis Report
 
-Testinium > Reports > Instant Reports
+_**Daily Basis Report**_ provides a report of a test result run on the system according to a specified date.
 
-&#x20;
+The following steps are followed to prepare this report;
 
+1. Enter the following fields;
 
+* Project List
+* Report Date
+* Status
+* Add Usage Gauge
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 08.58.20.png" alt=""><figcaption></figcaption></figure>
 
+2. Click the _**Prepare Report**_ button or _**Prepare Environment Report**_ button.
 
-![](<../../.gitbook/assets/Screen Shot 2021-12-09 at 01.11.42 (1).png>)
+After this stage, _**Download**_ buttons screens are available to download the report in the desired format. Reports can be downloaded in pdf and excel format.
 
-On the screen that opens;&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 09.07.21.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+## Date Range Basis Report
 
-1. Project List &#x20;
-2. Report Date&#x20;
-3. Status &#x20;
-4. Add Usage Gauge &#x20;
+_**Date Range Basis Report**_ is a reporting screen that allows test reports to be downloaded from this screen in the system with a maximum date range of 1 month.
 
-&#x20;
+The following steps are followed to prepare this report;
 
-The values are selected or after selecting the Project and the Date, the Prepare Report or Prepare Environment Report button is pressed.&#x20;
+1. Enter the following fields;
 
-&#x20;
+* Project List
+* Starr Date, End Date
+* Status
 
-The system prepares the relevant file and the Download button appears. The user downloads the report to his computer by clicking the Download button.&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 08.59.22.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+2. Click the _**Prepare Report**_ button or _**Prepare Environment Report**_ button.
+
+After this stage, _**Download**_ buttons screens are available to download the report in the desired format. Reports can be downloaded in pdf and excel format.
