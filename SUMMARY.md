@@ -122,6 +122,7 @@
   * [Create Spec File](bdd-editor/create-spec-file/README.md)
     * [New Scenario](bdd-editor/create-spec-file/new-scenario.md)
     * [New Test Step](bdd-editor/create-spec-file/new-test-step.md)
+  * [Create Feature File](bdd-editor/create-feature-file.md)
 * [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto/README.md)
     * [Test Result Reports](reports/test-executions-auto/show-report.md)

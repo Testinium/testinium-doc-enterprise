@@ -1,7 +1,16 @@
 # BDD EDITOR
 
-_**BDD Editor**_ is the screen where features are sorted according to projects.&#x20;
+_**BDD Editor**_ is the screen for writing, editing and managing test cases in accordance with the BDD methodology.
 
-According to the selected project, feature names, language and scenario numbers are displayed.
+_**Gauge**_ BDD framework is selected in the selected project, the following operations are performed on the screen;
 
-![](../.gitbook/assets/BDDEditor-FileList.png)
+* Create Spec File
+* Create Concept File
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-03-07 at 16.55.07.png" alt=""><figcaption></figcaption></figure>
+
+If a framework other than Gauge is selected, the following operations are performed;
+
+* Create Fature File
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-03-07 at 16.55.44.png" alt=""><figcaption></figcaption></figure>
