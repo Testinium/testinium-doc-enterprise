@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Create Spec File
 
 _**Create Spec File**_ directs the user to the page where a new spec file is created.
@@ -25,4 +21,19 @@ The following steps are followed to create a spec file;
 The spec file can be saved without adding a scenario.
 {% endhint %}
 
-5.
+5. Enter the _**Scenario**_ name.
+6. Add _**Tag**_.
+
+{% hint style="info" %}
+* Tag field is required.
+* Tag must start with '@'
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-10 at 17.01.39.png" alt=""><figcaption></figcaption></figure>
+
+7. a. Click on the _**New Tag**_ button to add a new tag.                                                                         b. Click on the _**New Test Step**_ button to add a test step
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-10 at 16.41.03.png" alt=""><figcaption></figcaption></figure>
+
+8. a. Click the _**Save**_ button to save spec file.                                                                                        b. Click the _**Cancel**_ button to cancel the adding process.
+
