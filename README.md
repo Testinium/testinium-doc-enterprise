@@ -1,5 +1,4 @@
 ---
-icon: info
 description: Testinium Product - Enterprise Edition
 ---
 
