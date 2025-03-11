@@ -210,9 +210,9 @@
   * [Find Test Result by Session ID](apis/reports/find-test-result-by-session-id.md)
   * [Create Test Result](apis/reports/create-test-result.md)
 
-***
+## RELEASE NOTES
 
-* [Release Notes](release-notes/README.md)
-  * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/testinium-enterprise-1.16.7-release-notes.md)
-  * [Testinium-Enterprise 1.16.6 Release Notes](release-notes/testinium-enterprise-1.16.6-release-notes.md)
-  * [Testinium-Enterprise 1.16.5 Release Notes](release-notes/testinium-enterprise-1.16.5-release-notes.md)
+* [Release Notes](release-notes/release-notes/README.md)
+  * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.7-release-notes.md)
+  * [Testinium-Enterprise 1.16.6 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.6-release-notes.md)
+  * [Testinium-Enterprise 1.16.5 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.5-release-notes.md)
