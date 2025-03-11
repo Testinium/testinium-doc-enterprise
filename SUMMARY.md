@@ -116,12 +116,8 @@
 ***
 
 * [BDD EDITOR](bdd-editor/README.md)
-  * [Create Concept File](bdd-editor/create-concept-file/README.md)
-    * [New scenario](bdd-editor/create-concept-file/new-scenario.md)
-    * [New Test Step](bdd-editor/create-concept-file/new-test-step.md)
-  * [Create Spec File](bdd-editor/create-spec-file/README.md)
-    * [New Scenario](bdd-editor/create-spec-file/new-scenario.md)
-    * [New Test Step](bdd-editor/create-spec-file/new-test-step.md)
+  * [Create Concept File](bdd-editor/create-concept-file.md)
+  * [Create Spec File](bdd-editor/create-spec-file.md)
   * [Create Feature File](bdd-editor/create-feature-file.md)
 * [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto/README.md)
