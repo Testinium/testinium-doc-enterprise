@@ -214,3 +214,4 @@
 
 * [Release Notes](release-notes/README.md)
   * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/testinium-enterprise-1.16.7-release-notes.md)
+  * [Testinium-Enterprise 1.16.6 Release Notes](release-notes/testinium-enterprise-1.16.6-release-notes.md)
