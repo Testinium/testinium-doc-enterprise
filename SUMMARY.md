@@ -116,8 +116,8 @@
 ***
 
 * [BDD EDITOR](bdd-editor/README.md)
-  * [Create Concept File](bdd-editor/create-concept-file.md)
-  * [Create Spec File](bdd-editor/create-spec-file.md)
+  * [Create Concept File](bdd-editor/create-concept-file/README.md)
+  * [Create Spec File](bdd-editor/create-spec-file/README.md)
   * [Create Feature File](bdd-editor/create-feature-file.md)
 * [REPORTS](reports/README.md)
   * [Test Executions (Auto)](reports/test-executions-auto/README.md)
