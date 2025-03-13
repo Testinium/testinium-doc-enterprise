@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Jira
 
 The requirements for _**Jira integration**_ are as follows;
