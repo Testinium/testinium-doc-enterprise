@@ -151,6 +151,7 @@
   * [TestRail](plugins/plugins/testrail.md)
   * [Azure Devops Board](plugins/plugins/azure-devops-board.md)
   * [Testinium Cloud](plugins/plugins/testinium-cloud-1.md)
+  * [Jira](plugins/plugins/jira-1.md)
 
 ## API's
 

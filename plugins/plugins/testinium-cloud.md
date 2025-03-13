@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Testinium Cloud
 
 Once you open the dashboard,
