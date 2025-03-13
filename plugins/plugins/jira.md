@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Jira
 
 **TESTINIUM ENTERPRISE EDITION JIRA PLUGIN MANUAL**

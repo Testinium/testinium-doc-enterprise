@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Jira
 
 The requirements for _**Jira integration**_ are as follows;
@@ -86,4 +82,40 @@ Jira settings in the project are made by following the steps below;
 6. a. Click to _**Save**_ button to save project jira settings.                                                                                b. Click the _**Cancel**_ button to cancel the process.
 
 ## _**D. Jira Issue Creation**_
+
+After the conneciton and project settings, the following steps should be followed to create an issue in Jira;
+
+1. Open the plan screen.
+2. Click the _**Test Reports**_ button on the test plan in the related project.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.12.13.png" alt=""><figcaption></figcaption></figure>
+
+3. Click the _**Show**_ button in the listed test result list to access the scenario-based test execution list.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.13.27.png" alt=""><figcaption></figcaption></figure>
+
+4. Click the _**Show**_ button in the related scenario to access the test result details.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.14.38.png" alt=""><figcaption></figcaption></figure>
+
+5. Click the _**Create Jira Issue**_ button on the screen that opens.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.16.23.png" alt=""><figcaption></figcaption></figure>
+
+6. Enter the fields on the screen.
+
+{% hint style="info" %}
+The fields selected in the project jira settings are listed on this screen.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.18.37.png" alt=""><figcaption></figcaption></figure>
+
+7. a. Click to _**Create**_ button to create jira isuue.                                                                                  b. Click the _**Cancel**_ button to cancel the process.
+8. Click on the _**View Jira Issue**_ button on the same screen to view the created Jira issue.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.26.33.png" alt=""><figcaption></figcaption></figure>
+
+9. Issue created is displayed on the jira screen as follows;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.26.33 (1).png" alt=""><figcaption></figcaption></figure>
 
