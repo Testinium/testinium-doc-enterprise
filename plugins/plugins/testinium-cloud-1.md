@@ -116,10 +116,10 @@ The following steps are followed to view the relevant test execution results in 
 
 1. Log in to the system with the connection information entered in the system for Testinium Cloud integration.
 2. Open the _**Automated Tests**_ screen.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-12 at 18.43.21.png" alt=""><figcaption></figcaption></figure>
-
 3. Click on the _**Operation Report**_ tab.  Test results run in Testinium Enterprise are listed in this tab.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 09.25.54 (1).png" alt=""><figcaption></figcaption></figure>
+
 4. Click the _**Details**_ button on the relevant test result for test result details.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-12 at 18.44.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 09.28.21.png" alt=""><figcaption></figcaption></figure>
