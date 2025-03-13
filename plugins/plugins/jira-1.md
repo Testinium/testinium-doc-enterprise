@@ -28,17 +28,24 @@ The following steps should be followed for plugin settings;
 
 1. Open _**Companies**_ module.
 2. Click _**Edit**_ button for the related company.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.05.49.png" alt=""><figcaption></figcaption></figure>
+
 3. Click on _**Plugin**_ tab.
 4. _**Jira**_ plugin is moved from _**Plugin**_ list to _**Enable Plugin**_ list by clicking _**Add**_ button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.08.44.png" alt=""><figcaption></figcaption></figure>
+
 5. a. Click to _**Save**_ button to save plugin setting.                                                                                b. Click the _**Cancel**_ button to cancel plugin adding.
-
-
 
 ## _**B. Operations on the Company Details Screen;**_&#x20;
 
 Connection settings of the company for Jira integration are made in this step.
 
 1. Open the _**Company Details**_ screen from the menu in the upper right corner.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.09.59.png" alt=""><figcaption></figcaption></figure>
+
 2. Click on the _**Plugin**_ tab.
 3. Click the _**Edit**_ button in the Testinium Cloud section.
 4. Enter the following fields on the screen that opens;
