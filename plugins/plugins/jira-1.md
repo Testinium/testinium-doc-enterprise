@@ -108,7 +108,7 @@ After the conneciton and project settings, the following steps should be followe
 The fields selected in the project jira settings are listed on this screen.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.18.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.33.47.png" alt=""><figcaption></figcaption></figure>
 
 7. a. Click to _**Create**_ button to create jira isuue.                                                                                  b. Click the _**Cancel**_ button to cancel the process.
 8. Click on the _**View Jira Issue**_ button on the same screen to view the created Jira issue.
@@ -117,5 +117,5 @@ The fields selected in the project jira settings are listed on this screen.
 
 9. Issue created is displayed on the jira screen as follows;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.26.33 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.35.46.png" alt=""><figcaption></figcaption></figure>
 
