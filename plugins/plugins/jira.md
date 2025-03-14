@@ -1,81 +1,121 @@
----
-hidden: true
----
-
 # Jira
 
-**TESTINIUM ENTERPRISE EDITION JIRA PLUGIN MANUAL**
+The requirements for _**Jira integration**_ are as follows;
 
-In Enterprise Edition, there is a plugin that integrates Testinium and JIRA. You can create JIRA issues directly from your test result reports. In this document, you can find a step by step description on how to use JIRA Plugin in Testinium.
+_**A. Operations in Companies module;**_ Adding Jira as a plugin
 
-Once you open the dashboard,
+_**B. Operations on the Company Details screen;**_ Setting Jira settings for the relevant company
 
-* First of, select Companies option from menu on the left.
+_**C. Jira Settings in Project;**_ Setting jira configurations specific to the project
 
-![](../../.gitbook/assets/2)
+_**D. Jira Issue Creation;**_ Creating jira issue after test run
 
-* Then click Edit for your company.
+## _**A. Operations in Companies Module**_
 
-![](<../../.gitbook/assets/3 (5)>)
+Plugin settings must first be made for the relevant company in Jira integration.
 
-* Click on the Plugins tab.
+{% hint style="info" %}
+Plugin settings must be made by the _**system admin**_.
+{% endhint %}
 
-![](<../../.gitbook/assets/4 (2)>)
+The following steps should be followed for plugin settings;
 
-* Select and add JIRA Plugin from plugins list.
+1. Open _**Companies**_ module.
+2. Click _**Edit**_ button for the related company.
 
-![](<../../.gitbook/assets/5 (4)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.05.49.png" alt=""><figcaption></figcaption></figure>
 
-* Once you add the plugin, you can see it in the Enabled Plugins list.
+3. Click on _**Plugin**_ tab.
+4. _**Jira**_ plugin is moved from _**Plugin**_ list to _**Enable Plugin**_ list by clicking _**Add**_ button.
 
-![](<../../.gitbook/assets/6 (1)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.08.44.png" alt=""><figcaption></figcaption></figure>
 
-* After adding the plugin, it is necessary to configure it with your JIRA credentials. To do that, select the Company Details tab from the drop down menu on the right. Then select the Plugins tab.
+5. a. Click to _**Save**_ button to save plugin setting.                                                                                b. Click the _**Cancel**_ button to cancel plugin adding.
 
-![](<../../.gitbook/assets/7 (3)>)
+## _**B. Operations on the Company Details Screen;**_&#x20;
 
-![](<../../.gitbook/assets/8 (2)>)
+Connection settings of the company for Jira integration are made in this step.
 
-* Click on the Edit button for your JIRA Plugin.
+1. Open the _**Company Details**_ screen from the menu in the upper right corner.
 
-![](<../../.gitbook/assets/9 (5)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.09.59.png" alt=""><figcaption></figcaption></figure>
 
-* On the Plugin Page, enter your server url, username and password for your Jira account. Then click Save.
+2. Click on the _**Plugin**_ tab.
+3. Click the _**Edit**_ button in the Testinium Cloud section.
 
-![](<../../.gitbook/assets/10 (3)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.31.26.png" alt=""><figcaption></figcaption></figure>
 
-* After saving, it is necessary to configure project specific settings. For that, navigate to the Projects tab from the menu on the left. Then select Edit for your project.
+4. Enter the following fields on the screen that opens;
 
-![](<../../.gitbook/assets/11 (2)>)
+* Jira Server URL
+* Jira Username
+* Jira Token
 
-* Click Edit JIRA Settings.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.31.59.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/12 (1)>)
+5. a. Click to _**Save**_ button to save plugin connection information.                                                                                b. Click the _**Cancel**_ button to cancel the process.
 
-* At this step, you can select projects and assignees from your JIRA account. You can select necessary fields. Everything you need for a JIRA issue is listed on this page. When you are done, click Save.
+## _**C. Jira Settings in Project**_
 
-![](<../../.gitbook/assets/13 (1)>)
+Jira settings in the project are made by following the steps below;
 
-* Now, you are good to go. You completed configuring Testinium for JIRA and are able to create JIRA issues easily. To create a JIRA issue, go to Plans from the menu on the left and select Reports option for any plan.
+1. Open Project List.
+2. Click the _**Edit**_ button in the related project.
 
-![](../../.gitbook/assets/14)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.37.24.png" alt=""><figcaption></figcaption></figure>
 
-* Click Show on any test result.
+3. Click the _**Edit Jira Settings**_ button in the Project Form that opens.
 
-![](<../../.gitbook/assets/15 (1)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.36.36.png" alt=""><figcaption></figcaption></figure>
 
-* Click Show for test details.
+4. Enter the following fields on the screen that opens;
 
-![](<../../.gitbook/assets/16 (2)>)
+* Assigned User
+* Create Ticket Automatically After Scenario Error Count
+* Jira Project
+* Issue Type
+* Fields
 
-* Click the Create JIRA Issue button.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.43.41.png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/17)
+5. Move the fields to be included in the Jira issue from Fields to Selected Fields.
+6. a. Click to _**Save**_ button to save project jira settings.                                                                                b. Click the _**Cancel**_ button to cancel the process.
 
-* Add any additional summary for your issue and click Create.
+## _**D. Jira Issue Creation**_
 
-![](<../../.gitbook/assets/18 (2)>)
+After the conneciton and project settings, the following steps should be followed to create an issue in Jira;
 
-* You have just created the Jira issue for the test result. It is visible on JIRA Dashboard.
+1. Open the plan screen.
+2. Click the _**Test Reports**_ button on the test plan in the related project.
 
-![](<../../.gitbook/assets/19 (2)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.12.13.png" alt=""><figcaption></figcaption></figure>
+
+3. Click the _**Show**_ button in the listed test result list to access the scenario-based test execution list.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.13.27.png" alt=""><figcaption></figcaption></figure>
+
+4. Click the _**Show**_ button in the related scenario to access the test result details.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.14.38.png" alt=""><figcaption></figcaption></figure>
+
+5. Click the _**Create Jira Issue**_ button on the screen that opens.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.16.23.png" alt=""><figcaption></figcaption></figure>
+
+6. Enter the fields on the screen.
+
+{% hint style="info" %}
+The fields selected in the project jira settings are listed on this screen.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.33.47.png" alt=""><figcaption></figcaption></figure>
+
+7. a. Click to _**Create**_ button to create jira isuue.                                                                                  b. Click the _**Cancel**_ button to cancel the process.
+8. Click on the _**View Jira Issue**_ button on the same screen to view the created Jira issue.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.26.33.png" alt=""><figcaption></figcaption></figure>
+
+9. Issue created is displayed on the jira screen as follows;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 23.35.46.png" alt=""><figcaption></figcaption></figure>
+

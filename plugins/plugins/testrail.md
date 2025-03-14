@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # TestRail
 
 **TEST RAIL PLUGIN - ENTERPRISE**

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Ldap
 
 **TESTINIUM ENTERPRISE EDITION LDAP PLUGIN MANUAL**

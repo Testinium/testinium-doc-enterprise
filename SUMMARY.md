@@ -145,13 +145,13 @@
 
 * [Plugins](plugins/plugins/README.md)
   * [Jenkins](plugins/plugins/jenkins.md)
-  * [Jira](plugins/plugins/jira.md)
-  * [Ldap](plugins/plugins/ldap.md)
-  * [Testinium Cloud](plugins/plugins/testinium-cloud.md)
-  * [TestRail](plugins/plugins/testrail.md)
   * [Azure Devops Board](plugins/plugins/azure-devops-board.md)
-  * [Testinium Cloud](plugins/plugins/testinium-cloud-1.md)
+  * [Jira](plugins/plugins/jira.md)
+  * [Testinium Cloud](plugins/plugins/testinium-cloud.md)
   * [Jira](plugins/plugins/jira-1.md)
+  * [Ldap](plugins/plugins/ldap.md)
+  * [Testinium Cloud](plugins/plugins/testinium-cloud-1.md)
+  * [TestRail](plugins/plugins/testrail.md)
 
 ## API's
 
