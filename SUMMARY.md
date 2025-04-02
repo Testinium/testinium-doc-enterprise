@@ -218,3 +218,6 @@
   * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.7-release-notes.md)
   * [Testinium-Enterprise 1.16.6 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.6-release-notes.md)
   * [Testinium-Enterprise 1.16.5 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.5-release-notes.md)
+  * [Testinium-Enterprise 1.16.4 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.4-release-notes.md)
+  * [Testinium-Enterprise 1.16.3 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.3-release-notes.md)
+  * [Testinium-Enterprise 1.16.2 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.2-release-notes.md)
