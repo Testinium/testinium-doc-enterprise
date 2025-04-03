@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Testinium-Enterprise 1.15.0 Release Notes
 
 #### Bug

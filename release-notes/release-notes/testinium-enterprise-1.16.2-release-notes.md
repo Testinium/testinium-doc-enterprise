@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Testinium-Enterprise 1.16.2 Release Notes
 
 #### New Features

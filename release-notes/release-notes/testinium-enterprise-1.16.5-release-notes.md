@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Testinium-Enterprise 1.16.5 Release Notes
 
 #### Release Date: 10.06.2024

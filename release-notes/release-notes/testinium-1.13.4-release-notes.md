@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Testinium 1.13.4 Release Notes
 
 ### Story

@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Testinium-Enterprise 1.15.1 Release Notes
 
 #### Sub-task
