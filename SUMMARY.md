@@ -228,3 +228,9 @@
   * [Testinium 1.14.0 Release Notes](release-notes/release-notes/testinium-1.14.0-release-notes.md)
   * [Testinium 1.13.4 Release Notes](release-notes/release-notes/testinium-1.13.4-release-notes.md)
   * [Testinium 1.13.0 – 1.13.3 Release Notes](release-notes/release-notes/testinium-1.13.0-1.13.3-release-notes.md)
+
+## Copy of RELEASE NOTES
+
+* [Appium 2 Sample Project](copy-of-release-notes/appium-2-sample-project/README.md)
+  * [Appium 2 Java](copy-of-release-notes/appium-2-sample-project/appium-2-java.md)
+  * [Appium 2 Gauge](copy-of-release-notes/appium-2-sample-project/appium-2-gauge.md)
