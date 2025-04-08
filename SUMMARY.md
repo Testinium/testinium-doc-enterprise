@@ -234,4 +234,5 @@
 * [Appium 2 Sample Projects](appium-2-sample-projects/appium-2-sample-projects/README.md)
   * [Appium 2 Java](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/README.md)
     * [Page 1](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/page-1.md)
-  * [Appium 2 Gauge](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge.md)
+  * [Appium 2 Gauge](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge/README.md)
+    * [HookImp](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge/hookimp.md)
