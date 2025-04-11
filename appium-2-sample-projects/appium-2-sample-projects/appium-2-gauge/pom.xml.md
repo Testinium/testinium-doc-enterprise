@@ -8,6 +8,23 @@ Below is an explanation of some `dependencies` and `properties` used in the proj
 
 * **distributionManagement**: Defines the distribution (publishing) settings of the project. In this case, it specifies that the project will be deployed to a private Maven repository named `testinium-mvn`.
 * **repositories**: Indicates the Maven repository from which the project dependencies will be downloaded. A custom repository named `testinium-mvn` is defined here.
+
+```
+<distributionManagement>
+    <repository>
+        <id>testinium-mvn</id>
+        <url>https://mvn.testinium.com/repository/public/</url>
+    </repository>
+</distributionManagement>
+
+<repositories>
+    <repository>
+        <id>testinium-mvn</id>
+        <url>https://mvn.testinium.com/repository/public/</url>
+    </repository>
+</repositories>
+```
+
 * **gauge-java**: [Gauge](https://gauge.org/) is a test automation framework. This dependency includes the Gauge Java API in the project. (Version 0.9.1 must be used to run tests on the Testinium platform.)
 * **Appium java-client**: The [Appium](https://appium.io/) Java client library used for mobile application testing. It enables interaction with mobile devices. (Version 8.6.0 is required for compatibility with Testinium.)
 * **maven-compiler-plugin**: This plugin allows Maven to compile Java code. The `source` and `target` parameters specify the Java version to be used.
