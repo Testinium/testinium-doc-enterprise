@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Appium 2 Cucumber
 
 #### This document explains only the components and working method of your shared Appium 2 & Cucumber sample project.
