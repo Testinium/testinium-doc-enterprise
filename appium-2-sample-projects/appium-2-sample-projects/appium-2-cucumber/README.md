@@ -9,3 +9,5 @@ Test scenarios should be written under the spec file to maintain the proper stru
 Required versions for pom.xml are explained in the pom.xml tab.
 
 You can find the sample project below.
+
+[https://github.com/TestiniumEngineeringQA/Appium2CucumberTemplate/](https://github.com/TestiniumEngineeringQA/Appium2CucumberTemplate/)
