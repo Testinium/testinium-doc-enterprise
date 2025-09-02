@@ -1,15 +1,41 @@
 # Hooks
 
-**Purpose:** Set up the driver and waits before each scenario; quit the driver after the scenario.
+### Purpose
 
-#### What it does
+Set up the driver and waits **before each scenario**, and quit the driver **after each scenario**.
 
-* @Before: Detects _Android_ vs _iOS_, then starts `TestiniumAndroidDriver` or `TestiniumIOSDriver` accordingly.
-* Hub URL: `http://192.168.1.89:4723/` (as in your code). You can switch it to a Testinium hub when needed.
-* Android sample capabilities: `platformName`, `udid`, `automationName`, `appPackage`, `appActivity`, `autoGrantPermissions`, `newCommandTimeout`.
-* iOS sample capabilities: `platformName`, `udid`, `automationName`, `bundleId`, `autoAcceptAlerts`.
-* Configures implicitlyWait and a FluentWait strategy.
-* @After: Closes the driver via `quit()`.
+### What it does
+
+* **@Before:** Detects Android vs iOS, then starts `TestiniumAndroidDriver` or `TestiniumIOSDriver` accordingly.
+* **Hub URL:** Default is `http://192.168.1.89:4723/`. Can be switched to a Testinium hub when needed.
+* **Android capabilities:** `platformName`, `udid`, `automationName`, `appPackage`, `appActivity`, `autoGrantPermissions`, `newCommandTimeout`.
+* **iOS capabilities:** `platformName`, `udid`, `automationName`, `bundleId`, `autoAcceptAlerts`.
+* Configures `implicitlyWait` and a `FluentWait` strategy.
+* **@After:** Closes the driver via `quit()` and clears references.
+
+### Main Objects and Their Usage
+
+#### Logger
+
+**Purpose:** Provide info/debug logs during test execution.\
+**Usage:** Helps diagnose setup errors and failures.
+
+#### AppiumDriver
+
+**Purpose:** Core driver for interacting with the mobile device.\
+**Usage:** Accessed as `Hooks.driver` in step definitions.
+
+#### hubUrl
+
+**Purpose:** Stores the Appium server URL.\
+**Usage:** Passed when instantiating the Testinium driver.
+
+#### appiumFluentWait
+
+**Purpose:** Robust wait strategy (polling + timeout).\
+**Usage:** Used to wait for elements dynamically without failing fast.
+
+
 
 ```java
 public class Hooks {
@@ -19,7 +45,7 @@ public class Hooks {
 
   @Before
   public void setUp() {
-    URL hubUrl = new URL("<http://192.168.1.89:4723/>");
+    URL hubUrl = new URL("http://192.168.1.89:4723/");
 
     if (TestiniumEnvironment.isPlatformAndroid()) {
       DesiredCapabilities caps = new DesiredCapabilities();
@@ -54,3 +80,8 @@ public class Hooks {
   }
 }
 ```
+
+### Before vs After (Quick Reference)
+
+* **@Before:** Detect platform → set capabilities → start driver → configure waits.
+* **@After:** Quit driver → cleanup resources.
