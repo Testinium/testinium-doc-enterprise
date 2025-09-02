@@ -247,3 +247,4 @@
     * [Steps](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/steps.md)
     * [CucumberRunner](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/cucumberrunner.md)
     * [Feature](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/feature.md)
+    * [pom.xml](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/pom.xml.md)
