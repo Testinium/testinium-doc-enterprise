@@ -201,6 +201,7 @@
   * [Rerun Test Plan](apis/plan/rerun-test-plan.md)
   * [Stop Test Plan](apis/plan/stop-test-plan.md)
   * [Check If Test Plan Is Running](apis/plan/check-if-test-plan-is-running.md)
+  * [Run TestPlan(V2.0)](apis/plan/run-testplan-v2.0.md)
 * [Reports](apis/reports/README.md)
   * [Get Test Execution by ID](apis/reports/get-test-execution-by-id.md)
   * [Get Test Execution by ID and Company ID](apis/reports/get-test-execution-by-id-and-company-id.md)
