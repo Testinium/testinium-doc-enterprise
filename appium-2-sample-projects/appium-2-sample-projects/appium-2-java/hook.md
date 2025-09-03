@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Hook
 
 This `pom.xml` file defines a Java project configured with Maven. The project is designed for mobile test automation using **Appium 2**. Below is a detailed explanation of each section:
