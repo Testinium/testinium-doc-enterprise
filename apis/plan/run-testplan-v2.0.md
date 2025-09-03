@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# Run TestPlan(V2.0)
+# Run Test Plan(v2.0)
 
 ### Endpoint Information
 

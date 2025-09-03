@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Rerun Test Plan(v2.0)
 
 The endpoint allows the user to rerun specific scenarios from the last executed results of a test plan.
@@ -25,12 +29,12 @@ The endpoint allows the user to rerun specific scenarios from the last executed 
 
 #### Request Body Parameters <a href="#request-body-parameters" id="request-body-parameters"></a>
 
-| Parameter     | Type   | Required | Description                                |
-| ------------- | ------ | -------- | ------------------------------------------ |
-| `planId`      | `Long` | Yes      | The unique ID of the test plan to execute. |
-| userId        | `Long` | Yes      | The unique ID of the user who runs plan.   |
-| scenarioId    | `Long` | No       |                                            |
-| environmentId | `Long` | No       |                                            |
+| Parameter     | Type   | Required | Description                                                                |
+| ------------- | ------ | -------- | -------------------------------------------------------------------------- |
+| `planId`      | `Long` | Yes      | The unique ID of the test plan to execute.                                 |
+| userId        | `Long` | Yes      | The unique ID of the user who runs plan.                                   |
+| scenarioId    | `Long` | No       | The unique ID of the test scenario to run.                                 |
+| environmentId | `Long` | No       | The unique ID of the environment in which the scenario should be executed. |
 
 ### Response
 
@@ -88,3 +92,4 @@ curl --location '{gateway-url}/queue/rerun' \
   ]
 }'
 ```
+
