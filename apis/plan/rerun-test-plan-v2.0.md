@@ -16,12 +16,16 @@ The endpoint allows the user to rerun specific scenarios from the last executed 
 
 ```
 {
-  "planId": 681,
+  "planId": 704,
   "userId": 1,
   "scenarioEnvironmentPairs": [
     {
-      "scenarioId": 1001,
+      "scenarioId": 4267,
       "environmentId": 2001
+    },
+    {
+      "scenarioId": 4312,
+      "environmentId": 2002
     }
   ]
 }
