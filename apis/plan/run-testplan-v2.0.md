@@ -53,11 +53,11 @@ This response indicates that the operation was completed successfully, with no a
 
 ### Error Codes
 
-| HTTP Code | Error Message           | Description                                      |
-| --------- | ----------------------- | ------------------------------------------------ |
-| 401       | `UNAUTHORIZED`          |                                                  |
-| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.   |
-| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
+| HTTP Code | Error Message           | Description                                                                  |
+| --------- | ----------------------- | ---------------------------------------------------------------------------- |
+| 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
+| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
 
 ### Application Error Codes
 
