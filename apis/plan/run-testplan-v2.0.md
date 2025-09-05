@@ -73,6 +73,5 @@ This response indicates that the operation was completed successfully, with no a
 curl --location '{gateway-url}/queue' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <your_access_token>\
---header 'Cookie: JSESSIONID=33E046C7560AC58C9379FCF4C106984E' \
 --data '{"planId":<plan_id>,"userId":<user_id>}'
 ```

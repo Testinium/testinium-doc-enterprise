@@ -157,6 +157,7 @@
 
 * [Auth](apis/auth/README.md)
   * [Login](apis/auth/login.md)
+  * [Profile](apis/auth/profile.md)
 * [Project](apis/project/README.md)
   * [Get All Projects](apis/project/get-all-projects.md)
   * [Get Project by ID or Name](apis/project/get-project-by-id-or-name.md)
