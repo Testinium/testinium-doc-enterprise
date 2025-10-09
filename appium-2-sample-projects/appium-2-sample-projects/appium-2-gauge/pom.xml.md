@@ -37,7 +37,7 @@ Below is an explanation of some `dependencies` and `properties` used in the proj
 <dependency>
     <groupId>com.testinium</groupId>
     <artifactId>testinium-appium2-driver</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>0.0.13-SNAPSHOT</version>
 </dependency>
 
 ```
