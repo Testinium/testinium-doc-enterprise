@@ -238,7 +238,7 @@
   * [Appium 2 Java](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/README.md)
     * [BaseTest](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/basetest.md)
     * [IOSTest And AndroidTest](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/iostest-and-androidtest.md)
-    * [Hook](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/hook.md)
+    * [pom.xml](appium-2-sample-projects/appium-2-sample-projects/appium-2-java/pom.xml.md)
   * [Appium 2 Gauge](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge.md)
     * [HookImp](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge/hookimp.md)
     * [pom.xml](appium-2-sample-projects/appium-2-sample-projects/appium-2-gauge/pom.xml.md)

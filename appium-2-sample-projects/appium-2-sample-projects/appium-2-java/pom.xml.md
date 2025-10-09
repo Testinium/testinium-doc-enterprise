@@ -1,4 +1,4 @@
-# Hook
+# pom.xml
 
 This `pom.xml` file defines a Java project configured with Maven. The project is designed for mobile test automation using **Appium 2**. Below is a detailed explanation of each section:
 
@@ -38,4 +38,4 @@ This `pom.xml` file defines a Java project configured with Maven. The project is
 * **Testinium Appium 2 Driver**
   * A custom Appium 2 driver developed by **Testinium**.
   * May include enhancements or features specific to Testinium’s automation framework.
-  * Packaged as a `1.2-SNAPSHOT` version, indicating it may still be under development or testing.
+  * Packaged as a `0.0.13-SNAPSHOT` version, indicating it may still be under development or testing.
