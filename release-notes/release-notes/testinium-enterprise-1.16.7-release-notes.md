@@ -4,7 +4,7 @@
 
 #### New Features
 
-* API documentation has been updated for automating the mobile application file upload process via pipelines. [Click for Testinium Enterprise API documentation.](../../apis/auth/)
+* API documentation has been updated for automating the mobile application file upload process via pipelines. [Click for Testinium Enterprise API documentation.](../../apis/enterprise-2.0/auth/)
 * Added an "Export Excel" button to the Plan page, allowing users to download listed plans in a table format.
 * Added an "Export Excel" button to the Test Result Details page for Service plans, enabling users to download service execution reports.
 * Added a warning message for Java file selection for Karate and Cucumber projects in scenario creation.
