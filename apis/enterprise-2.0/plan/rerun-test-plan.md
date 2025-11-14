@@ -67,10 +67,11 @@ curl --location '<your-gateway-url>/queue/rerun' \
 --data '{
   "planId": 614,
   "userId": 13,
-  "frameworkType": "SERVICE",
+  "frameworkType": "APPIUM",
   "scenarioEnvironmentPairs": [
     {
-      "scenarioId": 3638
+      "scenarioId": 111,
+      "environmentId": 222
      
     }
   ]
