@@ -6,54 +6,29 @@ The endpoint stops a running test plan. The user must provide the test plan ID i
 
 ### Endpoint Information
 
-* **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/stop`
-* **Method**: `GET`
-* **Authentication**: `Bearer Token` is required
-* **Content-Type**: `application/json`
+* **URL**: \<your-gateway-url>/stop/execution
+* **Method**: `POST`
+* **Authentication**: Required (`Bearer Token`)
 
-***
+### Request Body
 
-### Path Variables
-
-| Parameter | Type     | Required | Description                            |
-| --------- | -------- | -------- | -------------------------------------- |
-| `id`      | `Object` | Yes      | The ID of the test plan to be stopped. |
-
-***
-
-### Response Body
-
-Upon a successful request, the API returns a `StopTestPlanResponse` object. If the test plan is running, it stops the plan; otherwise, it returns a message indicating the plan is not running.
-
-```json
+```
 {
-  "status": "SUCCESS",
-  "message": "Plan Id 123 has been stopped"
+  "plans": [614,615,312]
 }
 ```
 
-| Field     | Type     | Description                                                     |
-| --------- | -------- | --------------------------------------------------------------- |
-| `status`  | `string` | The status of the stop request (e.g., SUCCESS, NOT\_AVAILABLE). |
-| `message` | `string` | A message indicating the result of the operation.               |
+#### Request Body Parameters <a href="#request-body-parameters" id="request-body-parameters"></a>
 
-***
+| Field | Type        | Description                                                                                                 |
+| ----- | ----------- | ----------------------------------------------------------------------------------------------------------- |
+| plans | List\<Long> | A non-empty list of plan IDs to be processed. This field is required and must contain at least one plan ID. |
 
-### Error Codes
+#### Error Codes <a href="#error-codes" id="error-codes"></a>
 
-| HTTP Code | Error Message           | Description                                              |
-| --------- | ----------------------- | -------------------------------------------------------- |
-| `401`     | `Unauthorized`          | Authorization failed. The user is not logged in.         |
-| `403`     | `Forbidden`             | The user does not have permission to stop the test plan. |
-| `404`     | `Test plan not found`   | The specified test plan was not found.                   |
-| `500`     | `Internal Server Error` | An unexpected error occurred on the server side.         |
+| HTTP Code | Error Message           | Description                                               |
+| --------- | ----------------------- | --------------------------------------------------------- |
+| `400`     | `INVALID_REQUEST`       | <p>The request was malformed or contained errors.<br></p> |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.          |
 
-***
-
-### Example Request
-
-```bash
-curl -X GET '<custom-env-url>/Testinium.RestApi/api/plans/{id}/stop' \
---header 'Authorization: Bearer <your_access_token>' \
---header 'Content-Type: application/json'
-```
+### Application Error Codes
