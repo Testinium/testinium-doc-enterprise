@@ -4,7 +4,7 @@ The endpoint starts the execution of a specific test plan. The user must have th
 
 ### Endpoint Information
 
-* **URL**: \<your-gateway-url>[/queue](https://gateway.testinium.io/queue)
+* **URL**: \<your-gateway-url>/queue
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
