@@ -279,6 +279,9 @@
 ## RELEASE NOTES
 
 * [Release Notes](release-notes/release-notes/README.md)
+  * [Testinium-Enterprise 2.0.2 Release Notes](release-notes/release-notes/testinium-enterprise-2.0.2-release-notes.md)
+  * [Testinium-Enterprise 2.0.1 Release Notes](release-notes/release-notes/testinium-enterprise-2.0.1-release-notes.md)
+  * [Testinium-Enterprise 2.0.0 Release Notes](release-notes/release-notes/testinium-enterprise-2.0.0-release-notes.md)
   * [Testinium-Enterprise 1.16.7 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.7-release-notes.md)
   * [Testinium-Enterprise 1.16.6 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.6-release-notes.md)
   * [Testinium-Enterprise 1.16.5 Release Notes](release-notes/release-notes/testinium-enterprise-1.16.5-release-notes.md)
