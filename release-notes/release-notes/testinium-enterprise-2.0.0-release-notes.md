@@ -50,6 +50,5 @@ Users can now view errors separately for each retry attempt in scenarios execute
 * Resolved a DB connection concurrency error detected during Dynamic Executor integration.&#x20;
 *   Fixed an issue where reports could not be displayed properly.
 
-    \
-
+    <br>
 

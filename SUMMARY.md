@@ -191,7 +191,7 @@
     * [Get Plan By ID](apis/enterprise-2.0/plan/get-plan-by-id.md)
     * [Get Plan By Project And Plan Name Or Id](apis/enterprise-2.0/plan/get-plan-by-project-and-plan-name-or-id.md)
     * [Get Active Plan By ID](apis/enterprise-2.0/plan/get-active-plan-by-id.md)
-    * [Create Test Plan](apis/enterprise-2.0/plan/create-test-plan.md)
+    * [Create Test Plan(Appium2)](apis/enterprise-2.0/plan/create-test-plan-appium2.md)
     * [Update Test Plan](apis/enterprise-2.0/plan/update-test-plan.md)
     * [Add Scenarios To Plan](apis/enterprise-2.0/plan/add-scenarios-to-plan.md)
     * [Update Selected Android Mobile App for Test Plan](apis/enterprise-2.0/plan/update-selected-android-mobile-app-for-test-plan.md)
