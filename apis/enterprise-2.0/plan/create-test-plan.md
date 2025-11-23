@@ -2,20 +2,17 @@
 
 The endpoint creates a new test plan for a specific project. The user must provide project details and plan specifications in the request body. The API validates the input and returns the created plan as a ProjectDTO object.
 
+
+
+Note: After executing the Create Plan API, the Create Period API must be called as the next step
+
 ***
 
 ### Endpoint Information
 
-* **URL**: `<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans`
+* **URL**: \<your-gateway-url>/queue
 * **Method**: `POST`
-* **Authentication**: `Bearer Token` is required
-* **Content-Type**: `application/json`
-
-***
-
-### Path Variables
-
-<table><thead><tr><th width="203">Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>projectNameOrId</code></td><td><code>Object</code></td><td>Yes</td><td>The name or ID of the project for which the plan is created.</td></tr></tbody></table>
+* **Authentication**: Required (`Bearer Token`)
 
 ***
 
@@ -25,40 +22,53 @@ The JSON format request data that needs to be sent for creating a test plan is a
 
 ```json
 {
-  "type": "SELENIUM",
-  "planName": "Test Plan",
-  "projectId": 123,
-  "companyId": 456,
-  "description": "Plan description",
+  "planName": "Sample Test Plan",
+  "groupPlan": false,
+  "description": "This is a sample test plan for demonstration purposes.",
+  "type": "APPIUM",
   "enabled": true,
-  "planParallelTestLimit": 10,
-  "scenarios": [1, 2, 3],
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 2
-  },
-  "alerts": [
-    { "alertId": 789 }
-  ],
-  "alertsEnabled": true,
-  "failedTestRetryCount": 3
+  "deleted": false,
+  "planParallelTestLimit": 5,
+  "projectId": 709,
+  "userId": 1,
+  "companyId": 1,
+  "failedTestRetryCount": 2,
+  "maxExecutionTime": 3600,
+  "testRunType": "CROSS",
+  "screenShotType": "YES",
+  "videoEnabled": true,
+  "uninstallApp": false,
+  "clearAppData": false,
+  "androidMobileApp": null,
+  "iosMobileApp": 118,
+  "isSigned": true,
+  "alertsEnabled": false
 }
+
 ```
 
-| Parameter               | Type            | Required | Description                                                               |
-| ----------------------- | --------------- | -------- | ------------------------------------------------------------------------- |
-| `type`                  | `string`        | Yes      | The type of the plan (TestFramework: SELENIUM, APPIUM, SERVICE, SOAPUI)   |
-| `planName`              | `string`        | Yes      | The name of the plan                                                      |
-| `projectId`             | `long`          | Yes      | The ID of the project                                                     |
-| `companyId`             | `long`          | Yes      | The ID of the company                                                     |
-| `description`           | `string`        | No       | A description of the plan                                                 |
-| `enabled`               | `boolean`       | Yes      | Indicates if the plan is enabled                                          |
-| `planParallelTestLimit` | `integer`       | No       | The maximum number of parallel tests                                      |
-| `scenarios`             | `array[long]`   | No       | A list of scenario IDs to associate with the plan                         |
-| `period`                | `object`        | No       | The test period details (contains `periodType` and `repeatPeriod` fields) |
-| `alerts`                | `array[object]` | No       | A list of alerts associated with the plan (contains `alertId` field)      |
-| `alertsEnabled`         | `boolean`       | No       | Indicates if alerts are enabled                                           |
-| `failedTestRetryCount`  | `integer`       | No       | The number of retries for failed tests                                    |
+| Parameter             | Type      |
+| --------------------- | --------- |
+| planName              | `string`  |
+| groupPlan             | `boolean` |
+| description           | `string`  |
+| enabled               | `boolean` |
+| deleted               | `boolean` |
+| planParallelTestLimit | `integer` |
+| projectId             | `integer` |
+| userId                | `integer` |
+| companyId             | `integer` |
+| failedTestRetryCount  | `integer` |
+| maxExecutionTime      | `integer` |
+| testRunType           | `string`  |
+| screenShotType        | `string`  |
+| videoEnabled          | `boolean` |
+| uninstallApp          | `boolean` |
+| clearAppData          | `boolean` |
+| androidMobileApp      | `integer` |
+| iosMobileApp          | `integer` |
+| isSigned              | `boolean` |
+| alertsEnabled         | `boolean` |
 
 ***
 
@@ -68,44 +78,74 @@ Upon a successful request, the API returns the following JSON structure:
 
 ```json
 {
-  "id": 1,
-  "type": "SELENIUM",
-  "projectId": 123,
-  "companyId": 456,
-  "planName": "Test Plan",
-  "description": "Plan description",
-  "enabled": true,
-  "planParallelTestLimit": 10,
-  "scenarios": [1, 2, 3],
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 2
-  },
-  "alerts": [
-    { "alertId": 789 }
-  ],
-  "alertsEnabled": true,
-  "failedTestRetryCount": 3,
-  "lastExecution": null
+    "data": {
+        "id": 766,
+        "planName": "Sample Test Plan",
+        "groupPlan": false,
+        "description": "This is a sample test plan for demonstration purposes.",
+        "enabled": true,
+        "deleted": false,
+        "planParallelTestLimit": 5,
+        "projectId": 709,
+        "projectName": "Appium2GaugeCalisan",
+        "projectTestFramework": "APPIUM2",
+        "userId": 1,
+        "companyId": 1,
+        "failedTestRetryCount": 2,
+        "maxExecutionTime": 3600,
+        "testRunType": "CROSS",
+        "screenShotType": "YES",
+        "videoEnabled": false,
+        "uninstallApp": false,
+        "clearAppData": false,
+        "selectedIosMobileApp": {
+            "id": 118,
+            "mobileAppName": "3.2.15_1720_-82c49ca8-c5b6a33c-7453723443815496548.ipa",
+            "mobileAppHash": "df6abb29c3bee1fa9b4b90a0299b1b36",
+            "mobileAppMetadata": "{\"bundleName\":\"Gratis\",\"bundleDisplayName\":\"Gratis\",\"bundleVersion\":\"3.2.15\",\"bundleMinOsVersion\":\"12.0\",\"bundleDevelopmentRegion\":\"tr\",\"bundleExecutable\":\"Gratis\",\"bundleIconFiles\":\"\",\"bundleInfoDictVersion\":\"6.0\",\"bundlePackageType\":\"APPL\",\"bundleMainStoryBoardFile\":\"Main\",\"bundleIdentifier\":\"com.pharos.Gratis\",\"teamName\":\"Gratis ic ve Dis Ticaret Anonim Sirketi\"}",
+            "operatingSystem": "IOS",
+            "createdAt": "2025-04-07T04:58:11.588+00:00",
+            "apkMetaData": {
+                "packageName": null,
+                "activityName": null,
+                "label": null,
+                "icon": null,
+                "versionName": null,
+                "versionCode": null,
+                "installLocation": null,
+                "minSdkAndroidVersion": null,
+                "minSdkVersion": null,
+                "targetSdkVersion": null,
+                "maxSdkVersion": null,
+                "glEsVersion": null
+            },
+            "iosMetaData": {
+                "bundleName": "Gratis",
+                "bundleDisplayName": "Gratis",
+                "bundleVersion": "3.2.15",
+                "bundleMinOsVersion": "12.0",
+                "bundleDevelopmentRegion": "tr",
+                "bundleExecutable": "Gratis",
+                "bundleIconFiles": "",
+                "bundleInfoDictVersion": "6.0",
+                "bundlePackageType": "APPL",
+                "bundleMainStoryBoardFile": "Main",
+                "bundleIdentifier": "com.pharos.Gratis",
+                "teamName": "Gratis ic ve Dis Ticaret Anonim Sirketi"
+            }
+        },
+        "isSigned": true,
+        "testFileType": "APPIUM_GAUGE",
+        "testRunnerTool": "MAVEN",
+        "testDispatchMethodType": "ONE_BY_ONE",
+        "alertsEnabled": false
+    },
+    "result": {
+        "code": 0,
+        "message": "success"
+    }
 }
 ```
-
-| Parameter               | Type            | Description                                                               |
-| ----------------------- | --------------- | ------------------------------------------------------------------------- |
-| `id`                    | `long`          | The unique ID of the plan                                                 |
-| `type`                  | `string`        | The type of the plan (TestFramework: SELENIUM, APPIUM, SERVICE, SOAPUI)   |
-| `projectId`             | `long`          | The ID of the project                                                     |
-| `companyId`             | `long`          | The ID of the company                                                     |
-| `planName`              | `string`        | The name of the plan                                                      |
-| `description`           | `string`        | A description of the plan                                                 |
-| `enabled`               | `boolean`       | Indicates if the plan is enabled                                          |
-| `planParallelTestLimit` | `integer`       | The maximum number of parallel tests                                      |
-| `scenarios`             | `array[long]`   | A list of scenario IDs associated with the plan                           |
-| `period`                | `object`        | The test period details (contains `periodType` and `repeatPeriod` fields) |
-| `alerts`                | `array[object]` | A list of alerts associated with the plan (contains `alertId` field)      |
-| `alertsEnabled`         | `boolean`       | Indicates if alerts are enabled                                           |
-| `failedTestRetryCount`  | `integer`       | The number of retries for failed tests                                    |
-| `lastExecution`         | `datetime/null` | The last execution timestamp (initially null)                             |
 
 ***
 
@@ -126,26 +166,33 @@ Possible error codes and their explanations during the operation:
 ### Example Request
 
 ```bash
-curl --location --request POST '<custom-env-url>/Testinium.RestApi/api/projects/{projectNameOrId}/plans' \
---header 'Authorization: Bearer <your_access_token>' \
---header 'Content-Type: application/json' \
+curl --location 'http://localhost:8089/plan' \
+--header 'accept: application/json, text/plain, */*' \
+--header 'authorization: Bearer <your_access_token>' \
+--header 'content-type: application/json' \
+--header 'Cookie: JSESSIONID=0D9219B3E88D8FE8513FF21049407F10' \
 --data '{
-  "type": "SELENIUM",
-  "planName": "Test Plan",
-  "projectId": 123,
-  "companyId": 456,
-  "description": "Plan description",
+  "planName": "Sample Test Plan",
+  "groupPlan": false,
+  "description": "This is a sample test plan for demonstration purposes.",
+  "type": "APPIUM",
   "enabled": true,
-  "planParallelTestLimit": 10,
-  "scenarios": [1, 2, 3],
-  "period": {
-    "periodType": "REPETITIVE",
-    "repeatPeriod": 2
-  },
-  "alerts": [
-    { "alertId": 789 }
-  ],
-  "alertsEnabled": true,
-  "failedTestRetryCount": 3
-}'
+  "deleted": false,
+  "planParallelTestLimit": 5,
+  "projectId": 709,
+  "userId": 1,
+  "companyId": 1,
+  "failedTestRetryCount": 2,
+  "maxExecutionTime": 3600,
+  "testRunType": "CROSS",
+  "screenShotType": "YES",
+  "videoEnabled": true,
+  "uninstallApp": false,
+  "clearAppData": false,
+  "androidMobileApp": null,
+  "iosMobileApp": 118,
+  "isSigned": true,
+  "alertsEnabled": false
+}
+'
 ```
