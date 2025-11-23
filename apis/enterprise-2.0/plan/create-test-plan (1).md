@@ -1,4 +1,4 @@
-# Create Test Plan
+# Create Test Plan(Appium2)
 
 The endpoint creates a new test plan for a specific project. The user must provide project details and plan specifications in the request body. The API validates the input and returns the created plan as a ProjectDTO object.
 
