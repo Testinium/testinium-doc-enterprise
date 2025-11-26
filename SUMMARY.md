@@ -206,6 +206,7 @@
     * [Check If Test Plan Is Running](apis/enterprise-2.0/plan/check-if-test-plan-is-running.md)
     * [Run Test Plan(v2.0)](apis/enterprise-2.0/plan/run-test-plan-v2.0.md)
     * [Rerun Test Plan(v2.0)](apis/enterprise-2.0/plan/rerun-test-plan-v2.0.md)
+    * [Appium2 Devices](apis/enterprise-2.0/plan/appium2-devices.md)
   * [Reports](apis/enterprise-2.0/reports/README.md)
     * [Get Test Execution by ID](apis/enterprise-2.0/reports/get-test-execution-by-id.md)
     * [Get Test Execution by ID and Company ID](apis/enterprise-2.0/reports/get-test-execution-by-id-and-company-id.md)
