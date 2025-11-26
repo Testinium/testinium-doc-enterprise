@@ -209,6 +209,7 @@
     * [Appium2 Devices](apis/enterprise-2.0/plan/appium2-devices.md)
     * [Get Plan By ID (Appium2)](apis/enterprise-2.0/plan/get-plan-by-id-appium2.md)
     * [Create Period(Appium2)](apis/enterprise-2.0/plan/create-period-appium2.md)
+    * [Create Plan Scenarios (Appium2)](apis/enterprise-2.0/plan/create-plan-scenarios-appium2.md)
   * [Reports](apis/enterprise-2.0/reports/README.md)
     * [Get Test Execution by ID](apis/enterprise-2.0/reports/get-test-execution-by-id.md)
     * [Get Test Execution by ID and Company ID](apis/enterprise-2.0/reports/get-test-execution-by-id-and-company-id.md)
