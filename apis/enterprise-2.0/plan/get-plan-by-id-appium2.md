@@ -83,32 +83,32 @@
 }
 ```
 
-| Field                    | Type      | Description                            |
-| ------------------------ | --------- | -------------------------------------- |
-| `id`                     | `integer` | The unique ID of the test plan.        |
-| `plan_name`              | `string`  | The name of the test plan.             |
-| `groupPlan`              | `boolean` |                                        |
-| `description`            | `string`  | A brief description of the test plan.  |
-| `enabled`                | `boolean` | Whether the plan is enabled or not.    |
-| deleted                  | boolean   |                                        |
-| planParallelTestLimit    | `integer` |                                        |
-| `periodId`               | `integer` | The period configuration for the plan. |
-| `project_id`             | `integer` | The ID of the associated project.      |
-| projectName              | String    |                                        |
-| projectTestFramework     | String    |                                        |
-| userId                   | `integer` |                                        |
-| `company_id`             | `integer` | The ID of the associated company.      |
-| failedTestRetryCount     | `integer` |                                        |
-| testRunType              | String    |                                        |
-| screenShotType           | String    |                                        |
-| videoEnabled             | boolean   |                                        |
-| uninstallApp             | boolean   |                                        |
-| clearAppData             | boolean   |                                        |
-| selectedIosMobileApp     | Object    |                                        |
-| selectedAndroidMobileApp | Object    |                                        |
-| testFileType             | String    |                                        |
-| testRunnerTool           | String    |                                        |
-| gridType                 | String    |                                        |
+| Field                    | Type      |
+| ------------------------ | --------- |
+| `id`                     | `integer` |
+| `plan_name`              | `string`  |
+| `groupPlan`              | `boolean` |
+| `description`            | `string`  |
+| `enabled`                | `boolean` |
+| deleted                  | boolean   |
+| planParallelTestLimit    | `integer` |
+| `periodId`               | `integer` |
+| `project_id`             | `integer` |
+| projectName              | String    |
+| projectTestFramework     | String    |
+| userId                   | `integer` |
+| `company_id`             | `integer` |
+| failedTestRetryCount     | `integer` |
+| testRunType              | String    |
+| screenShotType           | String    |
+| videoEnabled             | boolean   |
+| uninstallApp             | boolean   |
+| clearAppData             | boolean   |
+| selectedIosMobileApp     | Object    |
+| selectedAndroidMobileApp | Object    |
+| testFileType             | String    |
+| testRunnerTool           | String    |
+| gridType                 | String    |
 
 ### Error Codes
 
