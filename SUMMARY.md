@@ -212,6 +212,7 @@
     * [Create Plan Scenarios (Appium2)](apis/enterprise-2.0/plan/create-plan-scenarios-appium2.md)
     * [Create Plan Environment( Appium2)](apis/enterprise-2.0/plan/create-plan-environment-appium2.md)
     * [Get Plan Environment List](apis/enterprise-2.0/plan/get-plan-environment-list.md)
+    * [Update Plan(Appium2)](apis/enterprise-2.0/plan/update-plan-appium2.md)
   * [Reports](apis/enterprise-2.0/reports/README.md)
     * [Get Test Execution by ID](apis/enterprise-2.0/reports/get-test-execution-by-id.md)
     * [Get Test Execution by ID and Company ID](apis/enterprise-2.0/reports/get-test-execution-by-id-and-company-id.md)
