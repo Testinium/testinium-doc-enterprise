@@ -3,7 +3,7 @@
 ### Endpoint Information
 
 * **URL**: \<your-gateway-url>/plan/{planId}
-* **Method**: `POST`
+* **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
 ### Path Variables
@@ -83,32 +83,32 @@
 }
 ```
 
-| Field                    | Type      |
-| ------------------------ | --------- |
-| `id`                     | `integer` |
-| `plan_name`              | `string`  |
-| `groupPlan`              | `boolean` |
-| `description`            | `string`  |
-| `enabled`                | `boolean` |
-| deleted                  | boolean   |
-| planParallelTestLimit    | `integer` |
-| `periodId`               | `integer` |
-| `project_id`             | `integer` |
-| projectName              | String    |
-| projectTestFramework     | String    |
-| userId                   | `integer` |
-| `company_id`             | `integer` |
-| failedTestRetryCount     | `integer` |
-| testRunType              | String    |
-| screenShotType           | String    |
-| videoEnabled             | boolean   |
-| uninstallApp             | boolean   |
-| clearAppData             | boolean   |
-| selectedIosMobileApp     | Object    |
-| selectedAndroidMobileApp | Object    |
-| testFileType             | String    |
-| testRunnerTool           | String    |
-| gridType                 | String    |
+| Field                    | Type      | Description                                                                |
+| ------------------------ | --------- | -------------------------------------------------------------------------- |
+| `id`                     | `long`    | Unique identifier of the test plan.                                        |
+| `plan_name`              | `string`  | The display name of the test plan.                                         |
+| `groupPlan`              | `boolean` | Indicates whether the plan is a grouped plan.                              |
+| `description`            | `string`  | A detailed explanation or note describing the plan.                        |
+| `enabled`                | `boolean` | Specifies whether the plan is active and can be executed.                  |
+| deleted                  | boolean   | Marks the plan as deleted without permanently removing it.                 |
+| planParallelTestLimit    | `integer` | Maximum number of tests allowed to run in parallel for this plan.          |
+| `periodId`               | `integer` | Identifier of the associated period configuration for scheduled execution. |
+| `project_id`             | `integer` | ID of the project to which this plan belongs.                              |
+| projectName              | String    | Name of the associated project.                                            |
+| projectTestFramework     | String    | The test framework used by the project                                     |
+| userId                   | `integer` | ID of the user who created or updated the plan.                            |
+| `company_id`             | `integer` | ID of the company owning this plan.                                        |
+| failedTestRetryCount     | `integer` | Number of times failed tests will be retried automatically.                |
+| testRunType              | String    | Defines how tests are executed                                             |
+| screenShotType           | String    | Determines screenshot capturing behavior during test execution.            |
+| videoEnabled             | boolean   | Indicates whether video recording is enabled for test runs.                |
+| uninstallApp             | boolean   | Whether the mobile application should be uninstalled before execution.     |
+| clearAppData             | boolean   | Whether app data should be cleared before test execution.                  |
+| selectedIosMobileApp     | Object    | The selected iOS application associated with the plan.                     |
+| selectedAndroidMobileApp | Object    | The selected Android application associated with the plan.                 |
+| testFileType             | String    | Type of test files used in this plan                                       |
+| testRunnerTool           | String    | The automation tool used to run tests                                      |
+| gridType                 | String    | Execution type within the grid environment                                 |
 
 ### Error Codes
 
@@ -120,7 +120,7 @@
 ### Example Request
 
 ```
-curl --location --globoff '<your-gateway-url>/plan/{planId}' \
+curl --location '<your-gateway-url>/plan/{planId}' \
 --header 'accept: application/json, text/plain, */*' \
 --header 'authorization: Bearer <your_access_token>' \
 --header 'content-type: application/json'
