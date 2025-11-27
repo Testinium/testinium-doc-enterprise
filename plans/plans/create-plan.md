@@ -27,7 +27,7 @@ If the Create New Plan button is clicked without selecting the Project Name, the
   * Value
   * Description
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Selenium Grid; The environment where the tests will run, Enterprise or Cloud
 * Failed Test Retry Count (Number of Repetitions on Test Fail)

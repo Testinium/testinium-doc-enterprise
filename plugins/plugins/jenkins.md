@@ -36,7 +36,7 @@ Step 7: Add new Jenkins credentials for Testinium
 
 Step 8: Add testinium username and password
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 Step 9: Check the credential
 
@@ -60,6 +60,6 @@ Step \*\*\*\* 13: Add as Build Step
 
 Step 14: Select Project and Plan
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 Congrats you’ve set it up successfully!
