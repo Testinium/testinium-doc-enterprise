@@ -4,13 +4,13 @@ The endpoint creates a new test plan for a specific project. The user must provi
 
 
 
-Note: After executing the Create Plan API, the Create Period API must be called as the next step
+Note: After the plan is created, the Create Period, Create Plan Scenarios, and Create Plan Environment APIs must be executed to ensure the workflow runs correctly.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: \<your-gateway-url>/queue
+* **URL**: \<your-gateway-url>/plan
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
@@ -47,28 +47,28 @@ The JSON format request data that needs to be sent for creating a test plan is a
 
 ```
 
-| Parameter             | Type      |
-| --------------------- | --------- |
-| planName              | `string`  |
-| groupPlan             | `boolean` |
-| description           | `string`  |
-| enabled               | `boolean` |
-| deleted               | `boolean` |
-| planParallelTestLimit | `integer` |
-| projectId             | `integer` |
-| userId                | `integer` |
-| companyId             | `integer` |
-| failedTestRetryCount  | `integer` |
-| maxExecutionTime      | `integer` |
-| testRunType           | `string`  |
-| screenShotType        | `string`  |
-| videoEnabled          | `boolean` |
-| uninstallApp          | `boolean` |
-| clearAppData          | `boolean` |
-| androidMobileApp      | `integer` |
-| iosMobileApp          | `integer` |
-| isSigned              | `boolean` |
-| alertsEnabled         | `boolean` |
+| Parameter             | Type      | Description                                                         |
+| --------------------- | --------- | ------------------------------------------------------------------- |
+| planName              | `string`  | The name of the test plan displayed in the user interface.          |
+| groupPlan             | `boolean` | Indicates whether the plan is a group plan.                         |
+| description           | `string`  | A detailed explanation or note describing the test plan.            |
+| enabled               | `boolean` | Determines whether the plan is active and can be executed.          |
+| deleted               | `boolean` | Marks the plan as deleted without permanently removing it.          |
+| planParallelTestLimit | `integer` | The maximum number of tests allowed to run in parallel.             |
+| projectId             | `integer` | The ID of the project to which this plan belongs.                   |
+| userId                | `integer` | The ID of the user who created or last updated the plan.            |
+| companyId             | `integer` | The ID of the company associated with this plan.                    |
+| failedTestRetryCount  | `integer` | Specifies how many times failed tests will be retried.              |
+| maxExecutionTime      | `integer` | Maximum allowed execution time for this plan in seconds.            |
+| testRunType           | `string`  | Determines how tests will run .                                     |
+| screenShotType        | `string`  | The screenshot capture behavior (e.g., YES, NO, ON\_FAILURE).       |
+| videoEnabled          | `boolean` | Indicates whether video recording will be enabled during execution. |
+| uninstallApp          | `boolean` | Whether the app should be uninstalled before execution starts.      |
+| clearAppData          | `boolean` | Whether the app’s data should be cleared before execution.          |
+| androidMobileApp      | `integer` | The ID of the Android application used in this plan.                |
+| iosMobileApp          | `integer` | The ID of the iOS application used in this plan.                    |
+| isSigned              | `boolean` | Indicates whether the associated mobile application is signed.      |
+| alertsEnabled         | `boolean` | Enables or disables alert notifications for this plan.              |
 
 ***
 
@@ -100,9 +100,9 @@ Upon a successful request, the API returns the following JSON structure:
         "clearAppData": false,
         "selectedIosMobileApp": {
             "id": 118,
-            "mobileAppName": "3.2.15_1720_-82c49ca8-c5b6a33c-7453723443815496548.ipa",
-            "mobileAppHash": "df6abb29c3bee1fa9b4b90a0299b1b36",
-            "mobileAppMetadata": "{\"bundleName\":\"Gratis\",\"bundleDisplayName\":\"Gratis\",\"bundleVersion\":\"3.2.15\",\"bundleMinOsVersion\":\"12.0\",\"bundleDevelopmentRegion\":\"tr\",\"bundleExecutable\":\"Gratis\",\"bundleIconFiles\":\"\",\"bundleInfoDictVersion\":\"6.0\",\"bundlePackageType\":\"APPL\",\"bundleMainStoryBoardFile\":\"Main\",\"bundleIdentifier\":\"com.pharos.Gratis\",\"teamName\":\"Gratis ic ve Dis Ticaret Anonim Sirketi\"}",
+            "mobileAppName": "demo",
+            "mobileAppHash": "demo",
+            "mobileAppMetadata": "demo",
             "operatingSystem": "IOS",
             "createdAt": "2025-04-07T04:58:11.588+00:00",
             "apkMetaData": {
@@ -120,18 +120,18 @@ Upon a successful request, the API returns the following JSON structure:
                 "glEsVersion": null
             },
             "iosMetaData": {
-                "bundleName": "Gratis",
-                "bundleDisplayName": "Gratis",
+                "bundleName": "demo",
+                "bundleDisplayName": "demo",
                 "bundleVersion": "3.2.15",
                 "bundleMinOsVersion": "12.0",
                 "bundleDevelopmentRegion": "tr",
-                "bundleExecutable": "Gratis",
+                "bundleExecutable": "demo",
                 "bundleIconFiles": "",
                 "bundleInfoDictVersion": "6.0",
                 "bundlePackageType": "APPL",
                 "bundleMainStoryBoardFile": "Main",
-                "bundleIdentifier": "com.pharos.Gratis",
-                "teamName": "Gratis ic ve Dis Ticaret Anonim Sirketi"
+                "bundleIdentifier": "demos",
+                "teamName": "demo"
             }
         },
         "isSigned": true,
@@ -153,20 +153,27 @@ Upon a successful request, the API returns the following JSON structure:
 
 Possible error codes and their explanations during the operation:
 
-| HTTP Code | Error Message           | Description                                                         |
-| --------- | ----------------------- | ------------------------------------------------------------------- |
-| `400`     | `Invalid input data`    | There are missing or incorrect details in the request body.         |
-| `401`     | `Unauthorized`          | Authorization failed. The user is not logged in.                    |
-| `403`     | `Forbidden`             | The user does not have permission to create a plan for the project. |
-| `404`     | `Project not found`     | The specified project was not found.                                |
-| `500`     | `Internal Server Error` | An unexpected error occurred on the server side.                    |
+| HTTP Code | Error Message           | Description                                                                  |
+| --------- | ----------------------- | ---------------------------------------------------------------------------- |
+| 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
+| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
+
+### Application Error Codes
+
+| Code    | Error Message                         |
+| ------- | ------------------------------------- |
+| `10000` | {filed} with id {projectId} not found |
+| `10009` | `Mobile App with {id} not found!`     |
+| `10010` | `{field} must not be null`            |
+| `10011` | `Plan name {0} already exists!`       |
 
 ***
 
 ### Example Request
 
 ```bash
-curl --location 'http://localhost:8089/plan' \
+curl --location '<your-gateway-url>/plan' \
 --header 'accept: application/json, text/plain, */*' \
 --header 'authorization: Bearer <your_access_token>' \
 --header 'content-type: application/json' \
