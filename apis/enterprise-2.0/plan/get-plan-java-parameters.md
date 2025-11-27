@@ -2,8 +2,8 @@
 
 ### Endpoint Information
 
-* **URL**: \<your-gateway-url>/queue
-* **Method**: `POST`
+* **URL**: \<your-gateway-url>/plan/{planId}/parameter
+* **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
 ### Response Body
