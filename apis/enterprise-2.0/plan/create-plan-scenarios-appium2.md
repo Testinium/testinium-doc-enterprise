@@ -25,7 +25,7 @@
     "data": [
         {
             "id": 3224,
-            "scenarioName": "GratisAndroid",
+            "scenarioName": "Deneme",
             "description": "",
             "projectId": 913,
             "parentId": null,
@@ -50,6 +50,8 @@
 | 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
 | `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
+
+
 
 ### Example Request
 
