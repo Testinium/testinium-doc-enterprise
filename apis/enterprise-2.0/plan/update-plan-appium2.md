@@ -2,7 +2,7 @@
 
 ### Endpoint Information
 
-* **URL**: \<your-gateway-url>/queue
+* **URL**: \<your-gateway-url>/plan/{planId}
 * **Method**: `PUT`
 * **Authentication**: Required (`Bearer Token`)
 
@@ -35,10 +35,34 @@
 }
 ```
 
-| HTTP Code | Error Message           | Description                                      |
-| --------- | ----------------------- | ------------------------------------------------ |
-| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.   |
-| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
+| Parameter             | Type      | Description                                                         |
+| --------------------- | --------- | ------------------------------------------------------------------- |
+| planName              | `string`  | The name of the test plan displayed in the user interface.          |
+| groupPlan             | `boolean` | Indicates whether the plan is a group plan.                         |
+| description           | `string`  | A detailed explanation or note describing the test plan.            |
+| enabled               | `boolean` | Determines whether the plan is active and can be executed.          |
+| deleted               | `boolean` | Marks the plan as deleted without permanently removing it.          |
+| planParallelTestLimit | `integer` | The maximum number of tests allowed to run in parallel.             |
+| projectId             | `integer` | The ID of the project to which this plan belongs.                   |
+| userId                | `integer` | The ID of the user who created or last updated the plan.            |
+| companyId             | `integer` | The ID of the company associated with this plan.                    |
+| failedTestRetryCount  | `integer` | Specifies how many times failed tests will be retried.              |
+| maxExecutionTime      | `integer` | Maximum allowed execution time for this plan in seconds.            |
+| testRunType           | `string`  | Determines how tests will run .                                     |
+| screenShotType        | `string`  | The screenshot capture behavior (e.g., YES, NO, ON\_FAILURE).       |
+| videoEnabled          | `boolean` | Indicates whether video recording will be enabled during execution. |
+| uninstallApp          | `boolean` | Whether the app should be uninstalled before execution starts.      |
+| clearAppData          | `boolean` | Whether the app’s data should be cleared before execution.          |
+| androidMobileApp      | `integer` | The ID of the Android application used in this plan.                |
+| iosMobileApp          | `integer` | The ID of the iOS application used in this plan.                    |
+| isSigned              | `boolean` | Indicates whether the associated mobile application is signed.      |
+| alertsEnabled         | `boolean` | Enables or disables alert notifications for this plan.              |
+
+| HTTP Code | Error Message           | Description                                                                  |
+| --------- | ----------------------- | ---------------------------------------------------------------------------- |
+| 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
+| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
 
 ### Example Request
 
