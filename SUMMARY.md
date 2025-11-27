@@ -229,6 +229,7 @@
     * [Find Test Result by Session ID](apis/enterprise-2.0/reports/find-test-result-by-session-id.md)
     * [Create Test Result](apis/enterprise-2.0/reports/create-test-result.md)
   * [Get Period By Plan Id](apis/enterprise-2.0/get-period-by-plan-id.md)
+  * [Create Plan Java Parameter](apis/enterprise-2.0/create-plan-java-parameter.md)
 * [Enterprise 1.16.7](apis/enterprise-1.16.7/README.md)
   * [Auth](apis/enterprise-1.16.7/auth/README.md)
     * [Login](apis/enterprise-1.16.7/auth/login.md)
