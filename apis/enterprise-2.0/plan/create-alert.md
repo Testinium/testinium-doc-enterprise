@@ -40,6 +40,17 @@
 }
 ```
 
+| Parameter                 | Type     | Description                                                                  |
+| ------------------------- | -------- | ---------------------------------------------------------------------------- |
+| alertType                 | `String` | Type of alert to send                                                        |
+| alertSendingStatus        | `String` | Defines when the alert will be triggered                                     |
+| target                    | `String` | Recipient of the alert.                                                      |
+| alertSendingStatusResults | `Array`  | List of test result statuses for which alerts should be sent                 |
+| targetId                  | `Long`   | Optional ID referencing a predefined alert target in the system.             |
+| targetType                | String   | Optional target type                                                         |
+| language                  | String   | Language code for the alert message content (e.g., "en", "tr").              |
+| targetTimeZone            | String   | Time zone for scheduling or timestamp adjustments (e.g., "Europe/Istanbul"). |
+
 ### Response Body
 
 ```
@@ -65,12 +76,15 @@
 }
 ```
 
+#### &#x20;<a href="#error-codes" id="error-codes"></a>
+
 #### Error Codes <a href="#error-codes" id="error-codes"></a>
 
-| HTTP Code | Error Message           | Description                                      |
-| --------- | ----------------------- | ------------------------------------------------ |
-| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.   |
-| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
+| HTTP Code | Error Message           | Description                                                                  |
+| --------- | ----------------------- | ---------------------------------------------------------------------------- |
+| 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
+| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
 
 ### Example Request
 
