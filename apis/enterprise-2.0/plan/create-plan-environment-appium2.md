@@ -21,6 +21,15 @@
 ]
 ```
 
+| Parameter       | Type     | Description                                                                                           |
+| --------------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| platform        | `String` | Operating system of the device                                                                        |
+| manufacturer    | `String` | Name of the device manufacturer (e.g., “Apple”, “Samsung”).                                           |
+| model           | `String` | Device model identifier assigned by the manufacturer (e.g., “iPhone13,2”, “SM-A305F”).                |
+| platformVersion | `String` | Version of the operating system running on the device.                                                |
+| marketName      | `String` | Commercial or user-friendly name of the device (e.g., “iPhone 12”, “Galaxy A30”).                     |
+| privateDevice   | boolean  | Indicates whether the device is private to a specific company/user or part of the shared device pool. |
+
 ### Response Body
 
 ```
