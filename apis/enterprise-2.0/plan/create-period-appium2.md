@@ -52,7 +52,15 @@ REPETITIVE
 }
 ```
 
-
+| Parameter    | Type    | Description                                                                               |
+| ------------ | ------- | ----------------------------------------------------------------------------------------- |
+| periodType   | String  | Defines the scheduling type of the period                                                 |
+| startDate    | Date    | Start date and time of the scheduled period.                                              |
+| endDate      | Date    | End date and time of the scheduled period. Determines when the repetitive schedule stops. |
+| onceDate     | Date    | Exact date and time used when the period type is ONCE.                                    |
+| daysOfWeek   | String  | Comma-separated list of days. Used in weekly repetitive schedules.                        |
+| repeatPeriod | Integer | Frequency of repetition                                                                   |
+| scheduled    | boolean | Indicates whether scheduling is enabled for this period.                                  |
 
 ### Example Response
 
