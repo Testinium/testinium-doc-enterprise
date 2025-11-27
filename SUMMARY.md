@@ -215,6 +215,7 @@
     * [Update Plan(Appium2)](apis/enterprise-2.0/plan/update-plan-appium2.md)
     * [Create Alert](apis/enterprise-2.0/plan/create-alert.md)
     * [Get Alert By Plan Id](apis/enterprise-2.0/plan/get-alert-by-plan-id.md)
+    * [Delete Alert By Id](apis/enterprise-2.0/plan/delete-alert-by-id.md)
   * [Reports](apis/enterprise-2.0/reports/README.md)
     * [Get Test Execution by ID](apis/enterprise-2.0/reports/get-test-execution-by-id.md)
     * [Get Test Execution by ID and Company ID](apis/enterprise-2.0/reports/get-test-execution-by-id-and-company-id.md)
