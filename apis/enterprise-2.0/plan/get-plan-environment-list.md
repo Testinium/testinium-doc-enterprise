@@ -3,7 +3,7 @@
 ### Endpoint Information
 
 * **URL**: \<your-gateway-url>/environment/plan/{planId}
-* **Method**: `POST`
+* **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
 ### Response Body
