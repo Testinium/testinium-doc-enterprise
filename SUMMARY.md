@@ -217,6 +217,7 @@
     * [Get Alert By Plan Id](apis/enterprise-2.0/plan/get-alert-by-plan-id.md)
     * [Delete Alert By Id](apis/enterprise-2.0/plan/delete-alert-by-id.md)
     * [Get Execution Alert Status](apis/enterprise-2.0/plan/get-execution-alert-status.md)
+    * [Get Result Alert Status](apis/enterprise-2.0/plan/get-result-alert-status.md)
   * [Reports](apis/enterprise-2.0/reports/README.md)
     * [Get Test Execution by ID](apis/enterprise-2.0/reports/get-test-execution-by-id.md)
     * [Get Test Execution by ID and Company ID](apis/enterprise-2.0/reports/get-test-execution-by-id-and-company-id.md)
