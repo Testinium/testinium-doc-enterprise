@@ -118,6 +118,13 @@
 | isEnabled        | boolean | Indicates whether the device is enabled and allowed to be used.                  |
 | isAvailable      | boolean | Indicates whether the device is currently free and available for test execution. |
 
+| Parameter      | Type    | Description                                                                       |
+| -------------- | ------- | --------------------------------------------------------------------------------- |
+| data           | Object  | The payload of the response. In this case `null` since no extra data is returned. |
+| result         | Object  | Contains details about the outcome of the operation.                              |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                    |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                             |
+
 #### Error Codes <a href="#error-codes" id="error-codes"></a>
 
 | HTTP Code | Error Message           | Description                                      |
