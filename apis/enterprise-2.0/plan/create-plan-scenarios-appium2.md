@@ -60,6 +60,13 @@
 | xrayIssueKey    | String | External Xray/Jira issue key linked to this scenario, if configured.                               |
 | subScenarios    | List   | List of child scenarios nested under this scenario.                                                |
 
+| Parameter      | Type    | Description                                                                       |
+| -------------- | ------- | --------------------------------------------------------------------------------- |
+| data           | Object  | The payload of the response. In this case `null` since no extra data is returned. |
+| result         | Object  | Contains details about the outcome of the operation.                              |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                    |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                             |
+
 | HTTP Code | Error Message           | Description                                                                  |
 | --------- | ----------------------- | ---------------------------------------------------------------------------- |
 | 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
