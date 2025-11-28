@@ -58,6 +58,13 @@
 | isSigned              | `boolean` | Indicates whether the associated mobile application is signed.      |
 | alertsEnabled         | `boolean` | Enables or disables alert notifications for this plan.              |
 
+| Parameter      | Type    | Description                                                                       |
+| -------------- | ------- | --------------------------------------------------------------------------------- |
+| data           | Object  | The payload of the response. In this case `null` since no extra data is returned. |
+| result         | Object  | Contains details about the outcome of the operation.                              |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                    |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                             |
+
 | HTTP Code | Error Message           | Description                                                                  |
 | --------- | ----------------------- | ---------------------------------------------------------------------------- |
 | 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
