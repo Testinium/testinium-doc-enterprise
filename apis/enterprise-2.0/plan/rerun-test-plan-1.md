@@ -1,8 +1,4 @@
----
-hidden: true
----
-
-# Rerun Test Plan(v2.0)
+# Rerun Test Plan
 
 The endpoint allows the user to rerun specific scenarios from the last executed results of a test plan.
 

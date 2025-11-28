@@ -1,8 +1,4 @@
----
-hidden: true
----
-
-# Run Test Plan(v2.0)
+# Run Test Plan
 
 ### Endpoint Information
 

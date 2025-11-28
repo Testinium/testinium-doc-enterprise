@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Rerun Test Plan
 
 The endpoint allows the user to rerun specific scenarios from the last executed results of a test plan. The user must provide the test plan ID and a list of scenario IDs to rerun.

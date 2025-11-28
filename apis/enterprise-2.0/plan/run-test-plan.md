@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Run Test Plan
 
 The endpoint starts the execution of a specific test plan. The user must have the `PLAN_RUN` authority to access this endpoint.
