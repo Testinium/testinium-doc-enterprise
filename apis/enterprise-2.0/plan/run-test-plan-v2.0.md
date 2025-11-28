@@ -6,7 +6,7 @@ hidden: true
 
 ### Endpoint Information
 
-* **URL**: [https://{gateway-url}/queue](https://gateway.testinium.io/queue)
+* **URL**:\<your-gateway-url>/queue
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
