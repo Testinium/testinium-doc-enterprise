@@ -50,12 +50,20 @@
 | enabled           | boolean  | Indicates whether the device is enabled and available for scheduling.                                 |
 | privateDevice     | boolean  | Indicates whether the device is private to a specific company/user or part of the shared device pool. |
 
+| Parameter      | Type    | Description                                                                       |
+| -------------- | ------- | --------------------------------------------------------------------------------- |
+| data           | Object  | The payload of the response. In this case `null` since no extra data is returned. |
+| result         | Object  | Contains details about the outcome of the operation.                              |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                    |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                             |
+
 ### Error Codes
 
-| HTTP Code | Error Message           | Description                                      |
-| --------- | ----------------------- | ------------------------------------------------ |
-| `401`     | `Unauthorized`          | Authorization failed. The user is not logged in. |
-| `500`     | `Internal Server Error` | An unexpected error occurred on the server side. |
+| HTTP Code | Error Message           | Description                                                                  |
+| --------- | ----------------------- | ---------------------------------------------------------------------------- |
+| 401       | `UNAUTHORIZED`          | The request lacks valid authentication credentials. Check your Bearer token. |
+| `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
+| `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
 
 ### Example Request
 
