@@ -205,6 +205,7 @@
     * [Run Test Plan(v2.0)](apis/enterprise-2.0/plan/run-test-plan-v2.0.md)
     * [Rerun Test Plan(v2.0)](apis/enterprise-2.0/plan/rerun-test-plan-v2.0.md)
     * [Stop Test Plan](apis/enterprise-2.0/plan/stop-test-plan.md)
+    * [Stop Test Result](apis/enterprise-2.0/plan/stop-test-result.md)
     * [Create Test Plan(Appium2)](<apis/enterprise-2.0/plan/create-test-plan (1).md>)
     * [Appium2 Devices](apis/enterprise-2.0/plan/appium2-devices.md)
     * [Get Plan By ID (Appium2)](apis/enterprise-2.0/plan/get-plan-by-id-appium2.md)
