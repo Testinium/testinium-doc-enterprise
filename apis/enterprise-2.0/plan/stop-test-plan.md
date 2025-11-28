@@ -45,4 +45,13 @@ The endpoint stops a running test plan. The user must provide the test plan ID i
 | `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.                               |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.                             |
 
-###
+### Example Request
+
+```
+curl --location '<your-gateway-url>/stop/execution' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer *****' \
+--data '{
+  "plans": [613]
+}'
+```
