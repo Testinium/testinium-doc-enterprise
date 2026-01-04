@@ -332,3 +332,10 @@
     * [CucumberRunner](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/cucumberrunner.md)
     * [Feature](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/feature.md)
     * [pom.xml](appium-2-sample-projects/appium-2-sample-projects/appium-2-cucumber/pom.xml.md)
+
+## Selenium4 Sample Project
+
+* [Selenium4 Java](selenium4-sample-project/selenium4-java/README.md)
+  * [BaseTest](selenium4-sample-project/selenium4-java/basetest.md)
+  * [Example Test Class](selenium4-sample-project/selenium4-java/example-test-class.md)
+  * [Pom.xml](selenium4-sample-project/selenium4-java/pom.xml.md)
