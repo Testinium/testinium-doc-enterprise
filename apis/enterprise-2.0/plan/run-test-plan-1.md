@@ -6,17 +6,6 @@
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
-#### Headers
-
-| Header Name     | Required | Description                          |
-| --------------- | -------- | ------------------------------------ |
-| Authorization   | Yes      | Bearer token used for authentication |
-| X-Company-Id    | Yes      | Your CompanyId                       |
-| Accept-Language | No       | Your language(tr or en)              |
-| content-type    | Yes      | application/json                     |
-
-
-
 ### Request Body
 
 ```
@@ -76,7 +65,6 @@ This response indicates that the operation was completed successfully, with no a
 
 <pre><code>curl --location '{gateway-url}/queue' \
 <strong>--header 'Content-Type: application/json' \
-</strong>--header 'X-Company-Id: &#x3C;company_id>' \
---header 'Authorization: Bearer &#x3C;your_access_token>\
+</strong>--header 'Authorization: Bearer &#x3C;your_access_token>\
 --data '{"planId":&#x3C;plan_id>,"userId":&#x3C;user_id>}'
 </code></pre>

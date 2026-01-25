@@ -6,14 +6,7 @@
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
-#### Headers
 
-| Header Name     | Required | Description                          |
-| --------------- | -------- | ------------------------------------ |
-| Authorization   | Yes      | Bearer token used for authentication |
-| X-Company-Id    | Yes      | Your CompanyId                       |
-| Accept-Language | No       | Your language(tr or en)              |
-| content-type    | Yes      | application/json                     |
 
 ### Path Variables
 
@@ -138,7 +131,6 @@
 ```
 curl --location '<your-gateway-url>/plan/{planId}' \
 --header 'accept: application/json, text/plain, */*' \
---header 'X-Company-Id: <company_id>' \
 --header 'authorization: Bearer <your_access_token>' \
 --header 'content-type: application/json'
 ```

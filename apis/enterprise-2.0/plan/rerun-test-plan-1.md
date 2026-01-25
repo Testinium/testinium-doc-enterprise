@@ -8,14 +8,7 @@ The endpoint allows the user to rerun specific scenarios from the last executed 
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
-#### Headers
 
-| Header Name     | Required | Description                          |
-| --------------- | -------- | ------------------------------------ |
-| Authorization   | Yes      | Bearer token used for authentication |
-| X-Company-Id    | Yes      | Your CompanyId                       |
-| Accept-Language | No       | Your language(tr or en)              |
-| content-type    | Yes      | application/json                     |
 
 ### Request Body
 
@@ -90,7 +83,6 @@ This response indicates that the operation was completed successfully, with no a
 curl --location '{gateway-url}/queue/rerun' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <your_access_token>\
---header 'X-Company-Id: <company_id>' \
 --data '{
   "planId": {planId},
   "userId": {userId},

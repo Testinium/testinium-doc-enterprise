@@ -45,6 +45,5 @@
 curl --location '<your-gateway-url>/plan/767/parameter' \
 --header 'accept: application/json, text/plain, */*' \
 --header 'authorization: Bearer <your_access_token>' \
---header 'X-Company-Id: <company_id>' \
 --header 'content-type: application/json'
 ```
