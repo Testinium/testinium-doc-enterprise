@@ -6,6 +6,15 @@
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
+#### Headers
+
+| Header Name     | Required | Description                          |
+| --------------- | -------- | ------------------------------------ |
+| Authorization   | Yes      | Bearer token used for authentication |
+| X-Company-Id    | Yes      | Your CompanyId                       |
+| Accept-Language | No       | Your language(tr or en)              |
+| content-type    | Yes      | application/json                     |
+
 ### Response Body
 
 ```
