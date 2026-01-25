@@ -10,6 +10,15 @@ The endpoint stops a running test plan. The user must provide the test plan ID i
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 
+#### Headers
+
+| Header Name     | Required | Description                          |
+| --------------- | -------- | ------------------------------------ |
+| Authorization   | Yes      | Bearer token used for authentication |
+| X-Company-Id    | Yes      | Your CompanyId                       |
+| Accept-Language | No       | Your language(tr or en)              |
+| content-type    | Yes      | application/json                     |
+
 ### Request Body
 
 ```
@@ -50,6 +59,7 @@ The endpoint stops a running test plan. The user must provide the test plan ID i
 ```
 curl --location '<your-gateway-url>/stop/execution' \
 --header 'Content-Type: application/json' \
+--header 'X-Company-Id: <company_id>' \
 --header 'Authorization: Bearer *****' \
 --data '{
   "plans": [613]
