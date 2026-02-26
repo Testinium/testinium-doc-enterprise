@@ -6,7 +6,7 @@ The endpoint allows users to retrieve all test executions for a specific test pl
 
 ### Endpoint Information
 
-* **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions`
+* **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions?companyId={companyId}`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
 
@@ -19,6 +19,12 @@ The endpoint allows users to retrieve all test executions for a specific test pl
 | `id`      | `Long` | Yes      | The unique identifier of the test plan. |
 
 ***
+
+### Request Parameters
+
+| Parameter   | Type   | Required | Description                           |
+| ----------- | ------ | -------- | ------------------------------------- |
+| `companyId` | `Long` | Yes      | The unique identifier of the company. |
 
 ### Response Body
 
@@ -123,6 +129,7 @@ Upon a successful request, the API returns a paginated list of test executions i
 ### Example Request
 
 ```bash
-curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions' \
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions?companyId={companyId}' \
 --header 'Authorization: Bearer <your_access_token>'
 ```
+

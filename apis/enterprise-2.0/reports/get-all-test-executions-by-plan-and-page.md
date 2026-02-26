@@ -6,7 +6,7 @@ The endpoint allows users to retrieve a paginated list of all test executions fo
 
 ### Endpoint Information
 
-* **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}`
+* **URL**: `<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}?companyId={companyId}`
 * **Method**: `GET`
 * **Authentication**: `Bearer Token` is required
 
@@ -20,6 +20,12 @@ The endpoint allows users to retrieve a paginated list of all test executions fo
 | `page`    | `int`  | Yes      | The page number for the paginated results. |
 
 ***
+
+### Request Parameters
+
+| Parameter   | Type   | Required | Description                           |
+| ----------- | ------ | -------- | ------------------------------------- |
+| `companyId` | `Long` | Yes      | The unique identifier of the company. |
 
 ### Response Body
 
@@ -146,6 +152,7 @@ Page 2:
 ### Example Request
 
 ```bash
-curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}' \
+curl --location '<custom-env-url>/Testinium.RestApi/api/plans/{id}/testExecutions/pages/{page}?companyId={companyId}' \
 --header 'Authorization: Bearer <your_access_token>'
 ```
+
