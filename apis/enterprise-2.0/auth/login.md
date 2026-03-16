@@ -8,7 +8,7 @@ The endpoint enables users to authenticate and acquire an access token. The acce
 
 * **URL**: `<custom-env-url>/Testinium.RestApi/oauth/token` _(Replace `<custom-env-url>` with the appropriate API base URL provided by your organization.)_
 * **Method**: `POST`
-* **Header**: Basic Authentication (`client_id` and `client_secret`) _(Please contact us to obtain these credentials.)_
+* **Header**: Basic Authentication (`client_key`) _(Please contact us to obtain these credentials.)_
 * **Content-Type**: `application/x-www-form-urlencoded`
 
 ***
@@ -73,7 +73,7 @@ Below is an example of a `curl` command to obtain an access token:
 
 ```bash
 curl --location '<custom-env-url>/Testinium.RestApi/oauth/token' \
---header 'Authorization: Basic <Base64(client_id:client_secret)>' \
+--header 'Authorization: Basic <client_key>' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=password' \
