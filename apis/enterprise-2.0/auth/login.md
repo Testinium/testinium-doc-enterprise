@@ -77,7 +77,7 @@ curl --location '<custom-env-url>/Testinium.RestApi/oauth/token' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=password' \
---data-urlencode 'password= customer-password' \
---data-urlencode 'username= customer-username' \
+--data-urlencode 'password=customer-password' \
+--data-urlencode 'username=customer-username' \
 --data-urlencode 'scope=api'
 ```
