@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Run Test Plan with Company ID
 
 The endpoint triggers a test plan execution for a specific company. The user must provide the test plan ID and company ID in the path. It returns a `RunTestPlanResponse` object, indicating the success or failure of the operation.
